@@ -1,0 +1,124 @@
+{
+  "user_id": "user_20250514101737_3667",
+  "user_name": null,
+  "last_updated": "2025-05-14T10:18:01.498586",
+  "history": [
+    {
+      "session_id": "session_20250514101800_3135",
+      "data": {
+        "timestamp": "2025-05-14T10:18:00.569328",
+        "text_input": "I feel emotionally heavy\u2014tired, sad, and quiet. I want slow, soft music that lets me sit in my feelings and maybe cry a little. Acoustic or ambient would be perfect.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "The Weeknd"
+          ],
+          "activity": "Relaxing",
+          "diversity": 0.7,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "0ZNJ5IdW9UY",
+            "title": "Sleepy Hallow - Cupid's Guidance (Official Video)",
+            "artist": "Sleepy Hallow",
+            "match_score": 0.5570367162200727,
+            "genre": "Unknown",
+            "views": 4105806,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "_fD9Mwe6O-Y",
+            "title": "Charlie Knox & That Kind - Lights (Official Audio)",
+            "artist": "Get Together Records",
+            "genre": "Unknown",
+            "views": 5955,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "F0cdbR5ognY",
+            "title": "Doechii - DENIAL IS A RIVER",
+            "artist": "IamdoechiiVEVO",
+            "genre": "Pop",
+            "views": 53598286,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "cFRcabr9Etg",
+            "title": "ZHU, Tame Impala - My Life (Audio)",
+            "artist": "ZHUVEVO",
+            "match_score": 0.38628467856709386,
+            "genre": "Pop",
+            "views": 20070165,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "YAe3wmYqXUQ",
+            "title": "Khalid - Please Don't Fall In Love With Me (Visualizer)",
+            "artist": "KhalidVEVO",
+            "match_score": 0.3563680001429057,
+            "genre": "Pop",
+            "views": 8746693,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.3463653983348626,
+            "genre": "Pop",
+            "views": 307140195,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "pYdvxBxHX2U",
+            "title": "Uncle Lucius - Keep The Wolves Away",
+            "artist": "UncleLuciusVEVO",
+            "match_score": 0.3439637975646275,
+            "genre": "Pop",
+            "views": 173052525,
+            "recommendation_method": "text"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {},
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {},
+    "preferred_eras": {},
+    "favorite_artists": {}
+  },
+  "feedback": []
+}

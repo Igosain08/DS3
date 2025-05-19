@@ -1,0 +1,75 @@
+🎧 Entered update_genres_from_spotify()
+
+Current genre column state:
+Total videos: 795
+Genre distribution:
+genre
+Pop           418
+Unknown       364
+Rock            8
+Metal           2
+Hip-Hop         2
+Electronic      1
+Name: count, dtype: int64
+
+Processing all 795 videos
+Processing 10 videos due to limit
+
+Processing video: Maroon 5 - Sugar (Official Music Video)
+Found genre: pop
+Current genre in DB: ('pop',)
+New genre in DB: ('pop',)
+✅ Successfully updated video 09R8_2nJtjg with genre pop
+
+Processing video: OneRepublic - Counting Stars
+Found genre: soft pop
+Current genre in DB: ('soft pop',)
+New genre in DB: ('soft pop',)
+✅ Successfully updated video hT_nvWreIhg with genre soft pop
+
+Processing video: ROSÉ & Bruno Mars - APT. (Official Music Video)
+❌ No genre found for video: ROSÉ & Bruno Mars - APT. (Official Music Video)
+
+Processing video: Katy Perry - Roar
+Found genre: pop
+Current genre in DB: ('pop',)
+New genre in DB: ('pop',)
+✅ Successfully updated video CevxZvSJLk8 with genre pop
+
+Processing video: Justin Bieber - Sorry (PURPOSE : The Movement)
+Found genre: pop
+Current genre in DB: ('pop',)
+New genre in DB: ('pop',)
+✅ Successfully updated video fRh_vgS2dFE with genre pop
+
+Processing video: Rihanna - Diamonds
+Found genre: contemporary r&b
+Current genre in DB: ('contemporary r&b',)
+New genre in DB: ('contemporary r&b',)
+✅ Successfully updated video lWA2pjMjpBs with genre contemporary r&b
+
+Processing video: Ed Sheeran - Perfect (Official Music Video)
+Found genre: soft pop
+Current genre in DB: ('soft pop',)
+New genre in DB: ('soft pop',)
+✅ Successfully updated video 2Vv-BfVoq4g with genre soft pop
+
+Processing video: Taylor Swift - Shake It Off
+Found genre: alternative pop
+Current genre in DB: ('alternative pop',)
+New genre in DB: ('alternative pop',)
+✅ Successfully updated video nfWlot6h_JM with genre alternative pop
+
+Processing video: Adele - Someone Like You (Official Music Video)
+Found genre: soft pop
+Current genre in DB: ('soft pop',)
+New genre in DB: ('soft pop',)
+✅ Successfully updated video hLQl3WQQoQ0 with genre soft pop
+
+Processing video: Michael Patrick Kelly - The One (Official Video)
+Found genre: pop
+Current genre in DB: ('pop',)
+New genre in DB: ('pop',)
+✅ Successfully updated video D60aIr-9XWI with genre pop
+
+✅ Genre update complete. Successfully updated 9 out of 10 videos.

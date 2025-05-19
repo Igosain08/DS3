@@ -1,0 +1,524 @@
+{
+  "user_id": "user_20250514101852_4844",
+  "user_name": null,
+  "last_updated": "2025-05-14T10:21:21.367927",
+  "history": [
+    {
+      "session_id": "session_20250514101908_8230",
+      "data": {
+        "timestamp": "2025-05-14T10:19:08.476632",
+        "text_input": "I feel emotionally heavy\u2014tired, sad, and quiet. I want slow, soft music that lets me sit in my feelings and maybe cry a little. Acoustic or ambient would be perfect.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "Shawn Mendes",
+            "The Weeknd"
+          ],
+          "activity": "Studying",
+          "diversity": 0.8,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "0ZNJ5IdW9UY",
+            "title": "Sleepy Hallow - Cupid's Guidance (Official Video)",
+            "artist": "Sleepy Hallow",
+            "match_score": 0.5570367162200727,
+            "genre": "Unknown",
+            "views": 4105806,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=0ZNJ5IdW9UY",
+            "embed_url": "https://www.youtube.com/embed/0ZNJ5IdW9UY"
+          },
+          {
+            "video_id": "D60aIr-9XWI",
+            "title": "Michael Patrick Kelly - The One (Official Video)",
+            "artist": "Michael Patrick Kelly",
+            "genre": "Unknown",
+            "views": 277163,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=D60aIr-9XWI",
+            "embed_url": "https://www.youtube.com/embed/D60aIr-9XWI"
+          },
+          {
+            "video_id": "hAxy0xp55Mk",
+            "title": "Jorja Smith - Feelings (feat. J Hus)",
+            "artist": "JorjaSmithVEVO",
+            "genre": "Pop",
+            "views": 4239661,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=hAxy0xp55Mk",
+            "embed_url": "https://www.youtube.com/embed/hAxy0xp55Mk"
+          },
+          {
+            "video_id": "e4ujS1er1r0",
+            "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+            "artist": "Zac Brown Band",
+            "genre": "Rock",
+            "views": 165938502,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=e4ujS1er1r0",
+            "embed_url": "https://www.youtube.com/embed/e4ujS1er1r0"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "cFRcabr9Etg",
+            "title": "ZHU, Tame Impala - My Life (Audio)",
+            "artist": "ZHUVEVO",
+            "match_score": 0.38628467856709386,
+            "genre": "Pop",
+            "views": 20070165,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=cFRcabr9Etg",
+            "embed_url": "https://www.youtube.com/embed/cFRcabr9Etg"
+          },
+          {
+            "video_id": "YAe3wmYqXUQ",
+            "title": "Khalid - Please Don't Fall In Love With Me (Visualizer)",
+            "artist": "KhalidVEVO",
+            "match_score": 0.3563680001429057,
+            "genre": "Pop",
+            "views": 8746693,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=YAe3wmYqXUQ",
+            "embed_url": "https://www.youtube.com/embed/YAe3wmYqXUQ"
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.3463653983348626,
+            "genre": "Pop",
+            "views": 307140195,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=TTA2buWlNyM",
+            "embed_url": "https://www.youtube.com/embed/TTA2buWlNyM"
+          },
+          {
+            "video_id": "pYdvxBxHX2U",
+            "title": "Uncle Lucius - Keep The Wolves Away",
+            "artist": "UncleLuciusVEVO",
+            "match_score": 0.3439637975646275,
+            "genre": "Pop",
+            "views": 173052525,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=pYdvxBxHX2U",
+            "embed_url": "https://www.youtube.com/embed/pYdvxBxHX2U"
+          },
+          {
+            "video_id": "rKFx0MMqb48",
+            "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+            "artist": "Kid Rock",
+            "genre": "Rock",
+            "views": 374271876,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=rKFx0MMqb48",
+            "embed_url": "https://www.youtube.com/embed/rKFx0MMqb48"
+          },
+          {
+            "video_id": "ks48Gb5JeYM",
+            "title": "Odeal - Soh-Soh (Lyrics)",
+            "artist": "7clouds Afrobeats",
+            "match_score": 0.3365029015189623,
+            "genre": "Unknown",
+            "views": 1306793,
+            "youtube_url": "https://www.youtube.com/watch?v=ks48Gb5JeYM",
+            "embed_url": "https://www.youtube.com/embed/ks48Gb5JeYM"
+          },
+          {
+            "video_id": "madTVO1Bons",
+            "title": "Motion Picture Soundtrack - Cigarettes After Sex",
+            "artist": "Cigarettes After Sex",
+            "match_score": 0.32983895951355546,
+            "genre": "Unknown",
+            "views": 2940485,
+            "youtube_url": "https://www.youtube.com/watch?v=madTVO1Bons",
+            "embed_url": "https://www.youtube.com/embed/madTVO1Bons"
+          },
+          {
+            "video_id": "r3Pr1_v7hsw",
+            "title": "Foreigner - I Want To Know What Love Is (Official Music Video)",
+            "artist": "RHINO",
+            "match_score": 0.3342613636134194,
+            "genre": "Unknown",
+            "views": 422810005,
+            "youtube_url": "https://www.youtube.com/watch?v=r3Pr1_v7hsw",
+            "embed_url": "https://www.youtube.com/embed/r3Pr1_v7hsw"
+          },
+          {
+            "video_id": "CD-E-LDc384",
+            "title": "Metallica: Enter Sandman (Official Music Video)",
+            "artist": "Metallica",
+            "match_score": 0.33290648152265756,
+            "genre": "Metal",
+            "views": 717751309,
+            "youtube_url": "https://www.youtube.com/watch?v=CD-E-LDc384",
+            "embed_url": "https://www.youtube.com/embed/CD-E-LDc384"
+          },
+          {
+            "video_id": "3AtDnEC4zak",
+            "title": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video]",
+            "artist": "Charlie Puth",
+            "match_score": 0.3133577973738985,
+            "genre": "Unknown",
+            "views": 3311136490,
+            "youtube_url": "https://www.youtube.com/watch?v=3AtDnEC4zak",
+            "embed_url": "https://www.youtube.com/embed/3AtDnEC4zak"
+          },
+          {
+            "video_id": "CevxZvSJLk8",
+            "title": "Katy Perry - Roar",
+            "artist": "KatyPerryVEVO",
+            "genre": "Pop",
+            "views": 4138780678,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=CevxZvSJLk8",
+            "embed_url": "https://www.youtube.com/embed/CevxZvSJLk8"
+          },
+          {
+            "video_id": "RF0HhrwIwp0",
+            "title": "Kings Of Leon - Sex on Fire (Official Video)",
+            "artist": "kingsofleonVEVO",
+            "match_score": 0.3613943361912009,
+            "genre": "Pop",
+            "views": 588929702,
+            "youtube_url": "https://www.youtube.com/watch?v=RF0HhrwIwp0",
+            "embed_url": "https://www.youtube.com/embed/RF0HhrwIwp0"
+          },
+          {
+            "video_id": "O0dajiO1ZIc",
+            "title": "Jazmine Sullivan - Hurt Me So Good (Lyric Video)",
+            "artist": "JazmineSullivanVEVO",
+            "match_score": 0.3246706380524118,
+            "genre": "Pop",
+            "views": 22164939,
+            "youtube_url": "https://www.youtube.com/watch?v=O0dajiO1ZIc",
+            "embed_url": "https://www.youtube.com/embed/O0dajiO1ZIc"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "match_score": 0.3257520703577989,
+            "genre": "Pop",
+            "views": 195687371,
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "OovyaXJou0U",
+            "title": "Belters Only - AwStopBro (with Dizzee Rascal) (Offical Video)",
+            "artist": "Belters Only",
+            "genre": "Unknown",
+            "views": 312455,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=OovyaXJou0U",
+            "embed_url": "https://www.youtube.com/embed/OovyaXJou0U"
+          },
+          {
+            "video_id": "IWKyykQBRKo",
+            "title": "Billie Eilish - WILDFLOWER (BILLIE BY FINNEAS)",
+            "artist": "BillieEilishVEVO",
+            "genre": "Pop",
+            "views": 24524415,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=IWKyykQBRKo",
+            "embed_url": "https://www.youtube.com/embed/IWKyykQBRKo"
+          },
+          {
+            "video_id": "ZI-aPHeUDlk",
+            "title": "Chris Stapleton - Fire Away (Official Music Video)",
+            "artist": "ChrisStapletonVEVO",
+            "match_score": 0.3354367587063275,
+            "genre": "Pop",
+            "views": 157354117,
+            "youtube_url": "https://www.youtube.com/watch?v=ZI-aPHeUDlk",
+            "embed_url": "https://www.youtube.com/embed/ZI-aPHeUDlk"
+          },
+          {
+            "video_id": "GemKqzILV4w",
+            "title": "Snow Patrol - Chasing Cars (Official Video)",
+            "artist": "SnowPatrolVEVO",
+            "match_score": 0.32345194881090106,
+            "genre": "Pop",
+            "views": 392260888,
+            "youtube_url": "https://www.youtube.com/watch?v=GemKqzILV4w",
+            "embed_url": "https://www.youtube.com/embed/GemKqzILV4w"
+          },
+          {
+            "video_id": "vabnZ9-ex7o",
+            "title": "Nirvana - Come As You Are (Official Music Video)",
+            "artist": "NirvanaVEVO",
+            "match_score": 0.3211069450222022,
+            "genre": "Pop",
+            "views": 612027162,
+            "youtube_url": "https://www.youtube.com/watch?v=vabnZ9-ex7o",
+            "embed_url": "https://www.youtube.com/embed/vabnZ9-ex7o"
+          },
+          {
+            "video_id": "09R8_2nJtjg",
+            "title": "Maroon 5 - Sugar (Official Music Video)",
+            "artist": "Maroon5VEVO",
+            "views": 4232192352,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+            "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+          },
+          {
+            "video_id": "1lrFsXkT_rM",
+            "title": "Gigi Perez - Sailor Song (Official Music Video)",
+            "artist": "geeguscrustVEVO",
+            "match_score": 0.3070910032113353,
+            "genre": "Pop",
+            "views": 32041136,
+            "youtube_url": "https://www.youtube.com/watch?v=1lrFsXkT_rM",
+            "embed_url": "https://www.youtube.com/embed/1lrFsXkT_rM"
+          },
+          {
+            "video_id": "BQ_0QLL2gqI",
+            "title": "Hailee Steinfeld, Alesso - Let Me Go ft. Florida Georgia Line, WATT (Official Video)",
+            "artist": "HaileeSteinfeldVEVO",
+            "match_score": 0.30714087617420527,
+            "genre": "Pop",
+            "views": 100581026,
+            "youtube_url": "https://www.youtube.com/watch?v=BQ_0QLL2gqI",
+            "embed_url": "https://www.youtube.com/embed/BQ_0QLL2gqI"
+          },
+          {
+            "video_id": "p_IwENcMPOA",
+            "title": "Thomas Rhett - Marry Me",
+            "artist": "ThomasRhettVEVO",
+            "match_score": 0.3080751551190394,
+            "genre": "Pop",
+            "views": 261875691,
+            "youtube_url": "https://www.youtube.com/watch?v=p_IwENcMPOA",
+            "embed_url": "https://www.youtube.com/embed/p_IwENcMPOA"
+          },
+          {
+            "video_id": "papuvlVeZg8",
+            "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 3068579604,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "Ztwa2xFrWII",
+            "title": "Rob49 - Wassam Baby (with Lil Wayne) [Official Video]",
+            "artist": "ROB49",
+            "genre": "Unknown",
+            "views": 21420855,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "A_MjCqQoLLA",
+            "title": "The Beatles - Hey Jude",
+            "artist": "TheBeatlesVEVO",
+            "genre": "Pop",
+            "views": 419671189,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "Ahha3Cqe_fk",
+            "title": "Katy Perry - The One That Got Away (Official Music Video)",
+            "artist": "KatyPerryVEVO",
+            "match_score": 0.33362954988977145,
+            "genre": "Pop",
+            "views": 1072610765
+          }
+        ],
+        "feedback": {
+          "OPf0YbXqDm0": {
+            "timestamp": "2025-05-14T10:19:32.480534",
+            "video_id": "OPf0YbXqDm0",
+            "rating": 1,
+            "skip_reason": "Too fast",
+            "listen_duration": 4.066,
+            "video_data": {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "views": 5561554065,
+              "genre": "Pop",
+              "recommendation_method": "popular",
+              "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+              "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            "session_id": "session_20250514101908_8230"
+          },
+          "3AtDnEC4zak": {
+            "timestamp": "2025-05-14T10:19:50.063783",
+            "video_id": "3AtDnEC4zak",
+            "rating": 4,
+            "skip_reason": null,
+            "listen_duration": 2.519,
+            "video_data": {
+              "video_id": "3AtDnEC4zak",
+              "title": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video]",
+              "artist": "Charlie Puth",
+              "match_score": 0.3133577973738985,
+              "genre": "Unknown",
+              "views": 3311136490,
+              "youtube_url": "https://www.youtube.com/watch?v=3AtDnEC4zak",
+              "embed_url": "https://www.youtube.com/embed/3AtDnEC4zak"
+            },
+            "session_id": "session_20250514101908_8230"
+          },
+          "OovyaXJou0U": {
+            "timestamp": "2025-05-14T10:20:35.609829",
+            "video_id": "OovyaXJou0U",
+            "rating": 1,
+            "skip_reason": "Too fast",
+            "listen_duration": 5.14,
+            "video_data": {
+              "video_id": "OovyaXJou0U",
+              "title": "Belters Only - AwStopBro (with Dizzee Rascal) (Offical Video)",
+              "artist": "Belters Only",
+              "genre": "Unknown",
+              "views": 312455,
+              "recommendation_method": "random",
+              "youtube_url": "https://www.youtube.com/watch?v=OovyaXJou0U",
+              "embed_url": "https://www.youtube.com/embed/OovyaXJou0U"
+            },
+            "session_id": "session_20250514101908_8230"
+          },
+          "09R8_2nJtjg": {
+            "timestamp": "2025-05-14T10:21:20.455634",
+            "video_id": "09R8_2nJtjg",
+            "rating": 2,
+            "skip_reason": "Too fast",
+            "listen_duration": 10.327,
+            "video_data": {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "views": 4232192352,
+              "genre": "Pop",
+              "recommendation_method": "popular",
+              "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+              "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+            },
+            "session_id": "session_20250514101908_8230"
+          }
+        },
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": -1.0,
+      "Unknown": -0.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.5,
+      "Unknown": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "MarkRonsonVEVO": -1.0,
+      "Charlie Puth": 0.75,
+      "Belters Only": -1.0,
+      "Maroon5VEVO": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-14T10:19:32.480534",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 1,
+      "skip_reason": "Too fast",
+      "listen_duration": 4.066,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular",
+        "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+        "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+      },
+      "session_id": "session_20250514101908_8230"
+    },
+    {
+      "timestamp": "2025-05-14T10:19:50.063783",
+      "video_id": "3AtDnEC4zak",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 2.519,
+      "video_data": {
+        "video_id": "3AtDnEC4zak",
+        "title": "Charlie Puth - We Don't Talk Anymore (feat. Selena Gomez) [Official Video]",
+        "artist": "Charlie Puth",
+        "match_score": 0.3133577973738985,
+        "genre": "Unknown",
+        "views": 3311136490,
+        "youtube_url": "https://www.youtube.com/watch?v=3AtDnEC4zak",
+        "embed_url": "https://www.youtube.com/embed/3AtDnEC4zak"
+      },
+      "session_id": "session_20250514101908_8230"
+    },
+    {
+      "timestamp": "2025-05-14T10:20:35.609829",
+      "video_id": "OovyaXJou0U",
+      "rating": 1,
+      "skip_reason": "Too fast",
+      "listen_duration": 5.14,
+      "video_data": {
+        "video_id": "OovyaXJou0U",
+        "title": "Belters Only - AwStopBro (with Dizzee Rascal) (Offical Video)",
+        "artist": "Belters Only",
+        "genre": "Unknown",
+        "views": 312455,
+        "recommendation_method": "random",
+        "youtube_url": "https://www.youtube.com/watch?v=OovyaXJou0U",
+        "embed_url": "https://www.youtube.com/embed/OovyaXJou0U"
+      },
+      "session_id": "session_20250514101908_8230"
+    },
+    {
+      "timestamp": "2025-05-14T10:21:20.455634",
+      "video_id": "09R8_2nJtjg",
+      "rating": 2,
+      "skip_reason": "Too fast",
+      "listen_duration": 10.327,
+      "video_data": {
+        "video_id": "09R8_2nJtjg",
+        "title": "Maroon 5 - Sugar (Official Music Video)",
+        "artist": "Maroon5VEVO",
+        "views": 4232192352,
+        "genre": "Pop",
+        "recommendation_method": "popular",
+        "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+        "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+      },
+      "session_id": "session_20250514101908_8230"
+    }
+  ]
+}

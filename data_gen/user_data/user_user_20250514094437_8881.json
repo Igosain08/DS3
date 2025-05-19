@@ -1,0 +1,191 @@
+{
+  "user_id": "user_20250514094437_8881",
+  "user_name": null,
+  "last_updated": "2025-05-14T09:45:16.120177",
+  "history": [
+    {
+      "session_id": "session_20250514094500_2393",
+      "data": {
+        "timestamp": "2025-05-14T09:45:00.281402",
+        "text_input": "I'm feeling emotionally drained\u2014tired, sad, and incredibly alone. I want music that understands this kind of ache. Songs that feel like late-night tears, quiet heartbreak, and empty rooms. No upbeat twists, just raw sadness that lets me sit with these feelings and cry without holding back.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "Shawn Mendes",
+            "The Weeknd"
+          ],
+          "activity": "Relaxing",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.1,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "ZI-aPHeUDlk",
+            "title": "Chris Stapleton - Fire Away (Official Music Video)",
+            "artist": "ChrisStapletonVEVO",
+            "match_score": 0.5214074777857596,
+            "genre": "Pop",
+            "views": 157354117,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=ZI-aPHeUDlk",
+            "embed_url": "https://www.youtube.com/embed/ZI-aPHeUDlk"
+          },
+          {
+            "video_id": "KNtJGQkC-WI",
+            "title": "Ariana Grande - we can't be friends (wait for your love) (official music video)",
+            "artist": "ArianaGrandeVevo",
+            "match_score": 0.5219393388587604,
+            "genre": "Pop",
+            "views": 270114660,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=KNtJGQkC-WI",
+            "embed_url": "https://www.youtube.com/embed/KNtJGQkC-WI"
+          },
+          {
+            "video_id": "03mfwKTXycg",
+            "title": "The Blacktones  //  Russian Doll [Official Video]",
+            "artist": "TheBlacktonesBand",
+            "genre": "Rock",
+            "views": 2473,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=03mfwKTXycg",
+            "embed_url": "https://www.youtube.com/embed/03mfwKTXycg"
+          },
+          {
+            "video_id": "GemKqzILV4w",
+            "title": "Snow Patrol - Chasing Cars (Official Video)",
+            "artist": "SnowPatrolVEVO",
+            "genre": "Pop",
+            "views": 392260888,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=GemKqzILV4w",
+            "embed_url": "https://www.youtube.com/embed/GemKqzILV4w"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "omzk3klIy0E",
+            "title": "Major Lazer - Sua Cara (Feat. Anitta & Pabllo Vittar) [Official Music Video]",
+            "artist": "Major Lazer Official",
+            "genre": "Unknown",
+            "views": 593370681,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=omzk3klIy0E",
+            "embed_url": "https://www.youtube.com/embed/omzk3klIy0E"
+          },
+          {
+            "video_id": "Ahha3Cqe_fk",
+            "title": "Katy Perry - The One That Got Away (Official Music Video)",
+            "artist": "KatyPerryVEVO",
+            "match_score": 0.4958740453128853,
+            "genre": "Pop",
+            "views": 1072610765,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+            "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "match_score": 0.4937452534655015,
+            "genre": "Pop",
+            "views": 195687371,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.4781148926409719,
+            "genre": "Pop",
+            "views": 307140195,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=TTA2buWlNyM",
+            "embed_url": "https://www.youtube.com/embed/TTA2buWlNyM"
+          }
+        ],
+        "feedback": {
+          "Ahha3Cqe_fk": {
+            "timestamp": "2025-05-14T09:45:16.119789",
+            "video_id": "Ahha3Cqe_fk",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 2.81,
+            "video_data": {
+              "video_id": "Ahha3Cqe_fk",
+              "title": "Katy Perry - The One That Got Away (Official Music Video)",
+              "artist": "KatyPerryVEVO",
+              "match_score": 0.4958740453128853,
+              "genre": "Pop",
+              "views": 1072610765,
+              "recommendation_method": "text",
+              "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+              "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+            },
+            "session_id": "session_20250514094500_2393"
+          }
+        },
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 1.0
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {},
+    "preferred_eras": {},
+    "favorite_artists": {
+      "KatyPerryVEVO": 1.5
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-14T09:45:16.119789",
+      "video_id": "Ahha3Cqe_fk",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 2.81,
+      "video_data": {
+        "video_id": "Ahha3Cqe_fk",
+        "title": "Katy Perry - The One That Got Away (Official Music Video)",
+        "artist": "KatyPerryVEVO",
+        "match_score": 0.4958740453128853,
+        "genre": "Pop",
+        "views": 1072610765,
+        "recommendation_method": "text",
+        "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+        "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+      },
+      "session_id": "session_20250514094500_2393"
+    }
+  ]
+}

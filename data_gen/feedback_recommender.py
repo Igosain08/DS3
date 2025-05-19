@@ -6,6 +6,9 @@ import pandas as pd
 from datetime import datetime
 from collections import Counter
 from tqdm import tqdm
+import xgboost as xgb
+from sklearn.preprocessing import LabelEncoder
+from sklearn.model_selection import train_test_split
 
 class FeedbackEnhancedRecommender:
     """
@@ -48,6 +51,10 @@ class FeedbackEnhancedRecommender:
         
         # Initialize feedback history
         self.feedback_history = {}
+        
+        # Add XGBoost recommender
+        self.xgboost_recommender = XGBoostRecommender(self)
+        self.use_xgboost = False  # Flag to control when to use XGBoost
 
     def get_or_create_user(self, user_id=None, user_name=None, create_if_not_exists=True):
         """
@@ -156,16 +163,11 @@ class FeedbackEnhancedRecommender:
 
     def generate_recommendations(self, session_id=None, batch_size=5, strategy='diverse'):
         """
-        Generate recommendations for a session
-        
-        Parameters:
-        - session_id: Session ID (defaults to current session)
-        - batch_size: Number of recommendations to generate
-        - strategy: Recommendation strategy ('diverse', 'focused', 'novel', 'popular')
-        
-        Returns:
-        - recommendations: List of recommended videos
+        Generate recommendations using XGBoost if available
         """
+        print("\n=== Generating Recommendations Debug ===")
+        print(f"Using XGBoost: {self.use_xgboost}")
+        
         if session_id is None:
             session_id = self.current_session_id
         
@@ -217,7 +219,7 @@ class FeedbackEnhancedRecommender:
         # 1. Always include text-based as primary method
         recommendation_methods.append(('text', {
             'user_text': text_input,
-            'size': int(batch_size * 0.6),  # 60% from text analysis
+            'size': int(batch_size * 0.5),  # 60% from text analysis
             'diversity': diversity_level
         }))
         
@@ -235,17 +237,23 @@ class FeedbackEnhancedRecommender:
         if favorite_genres and random.random() < 0.6:  # 60% chance
             # Convert to proportions
             total = sum(favorite_genres.values())
-            genre_proportions = {g: min(0.8, v/total) for g, v in favorite_genres.items() if v > 0}
-            
-            # Make sure proportions sum to 1
-            total_prop = sum(genre_proportions.values())
-            if total_prop > 0:
-                genre_proportions = {g: v/total_prop for g, v in genre_proportions.items()}
+            if total > 0:  # Only proceed if we have valid genre scores
+                genre_proportions = {g: min(0.8, v/total) for g, v in favorite_genres.items() if v > 0}
                 
-                recommendation_methods.append(('genre_mix', {
-                    'genres': genre_proportions,
-                    'size': int(batch_size * 0.2),  # 20% from favorite genres
-                    'mood': None  # Could set this based on text analysis
+                # Make sure proportions sum to 1
+                total_prop = sum(genre_proportions.values())
+                if total_prop > 0:
+                    genre_proportions = {g: v/total_prop for g, v in genre_proportions.items()}
+                    
+                    recommendation_methods.append(('genre_mix', {
+                        'genres': genre_proportions,
+                        'size': int(batch_size * 0.3),  # 20% from favorite genres
+                        'mood': None  # Could set this based on text analysis
+                    }))
+            else:
+                # If no valid genre scores, add some popular recommendations instead
+                recommendation_methods.append(('popular', {
+                    'size': int(batch_size * 0.3)  # 30% popular songs
                 }))
         
         # 4. Add some popular recommendations for new users
@@ -339,6 +347,47 @@ class FeedbackEnhancedRecommender:
         # Apply personalized re-ranking based on user preferences
         final_recommendations = self._personalized_ranking(final_recommendations, user_id)
         
+        # Add artist-based recommendations if user has favorite artists
+        if user_id and 'favorite_artists' in self.user_preferences[user_id]:
+            favorite_artists = self.user_preferences[user_id]['favorite_artists']
+            if favorite_artists:
+                print(f"Adding recommendations from favorite artists: {favorite_artists}")
+                artist_recommendations = []
+                for artist in favorite_artists:
+                    # Find videos from this artist
+                    artist_videos = [
+                        v for v in self.user_history[user_id]
+                        if v['data'].get('artist', '').lower() == artist.lower()
+                        and v['data'].get('video_id') not in [r['video_id'] for r in final_recommendations]
+                    ]
+                    # Add up to 2 videos per artist
+                    artist_recommendations.extend(artist_videos[:2])
+                
+                # Add artist recommendations to the pool
+                if artist_recommendations:
+                    final_recommendations.extend(artist_recommendations)
+                    print(f"Added {len(artist_recommendations)} artist-based recommendations")
+        
+        # If XGBoost is available, use it to re-rank recommendations
+        if self.use_xgboost:
+            print("\nUsing XGBoost model for recommendation re-ranking...")
+            # Get predicted ratings from XGBoost
+            predicted_ratings = self.xgboost_recommender.predict_ratings(final_recommendations)
+            
+            # Combine recommendations with predictions
+            scored_recommendations = list(zip(final_recommendations, predicted_ratings))
+            
+            # Sort by predicted rating
+            scored_recommendations.sort(key=lambda x: x[1], reverse=True)
+            
+            # Take top batch_size recommendations
+            final_recommendations = [rec[0] for rec in scored_recommendations[:batch_size]]
+            print("XGBoost re-ranking complete!")
+        else:
+            print("\nUsing base recommendation system (no XGBoost)...")
+            print("Current feedback count:", len(self.feedback_history.get(user_id, [])))
+            print(f"Need {self.xgboost_recommender.min_feedback_threshold} feedback points to enable XGBoost")
+        
         # Store recommendations in session
         self.session_recommendations[session_id].extend(final_recommendations)
         
@@ -355,77 +404,112 @@ class FeedbackEnhancedRecommender:
 
     def record_feedback(self, session_id, video_id, rating, skip_reason=None, listen_duration=None):
         """
-        Record user feedback for a recommendation
-        
-        Parameters:
-        - session_id: Session ID
-        - video_id: Video ID that was rated
-        - rating: Rating (1-5 scale, where 5 is best)
-        - skip_reason: Optional reason for skipping (if rating <= 2)
-        - listen_duration: Optional duration the user listened (seconds)
-        
-        Returns:
-        - success: True if feedback was recorded
+        Record user feedback for a video
         """
-        user_id = self.current_user_id
+        print("\n=== Recording Feedback Debug ===")
+        print(f"Recording feedback for video {video_id} with rating {rating}")
+        print(f"Current user ID: {self.current_user_id}")
+        print(f"Session ID: {session_id}")
         
-        if user_id is None:
-            raise ValueError("No active user. Call get_or_create_user first.")
-        
-        # Find the video in the session recommendations
+        if not self.current_user_id:
+            print("ERROR: No active user!")
+            raise ValueError("No active user")
+            
+        # Find video in session recommendations or history
         video_data = None
-        for rec in self.session_recommendations.get(session_id, []):
-            if rec['video_id'] == video_id:
-                video_data = rec
-                break
+        print("Searching for video data...")
         
-        if video_data is None:
-            # Try to find in session history
-            for session_entry in self.user_history[user_id]:
+        # First check in session recommendations
+        if session_id in self.session_recommendations:
+            print("Checking session recommendations...")
+            session_data = self.session_recommendations[session_id]
+            if isinstance(session_data, dict) and 'recommendations' in session_data:
+                for rec in session_data['recommendations']:
+                    if rec['video_id'] == video_id:
+                        video_data = rec
+                        print("Found video in session recommendations")
+                        break
+                
+        # If not found, check in user history
+        if not video_data:
+            print("Checking user history...")
+            for session_entry in self.user_history[self.current_user_id]:
                 if session_entry['session_id'] == session_id:
                     for rec in session_entry['data'].get('recommendations', []):
                         if rec['video_id'] == video_id:
                             video_data = rec
+                            print("Found video in user history")
                             break
                     break
         
-        if video_data is None:
-            raise ValueError(f"Video {video_id} not found in session {session_id}")
-        
+        if not video_data:
+            print(f"ERROR: Video {video_id} not found in session or history")
+            raise ValueError(f"Video {video_id} not found in session or history")
+            
         # Create feedback data
-        feedback_data = {
+        feedback = {
             'timestamp': datetime.now().isoformat(),
             'video_id': video_id,
             'rating': rating,
             'skip_reason': skip_reason,
             'listen_duration': listen_duration,
-            'video_data': video_data,
-            'session_id': session_id
+            'video_data': video_data
         }
         
-        # Add to feedback history
-        if user_id not in self.feedback_history:
-            self.feedback_history[user_id] = []
-        self.feedback_history[user_id].append(feedback_data)
+        print(f"Created feedback data: {feedback}")
         
-        # Also add to session data
-        for session_entry in self.user_history[user_id]:
-            if session_entry['session_id'] == session_id:
-                if 'feedback' not in session_entry['data']:
-                    session_entry['data']['feedback'] = {}
-                session_entry['data']['feedback'][video_id] = feedback_data
-                break
+        # Extract artist preference from skip_reason if it's a description
+        if skip_reason and isinstance(skip_reason, str) and len(skip_reason) > 10:
+            # Check for artist mentions in the description
+            artist = video_data.get('artist', '')
+            if artist and artist.lower() in skip_reason.lower():
+                # Add artist to user preferences
+                if 'favorite_artists' not in self.user_preferences[self.current_user_id]:
+                    self.user_preferences[self.current_user_id]['favorite_artists'] = []
+                if artist not in self.user_preferences[self.current_user_id]['favorite_artists']:
+                    self.user_preferences[self.current_user_id]['favorite_artists'].append(artist)
+                    print(f"Added {artist} to favorite artists based on feedback")
         
-        # Update user preferences based on feedback
-        self._update_user_preferences(user_id, video_data, rating)
+        # Add to user's feedback history
+        if self.current_user_id not in self.feedback_history:
+            self.feedback_history[self.current_user_id] = []
+        self.feedback_history[self.current_user_id].append(feedback)
+        print(f"Added feedback to history. Total feedback count: {len(self.feedback_history[self.current_user_id])}")
+        
+        # Update session data
+        if session_id in self.session_recommendations:
+            session_data = self.session_recommendations[session_id]
+            if isinstance(session_data, dict):
+                if 'feedback' not in session_data:
+                    session_data['feedback'] = []
+                session_data['feedback'].append(feedback)
+                print("Updated session data with feedback")
+        
+        # Update user preferences
+        print("Updating user preferences...")
+        self._update_user_preferences(self.current_user_id, video_data, rating)
         
         # Save user data
-        self._save_user_data(user_id)
+        print("Saving user data...")
+        self._save_user_data(self.current_user_id)
         
-        # Adjust feature weights based on all feedback
-        self._adjust_feature_weights(user_id)
+        # Adjust feature weights
+        print("Adjusting feature weights...")
+        self._adjust_feature_weights(self.current_user_id)
         
-        return True
+        # Try to train XGBoost model if enough feedback
+        print("\nAttempting to train XGBoost model...")
+        try:
+            if self.xgboost_recommender.train_model(self.current_user_id):
+                self.use_xgboost = True
+                print("XGBoost model trained successfully!")
+            else:
+                print("XGBoost model training failed - not enough feedback")
+        except Exception as e:
+            print(f"Error training XGBoost model: {str(e)}")
+            self.use_xgboost = False
+            
+        return feedback
 
     def generate_final_playlist(self, user_id, name=None, size=20, description=None):
         """
@@ -1077,7 +1161,7 @@ class UserInputForm:
                         {
                             'id': 'favorite_genres',
                             'type': 'multi_select',
-                            'label': 'What genres do you enjoy?',
+                            'label': 'Select up to 3 genres you enjoy',
                             'options': [
                                 'Pop', 'Rock', 'Hip-Hop', 'R&B', 'Country', 
                                 'Electronic', 'Jazz', 'Classical', 'Folk',
@@ -1085,7 +1169,8 @@ class UserInputForm:
                                 'Reggae', 'World', 'K-Pop', 'Alternative'
                             ],
                             'required': False,
-                            'max_selections': 5
+                            'max_selections': 3,
+                            'help_text': 'You can select up to 3 genres'
                         },
                         {
                             'id': 'favorite_artists',
@@ -1348,6 +1433,214 @@ class FeedbackForm:
         }
         
         return feedback
+
+
+class XGBoostRecommender:
+    def __init__(self, base_recommender):
+        """
+        Initialize XGBoost-based recommender
+        
+        Parameters:
+        - base_recommender: An instance of FeedbackEnhancedRecommender
+        """
+        self.recommender = base_recommender
+        self.model = None
+        self.label_encoders = {}
+        self.feature_columns = [
+            'genre', 'mood', 'activity', 'sentiment', 'views',
+            'likes', 'comment_count', 'duration'
+        ]
+        self.min_feedback_threshold = 3  # Raised to 3 feedback points
+        
+    def train_model(self, user_id):
+        """
+        Train XGBoost model on user's feedback history
+        
+        Parameters:
+        - user_id: User ID to train model for
+        """
+        print("\n=== XGBoost Training Debug ===")
+        print(f"Attempting to train XGBoost model for user {user_id}")
+        
+        # Get user's feedback history
+        feedback = self.recommender.feedback_history.get(user_id, [])
+        print(f"Found {len(feedback)} feedback points for user")
+        
+        if len(feedback) < self.min_feedback_threshold:
+            print(f"Not enough feedback to train XGBoost model. Need {self.min_feedback_threshold} feedback points, have {len(feedback)}.")
+            return False
+            
+        print(f"Training XGBoost model with {len(feedback)} feedback points...")
+            
+        # Prepare training data
+        X, y = self._prepare_training_data(feedback)
+        print(f"Prepared training data shape: X={X.shape}, y={y.shape}")
+        
+        if len(X) < self.min_feedback_threshold:
+            print(f"Not enough valid samples to train XGBoost model. Need {self.min_feedback_threshold} samples, have {len(X)}.")
+            return False
+            
+        # Handle single sample case
+        if len(X) == 1:
+            print("Single sample detected - using all data for training without splitting")
+            X_train, y_train = X, y
+            X_test, y_test = X, y  # Use same data for validation
+        else:
+            # Split data for multiple samples
+            X_train, X_test, y_train, y_test = train_test_split(
+                X, y, test_size=0.2, random_state=42
+            )
+        
+        # Adjust parameters based on dataset size
+        n_samples = len(X_train)
+        
+        # Base parameters for small datasets
+        params = {
+            'objective': 'reg:squarederror',
+            'learning_rate': 0.05,  # Reduced from 0.1 to prevent overfitting
+            'max_depth': 3,  # Reduced from 6 to prevent overfitting
+            'min_child_weight': 2,  # Increased from 1 to prevent overfitting
+            'subsample': 0.8,
+            'colsample_bytree': 0.8,
+            'random_state': 42
+        }
+        
+        # Adjust n_estimators based on dataset size
+        if n_samples == 1:
+            params['n_estimators'] = 10  # Very few trees for single sample
+            params['learning_rate'] = 0.01  # Very small learning rate
+            params['max_depth'] = 1  # Single level tree
+        elif n_samples < 5:
+            params['n_estimators'] = 50  # Fewer trees for very small datasets
+            params['learning_rate'] = 0.03  # Even smaller learning rate
+            params['max_depth'] = 2  # Very shallow trees
+        elif n_samples < 10:
+            params['n_estimators'] = 75  # Moderate number of trees
+            params['learning_rate'] = 0.04
+            params['max_depth'] = 3
+        else:
+            params['n_estimators'] = 100  # Full number of trees
+            params['learning_rate'] = 0.05
+            params['max_depth'] = 4
+        
+        print(f"Using XGBoost parameters for {n_samples} samples:")
+        print(f"- n_estimators: {params['n_estimators']}")
+        print(f"- learning_rate: {params['learning_rate']}")
+        print(f"- max_depth: {params['max_depth']}")
+        
+        # Train model with adjusted parameters
+        self.model = xgb.XGBRegressor(**params)
+        
+        # Train the model without early stopping
+        self.model.fit(
+            X_train, y_train,
+            eval_set=[(X_test, y_test)],
+            verbose=False
+        )
+        
+        print("XGBoost model trained successfully!")
+        return True
+        
+    def _prepare_training_data(self, feedback):
+        """
+        Prepare training data from feedback history
+        """
+        X = []
+        y = []
+        
+        for item in feedback:
+            video_data = item.get('video_data', {})
+            if not video_data:
+                continue
+                
+            # Extract features
+            features = []
+            for col in self.feature_columns:
+                value = video_data.get(col)
+                
+                # Handle categorical features
+                if col in ['genre', 'mood', 'activity']:
+                    if col not in self.label_encoders:
+                        self.label_encoders[col] = LabelEncoder()
+                    if value:
+                        value = self.label_encoders[col].fit_transform([value])[0]
+                    else:
+                        value = -1
+                
+                # Handle numerical features
+                elif col in ['views', 'likes', 'comment_count', 'duration']:
+                    value = float(value) if value else 0
+                    
+                # Handle sentiment
+                elif col == 'sentiment':
+                    value = float(value) if value else 0
+                    
+                features.append(value)
+            
+            X.append(features)
+            y.append(item.get('rating', 0))
+            
+        return np.array(X), np.array(y)
+        
+    def predict_ratings(self, videos):
+        """
+        Predict ratings for a list of videos
+        
+        Parameters:
+        - videos: List of video data dictionaries
+        
+        Returns:
+        - List of predicted ratings
+        """
+        if not self.model:
+            print("Using default ratings (0.5) as XGBoost model is not trained")
+            return [0.5] * len(videos)  # Default rating if no model
+            
+        print("Using XGBoost model to predict ratings...")
+        # Prepare features
+        X = []
+        for video in videos:
+            features = []
+            for col in self.feature_columns:
+                value = video.get(col)
+                
+                # Handle categorical features
+                if col in ['genre', 'mood', 'activity']:
+                    if col in self.label_encoders and value:
+                        try:
+                            # Transform the value using the fitted encoder
+                            value = self.label_encoders[col].transform([value])[0]
+                        except ValueError:
+                            # If value not seen during training, use -1
+                            value = -1
+                    else:
+                        value = -1
+                
+                # Handle numerical features
+                elif col in ['views', 'likes', 'comment_count', 'duration']:
+                    value = float(value) if value else 0
+                    
+                # Handle sentiment
+                elif col == 'sentiment':
+                    value = float(value) if value else 0
+                    
+                features.append(value)
+            
+            # Ensure we have all features
+            if len(features) != len(self.feature_columns):
+                print(f"Warning: Missing features for video {video.get('video_id')}. Expected {len(self.feature_columns)}, got {len(features)}")
+                # Pad with zeros if missing features
+                features.extend([0] * (len(self.feature_columns) - len(features)))
+            
+            X.append(features)
+            
+        # Convert to numpy array and ensure correct shape
+        X = np.array(X)
+        print(f"Prepared features shape: {X.shape}")
+        
+        # Make predictions
+        predictions = self.model.predict(X)
+        return predictions.tolist()
 
 # Example usage
 

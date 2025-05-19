@@ -1,0 +1,568 @@
+{
+  "user_id": "user_20250514085047_7915",
+  "user_name": null,
+  "last_updated": "2025-05-14T09:08:27.534687",
+  "history": [
+    {
+      "session_id": "session_20250514085219_3420",
+      "data": {
+        "timestamp": "2025-05-14T08:52:19.684766",
+        "text_input": "I am feeling really sad and tired and feel like crying. I want sad, slow music. ",
+        "additional_context": {
+          "genres": "Country",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "Justin Bieber"
+          ],
+          "activity": "Other",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.1,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "xVuYQCa9saw",
+            "title": "Eminem - Fuel (feat. JID) [Official Audio]",
+            "artist": "EminemMusic",
+            "genre": "Unknown",
+            "views": 23266747,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=xVuYQCa9saw",
+            "embed_url": "https://www.youtube.com/embed/xVuYQCa9saw"
+          },
+          {
+            "video_id": "1RKqOmSkGgM",
+            "title": "Chappell Roan - Good Luck, Babe! (Official Lyric Video)",
+            "artist": "ChappellRoanVEVO",
+            "genre": "Pop",
+            "views": 96766548,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=1RKqOmSkGgM",
+            "embed_url": "https://www.youtube.com/embed/1RKqOmSkGgM"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8",
+            "user_rating": 5
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "Ahha3Cqe_fk",
+            "title": "Katy Perry - The One That Got Away (Official Music Video)",
+            "artist": "KatyPerryVEVO",
+            "match_score": 0.4676881956325711,
+            "genre": "Pop",
+            "views": 1072610765,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+            "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+          },
+          {
+            "video_id": "ZI-aPHeUDlk",
+            "title": "Chris Stapleton - Fire Away (Official Music Video)",
+            "artist": "ChrisStapletonVEVO",
+            "match_score": 0.45109924680218483,
+            "genre": "Pop",
+            "views": 157354117,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=ZI-aPHeUDlk",
+            "embed_url": "https://www.youtube.com/embed/ZI-aPHeUDlk"
+          },
+          {
+            "video_id": "KNtJGQkC-WI",
+            "title": "Ariana Grande - we can't be friends (wait for your love) (official music video)",
+            "artist": "ArianaGrandeVevo",
+            "match_score": 0.4382378996082215,
+            "genre": "Pop",
+            "views": 270114660,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=KNtJGQkC-WI",
+            "embed_url": "https://www.youtube.com/embed/KNtJGQkC-WI"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "match_score": 0.4203267065494515,
+            "genre": "Pop",
+            "views": 195687371,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "XfMBdq5iFnw",
+            "title": "Mitski - I Bet on Losing Dogs (Official Audio)",
+            "artist": "Mitski",
+            "match_score": 0.38906446688512997,
+            "genre": "Unknown",
+            "views": 19642729,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=XfMBdq5iFnw",
+            "embed_url": "https://www.youtube.com/embed/XfMBdq5iFnw"
+          },
+          {
+            "video_id": "W-TE_Ys4iwM",
+            "title": "One Direction - Story of My Life",
+            "artist": "OneDirectionVEVO",
+            "match_score": 0.3797072960405772,
+            "genre": "Pop",
+            "views": 1045431431,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+            "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM"
+          },
+          {
+            "video_id": "2Vv-BfVoq4g",
+            "title": "Ed Sheeran - Perfect (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "genre": "Unknown",
+            "views": 3934221872,
+            "recommendation_method": "genre_mix",
+            "youtube_url": "https://www.youtube.com/watch?v=2Vv-BfVoq4g",
+            "embed_url": "https://www.youtube.com/embed/2Vv-BfVoq4g"
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.40822619006982874,
+            "genre": "Pop",
+            "views": 307140195,
+            "youtube_url": "https://www.youtube.com/watch?v=TTA2buWlNyM",
+            "embed_url": "https://www.youtube.com/embed/TTA2buWlNyM"
+          },
+          {
+            "video_id": "SlPhMPnQ58k",
+            "title": "Maroon 5 - Memories (Official Video)",
+            "artist": "Maroon5VEVO",
+            "match_score": 0.37829862369857287,
+            "genre": "Pop",
+            "views": 1136531104,
+            "youtube_url": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+            "embed_url": "https://www.youtube.com/embed/SlPhMPnQ58k"
+          },
+          {
+            "video_id": "ldQrapQ4d0Y",
+            "title": "Toby Keith - As Good As I Once Was",
+            "artist": "TobyKeithVEVO",
+            "match_score": 0.36753424731844647,
+            "genre": "Pop",
+            "views": 170368308,
+            "youtube_url": "https://www.youtube.com/watch?v=ldQrapQ4d0Y",
+            "embed_url": "https://www.youtube.com/embed/ldQrapQ4d0Y"
+          },
+          {
+            "video_id": "aJqW7PUozlU",
+            "title": "Declan McKenna - Slipping Through My Fingers (Official Audio)",
+            "artist": "DeclanMcKennaVEVO",
+            "match_score": 0.35428554131851303,
+            "genre": "Pop",
+            "views": 1652373,
+            "youtube_url": "https://www.youtube.com/watch?v=aJqW7PUozlU",
+            "embed_url": "https://www.youtube.com/embed/aJqW7PUozlU"
+          },
+          {
+            "video_id": "zABLecsR5UE",
+            "title": "Lewis Capaldi - Someone You Loved",
+            "artist": "LewisCapaldiVEVO",
+            "match_score": 0.35767339835811174,
+            "genre": "Pop",
+            "views": 1032084551,
+            "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+            "embed_url": "https://www.youtube.com/embed/zABLecsR5UE",
+            "user_rating": 5
+          },
+          {
+            "video_id": "7TF91Zk8L5w",
+            "title": "AURORA - The Conflict Of The Mind",
+            "artist": "iamAURORAVEVO",
+            "match_score": 0.34271676196643736,
+            "genre": "Pop",
+            "views": 4086961,
+            "youtube_url": "https://www.youtube.com/watch?v=7TF91Zk8L5w",
+            "embed_url": "https://www.youtube.com/embed/7TF91Zk8L5w"
+          },
+          {
+            "video_id": "pB-5XG-DbAA",
+            "title": "Sam Smith - Stay With Me (Official Music Video)",
+            "artist": "SamSmithVEVO",
+            "match_score": 0.34647426850263346,
+            "genre": "Pop",
+            "views": 1237103546,
+            "youtube_url": "https://www.youtube.com/watch?v=pB-5XG-DbAA",
+            "embed_url": "https://www.youtube.com/embed/pB-5XG-DbAA"
+          },
+          {
+            "video_id": "O0dajiO1ZIc",
+            "title": "Jazmine Sullivan - Hurt Me So Good (Lyric Video)",
+            "artist": "JazmineSullivanVEVO",
+            "match_score": 0.3294087107052855,
+            "genre": "Pop",
+            "views": 22164939,
+            "youtube_url": "https://www.youtube.com/watch?v=O0dajiO1ZIc",
+            "embed_url": "https://www.youtube.com/embed/O0dajiO1ZIc"
+          },
+          {
+            "video_id": "1lrFsXkT_rM",
+            "title": "Gigi Perez - Sailor Song (Official Music Video)",
+            "artist": "geeguscrustVEVO",
+            "match_score": 0.32777946570075595,
+            "genre": "Pop",
+            "views": 32041136,
+            "youtube_url": "https://www.youtube.com/watch?v=1lrFsXkT_rM",
+            "embed_url": "https://www.youtube.com/embed/1lrFsXkT_rM"
+          },
+          {
+            "video_id": "Ip6cw8gfHHI",
+            "title": "d4vd - Here With Me [Official Music Video]",
+            "artist": "d4vdVEVO",
+            "match_score": 0.425993694667614,
+            "genre": "Pop",
+            "views": 204762209,
+            "youtube_url": "https://www.youtube.com/watch?v=Ip6cw8gfHHI",
+            "embed_url": "https://www.youtube.com/embed/Ip6cw8gfHHI"
+          },
+          {
+            "video_id": "pYdvxBxHX2U",
+            "title": "Uncle Lucius - Keep The Wolves Away",
+            "artist": "UncleLuciusVEVO",
+            "match_score": 0.3514348799277837,
+            "genre": "Pop",
+            "views": 173052525,
+            "youtube_url": "https://www.youtube.com/watch?v=pYdvxBxHX2U",
+            "embed_url": "https://www.youtube.com/embed/pYdvxBxHX2U"
+          },
+          {
+            "video_id": "hEdvvTF5js4",
+            "title": "Kygo, Justin Jesso - Stargazing ft. Justin Jesso (Official Video)",
+            "artist": "KygoOfficialVEVO",
+            "match_score": 0.32342030413244993,
+            "genre": "Pop",
+            "views": 145214314,
+            "youtube_url": "https://www.youtube.com/watch?v=hEdvvTF5js4",
+            "embed_url": "https://www.youtube.com/embed/hEdvvTF5js4"
+          },
+          {
+            "video_id": "NMNgbISmF4I",
+            "title": "Aerosmith - Crazy (Official Music Video)",
+            "artist": "AerosmithVEVO",
+            "match_score": 0.32346545936550347,
+            "genre": "Pop",
+            "views": 706838592,
+            "youtube_url": "https://www.youtube.com/watch?v=NMNgbISmF4I",
+            "embed_url": "https://www.youtube.com/embed/NMNgbISmF4I"
+          },
+          {
+            "video_id": "KWZGAExj-es",
+            "title": "Sia - Elastic Heart feat. Shia LaBeouf & Maddie Ziegler (Official Video)",
+            "artist": "SiaVEVO",
+            "match_score": 0.3231872301605938,
+            "genre": "Pop",
+            "views": 1370543147,
+            "youtube_url": "https://www.youtube.com/watch?v=KWZGAExj-es",
+            "embed_url": "https://www.youtube.com/embed/KWZGAExj-es"
+          }
+        ],
+        "feedback": {
+          "JGwWNGJdvx8": {
+            "timestamp": "2025-05-14T09:07:56.782441",
+            "video_id": "JGwWNGJdvx8",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 4.339,
+            "video_data": {
+              "video_id": "JGwWNGJdvx8",
+              "title": "Ed Sheeran - Shape of You (Official Music Video)",
+              "artist": "Ed Sheeran",
+              "views": 6462683203,
+              "genre": "Unknown",
+              "recommendation_method": "popular",
+              "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+              "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8",
+              "user_rating": 5
+            },
+            "session_id": "session_20250514085219_3420"
+          },
+          "zABLecsR5UE": {
+            "timestamp": "2025-05-14T09:08:06.700473",
+            "video_id": "zABLecsR5UE",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 2.629,
+            "video_data": {
+              "video_id": "zABLecsR5UE",
+              "title": "Lewis Capaldi - Someone You Loved",
+              "artist": "LewisCapaldiVEVO",
+              "match_score": 0.35767339835811174,
+              "genre": "Pop",
+              "views": 1032084551,
+              "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+              "embed_url": "https://www.youtube.com/embed/zABLecsR5UE",
+              "user_rating": 5
+            },
+            "session_id": "session_20250514085219_3420"
+          }
+        },
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Unknown": 1.0,
+      "Pop": 1.0
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {},
+    "preferred_eras": {},
+    "favorite_artists": {
+      "Ed Sheeran": 1.5,
+      "LewisCapaldiVEVO": 1.5
+    },
+    "playlists": [
+      {
+        "playlist_id": "playlist_20250514090827_3187",
+        "data": {
+          "name": "Your Pop & Unknown Mix",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T09:08:27.534637",
+          "size": 20,
+          "tracks": [
+            {
+              "video_id": "AaFG5Dk2ibI",
+              "title": "Yellow Claw - Villain ft. Valentina [Official Music Video]",
+              "artist": "Yellow Claw",
+              "similarity": 0.7284315228462219,
+              "genre": "Unknown",
+              "views": 4431785
+            },
+            {
+              "video_id": "hUE6Haw_3zg",
+              "title": "Sexyy Red \"Get It Sexyy\" (Official Video)",
+              "artist": "Sexyy Red",
+              "similarity": 0.7386675477027893,
+              "genre": "Unknown",
+              "views": 16506344
+            },
+            {
+              "video_id": "b8lPeWRBLvE",
+              "title": "The Blessed Madonna & Kylie Minogue - Edge Of Saturday Night (Official Video)",
+              "artist": "Kylie Minogue",
+              "similarity": 0.7312928438186646,
+              "genre": "Unknown",
+              "views": 1674292
+            },
+            {
+              "video_id": "s616v2pSWDU",
+              "title": "Major Lazer - Run Up (feat. PARTYNEXTDOOR & Nicki Minaj) [Official Music Video]",
+              "artist": "Major Lazer Official",
+              "similarity": 0.7531045079231262,
+              "genre": "Unknown",
+              "views": 124090985
+            },
+            {
+              "video_id": "MwpMEbgC7DA",
+              "title": "Tom Odell - Another Love (Official Video)",
+              "artist": "TomOdellVEVO",
+              "similarity": 0.8164941668510437,
+              "genre": "Pop",
+              "views": 1069579859
+            },
+            {
+              "video_id": "JGwWNGJdvx8",
+              "title": "Ed Sheeran - Shape of You (Official Music Video)",
+              "artist": "Ed Sheeran",
+              "views": 6462683203,
+              "genre": "Unknown",
+              "recommendation_method": "popular",
+              "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+              "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8",
+              "user_rating": 5
+            },
+            {
+              "video_id": "UxXY_hR_wzo",
+              "title": "LISA - NEW WOMAN feat. Rosal\u00eda (Official Music Video)",
+              "artist": "LLOUD Official",
+              "similarity": 0.7609229683876038,
+              "genre": "Unknown",
+              "views": 156570120
+            },
+            {
+              "video_id": "jzD_yyEcp0M",
+              "title": "Marshmello & Anne-Marie - FRIENDS (Music Video) *OFFICIAL FRIENDZONE ANTHEM*",
+              "artist": "Marshmello",
+              "similarity": 0.7390680909156799,
+              "genre": "Unknown",
+              "views": 1092502006
+            },
+            {
+              "video_id": "ByfFurjQDb0",
+              "title": "Calum Scott, Leona Lewis - You Are The Reason (Duet Version)",
+              "artist": "CalumScottVEVO",
+              "similarity": 0.829548180103302,
+              "genre": "Pop",
+              "views": 643456884
+            },
+            {
+              "video_id": "PIh2xe4jnpk",
+              "title": "MAGIC! - Rude (Official Video)",
+              "artist": "ournameismagicVEVO",
+              "similarity": 0.7861151695251465,
+              "genre": "Pop",
+              "views": 2564656123
+            },
+            {
+              "video_id": "zABLecsR5UE",
+              "title": "Lewis Capaldi - Someone You Loved",
+              "artist": "LewisCapaldiVEVO",
+              "match_score": 0.35767339835811174,
+              "genre": "Pop",
+              "views": 1032084551,
+              "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+              "embed_url": "https://www.youtube.com/embed/zABLecsR5UE",
+              "user_rating": 5
+            },
+            {
+              "video_id": "k2qgadSvNyU",
+              "title": "Dua Lipa - New Rules (Official Music Video)",
+              "artist": "Dua Lipa",
+              "similarity": 0.7445959448814392,
+              "genre": "Unknown",
+              "views": 3139178452
+            },
+            {
+              "video_id": "450p7goxZqg",
+              "title": "John Legend - All of Me (Official Video)",
+              "artist": "johnlegendVEVO",
+              "similarity": 0.7828120589256287,
+              "genre": "Pop",
+              "views": 2521257161
+            },
+            {
+              "video_id": "WMxovx36ctQ",
+              "title": "Saweetie - NANi (Official Music Video)",
+              "artist": "Official Saweetie",
+              "similarity": 0.7433202862739563,
+              "genre": "Unknown",
+              "views": 10797173
+            },
+            {
+              "video_id": "BixwVsiDdZM",
+              "title": "Luke Combs - Hurricane (Official Video)",
+              "artist": "LukeCombsVEVO",
+              "similarity": 0.7937902808189392,
+              "genre": "Pop",
+              "views": 378392175
+            },
+            {
+              "video_id": "F5S0rnc3828",
+              "title": "GIV\u0112ON - TWENTIES (Official Music Video)",
+              "artist": "GiveonVEVO",
+              "similarity": 0.8029652833938599,
+              "genre": "Pop",
+              "views": 12657931
+            },
+            {
+              "video_id": "6NXnxTNIWkc",
+              "title": "4 Non Blondes - What's Up (Official Music Video)",
+              "artist": "4NonBlondesVEVO",
+              "similarity": 0.7976799011230469,
+              "genre": "Pop",
+              "views": 1924537375
+            },
+            {
+              "video_id": "DDXLmYyFu4I",
+              "title": "Alan Jackson - Livin' On Love (Official Music Video)",
+              "artist": "alanjacksonVEVO",
+              "similarity": 0.7975040674209595,
+              "genre": "Pop",
+              "views": 223766709
+            },
+            {
+              "video_id": "uWRlisQu4fo",
+              "title": "GIV\u0112ON - Heartbreak Anniversary (Official Music Video)",
+              "artist": "GiveonVEVO",
+              "similarity": 0.804305374622345,
+              "genre": "Pop",
+              "views": 279386796
+            },
+            {
+              "video_id": "YykjpeuMNEk",
+              "title": "Coldplay - Hymn For The Weekend (Official Video)",
+              "artist": "Coldplay",
+              "similarity": 0.7752066254615784,
+              "genre": "Unknown",
+              "views": 2146949186
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 0.85,
+            "Unknown": 0.15
+          },
+          "direct_picks": 2,
+          "method": "feedback_based"
+        }
+      }
+    ]
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-14T09:07:56.782441",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 4.339,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular",
+        "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+        "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8",
+        "user_rating": 5
+      },
+      "session_id": "session_20250514085219_3420"
+    },
+    {
+      "timestamp": "2025-05-14T09:08:06.700473",
+      "video_id": "zABLecsR5UE",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 2.629,
+      "video_data": {
+        "video_id": "zABLecsR5UE",
+        "title": "Lewis Capaldi - Someone You Loved",
+        "artist": "LewisCapaldiVEVO",
+        "match_score": 0.35767339835811174,
+        "genre": "Pop",
+        "views": 1032084551,
+        "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+        "embed_url": "https://www.youtube.com/embed/zABLecsR5UE",
+        "user_rating": 5
+      },
+      "session_id": "session_20250514085219_3420"
+    }
+  ]
+}

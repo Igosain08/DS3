@@ -419,31 +419,42 @@ def api_recommendations():
 
 @app.route('/api/feedback', methods=['POST'])
 def api_feedback():
-    """API endpoint for recording feedback"""
-    # Check authentication
-    user_id = request.json.get('user_id')
-    api_key = request.json.get('api_key')
+    """Handle feedback submission"""
+    print("\n=== API Feedback Debug ===")
+    print("Received feedback request")
     
-    # Very simple auth check
-    if not user_id or api_key != 'dev_api_key':
-        return jsonify({'error': 'Unauthorized'}), 401
+    # Ensure user is logged in
+    user_id = session.get('user_id')
+    if not user_id:
+        print("No user ID in session")
+        return jsonify({'error': 'Not logged in'}), 401
     
-    if not ensure_recommenders_ready():
-        return jsonify({'error': 'System initializing', 'status': loading_state}), 503
+    # Get feedback data
+    data = request.get_json()
+    print(f"Feedback data: {data}")
     
-    # Get feedback parameters
-    session_id = request.json.get('session_id')
-    video_id = request.json.get('video_id')
-    rating = int(request.json.get('rating', 3))
-    skip_reason = request.json.get('skip_reason')
-    listen_duration = float(request.json.get('listen_duration', 0))
-    
-    if not session_id or not video_id:
-        return jsonify({'error': 'Missing required parameters'}), 400
+    if not data:
+        print("No feedback data received")
+        return jsonify({'error': 'No data provided'}), 400
     
     try:
+        # Extract feedback data
+        video_id = data.get('video_id')
+        rating = int(data.get('rating', 0))
+        skip_reason = data.get('skip_reason')
+        listen_duration = float(data.get('listen_duration', 0))
+        session_id = data.get('session_id')
+        
+        print(f"Processing feedback for video {video_id}")
+        print(f"Rating: {rating}")
+        print(f"Session ID: {session_id}")
+        
+        if not video_id or not rating or not session_id:
+            print("Missing required feedback data")
+            return jsonify({'error': 'Missing required data'}), 400
+        
         # Record feedback
-        feedback_recommender.record_feedback(
+        feedback = feedback_recommender.record_feedback(
             session_id=session_id,
             video_id=video_id,
             rating=rating,
@@ -451,8 +462,11 @@ def api_feedback():
             listen_duration=listen_duration
         )
         
-        return jsonify({'success': True})
+        print("Feedback recorded successfully")
+        return jsonify({'success': True, 'feedback': feedback})
+        
     except Exception as e:
+        print(f"Error processing feedback: {str(e)}")
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/final_playlist', methods=['POST'])

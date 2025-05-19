@@ -1,0 +1,383 @@
+{
+  "user_id": "user_20250519110233_2171",
+  "user_name": null,
+  "last_updated": "2025-05-19T11:03:49.075378",
+  "history": [
+    {
+      "session_id": "session_20250519110306_6190",
+      "data": {
+        "timestamp": "2025-05-19T11:03:06.144802",
+        "text_input": "I am feeling sad and tired and I want sad music to cry to. ",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "The Weeknd"
+          ],
+          "activity": "Relaxing",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.7,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "J5IeFzr2GgE",
+            "title": "Roddy Ricch - Survivors Remorse [Official Music Video]",
+            "artist": "Roddy Ricch",
+            "genre": "Unknown",
+            "views": 7487503,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=J5IeFzr2GgE",
+            "embed_url": "https://www.youtube.com/embed/J5IeFzr2GgE"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=aSkFygPCTwE",
+            "embed_url": "https://www.youtube.com/embed/aSkFygPCTwE"
+          },
+          {
+            "video_id": "8PvebsWcpto",
+            "title": "Florida Georgia Line - Cruise",
+            "artist": "FlaGeorgiaLineVEVO",
+            "genre": "Pop",
+            "views": 169763525,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=8PvebsWcpto",
+            "embed_url": "https://www.youtube.com/embed/8PvebsWcpto"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "Ahha3Cqe_fk",
+            "title": "Katy Perry - The One That Got Away (Official Music Video)",
+            "artist": "KatyPerryVEVO",
+            "match_score": 0.47280987873422514,
+            "genre": "Pop",
+            "views": 1072610765,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+            "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+          },
+          {
+            "video_id": "ZI-aPHeUDlk",
+            "title": "Chris Stapleton - Fire Away (Official Music Video)",
+            "artist": "ChrisStapletonVEVO",
+            "match_score": 0.4676157048176267,
+            "genre": "Pop",
+            "views": 157354117,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=ZI-aPHeUDlk",
+            "embed_url": "https://www.youtube.com/embed/ZI-aPHeUDlk"
+          },
+          {
+            "video_id": "KNtJGQkC-WI",
+            "title": "Ariana Grande - we can't be friends (wait for your love) (official music video)",
+            "artist": "ArianaGrandeVevo",
+            "match_score": 0.45838519840201425,
+            "genre": "Pop",
+            "views": 270114660,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=KNtJGQkC-WI",
+            "embed_url": "https://www.youtube.com/embed/KNtJGQkC-WI"
+          },
+          {
+            "video_id": "XfMBdq5iFnw",
+            "title": "Mitski - I Bet on Losing Dogs (Official Audio)",
+            "artist": "Mitski",
+            "match_score": 0.41535081759313774,
+            "genre": "Unknown",
+            "views": 19642729,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=XfMBdq5iFnw",
+            "embed_url": "https://www.youtube.com/embed/XfMBdq5iFnw"
+          },
+          {
+            "video_id": "W-TE_Ys4iwM",
+            "title": "One Direction - Story of My Life",
+            "artist": "OneDirectionVEVO",
+            "match_score": 0.4151764932947581,
+            "genre": "Pop",
+            "views": 1045431431,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+            "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM"
+          },
+          {
+            "video_id": "FauDn2LkeQ4",
+            "title": "Don Toliver - BANDIT [Official Music Video]",
+            "artist": "Don Toliver",
+            "genre": "Unknown",
+            "views": 11718012,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=FauDn2LkeQ4",
+            "embed_url": "https://www.youtube.com/embed/FauDn2LkeQ4"
+          },
+          {
+            "video_id": "8JnfIa84TnU",
+            "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 1057802187,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=8JnfIa84TnU",
+            "embed_url": "https://www.youtube.com/embed/8JnfIa84TnU"
+          },
+          {
+            "video_id": "850IP1bKV2g",
+            "title": "Lil Durk - Turn Up A Notch (Official Music Video)",
+            "artist": "LilDurkVEVO",
+            "genre": "Pop",
+            "views": 10147456,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=850IP1bKV2g",
+            "embed_url": "https://www.youtube.com/embed/850IP1bKV2g"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "match_score": 0.4303656178729989,
+            "genre": "Pop",
+            "views": 195687371,
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.42117187686792446,
+            "genre": "Pop",
+            "views": 307140195,
+            "youtube_url": "https://www.youtube.com/watch?v=TTA2buWlNyM",
+            "embed_url": "https://www.youtube.com/embed/TTA2buWlNyM"
+          },
+          {
+            "video_id": "SlPhMPnQ58k",
+            "title": "Maroon 5 - Memories (Official Video)",
+            "artist": "Maroon5VEVO",
+            "match_score": 0.39701392090163684,
+            "genre": "Pop",
+            "views": 1136531104,
+            "youtube_url": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+            "embed_url": "https://www.youtube.com/embed/SlPhMPnQ58k"
+          },
+          {
+            "video_id": "aJqW7PUozlU",
+            "title": "Declan McKenna - Slipping Through My Fingers (Official Audio)",
+            "artist": "DeclanMcKennaVEVO",
+            "match_score": 0.38646202302322497,
+            "genre": "Pop",
+            "views": 1652373,
+            "youtube_url": "https://www.youtube.com/watch?v=aJqW7PUozlU",
+            "embed_url": "https://www.youtube.com/embed/aJqW7PUozlU"
+          },
+          {
+            "video_id": "ldQrapQ4d0Y",
+            "title": "Toby Keith - As Good As I Once Was",
+            "artist": "TobyKeithVEVO",
+            "match_score": 0.3747554682695268,
+            "genre": "Pop",
+            "views": 170368308,
+            "youtube_url": "https://www.youtube.com/watch?v=ldQrapQ4d0Y",
+            "embed_url": "https://www.youtube.com/embed/ldQrapQ4d0Y"
+          },
+          {
+            "video_id": "zABLecsR5UE",
+            "title": "Lewis Capaldi - Someone You Loved",
+            "artist": "LewisCapaldiVEVO",
+            "match_score": 0.3620607403152041,
+            "genre": "Pop",
+            "views": 1032084551,
+            "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+            "embed_url": "https://www.youtube.com/embed/zABLecsR5UE"
+          },
+          {
+            "video_id": "pB-5XG-DbAA",
+            "title": "Sam Smith - Stay With Me (Official Music Video)",
+            "artist": "SamSmithVEVO",
+            "match_score": 0.3550426736349272,
+            "genre": "Pop",
+            "views": 1237103546,
+            "youtube_url": "https://www.youtube.com/watch?v=pB-5XG-DbAA",
+            "embed_url": "https://www.youtube.com/embed/pB-5XG-DbAA"
+          },
+          {
+            "video_id": "7z2EJaSLlGg",
+            "title": "Little Suzie - Protactinium [Official Musicvideo]",
+            "artist": "Protactinium Punk",
+            "genre": "Unknown",
+            "views": 10573,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=7z2EJaSLlGg",
+            "embed_url": "https://www.youtube.com/embed/7z2EJaSLlGg"
+          },
+          {
+            "video_id": "m7Bc3pLyij0",
+            "title": "Marshmello ft. Bastille - Happier (Official Music Video)",
+            "artist": "Marshmello",
+            "match_score": 0.43854571832392664,
+            "genre": "Unknown",
+            "views": 1310015713,
+            "youtube_url": "https://www.youtube.com/watch?v=m7Bc3pLyij0",
+            "embed_url": "https://www.youtube.com/embed/m7Bc3pLyij0"
+          },
+          {
+            "video_id": "cH4E_t3m3xM",
+            "title": "Selena Gomez, Marshmello - Wolves",
+            "artist": "SelenaGomezVEVO",
+            "genre": "Pop",
+            "views": 582723485,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=cH4E_t3m3xM",
+            "embed_url": "https://www.youtube.com/embed/cH4E_t3m3xM"
+          },
+          {
+            "video_id": "Ip6cw8gfHHI",
+            "title": "d4vd - Here With Me [Official Music Video]",
+            "artist": "d4vdVEVO",
+            "match_score": 0.4383314617727165,
+            "genre": "Pop",
+            "views": 204762209,
+            "youtube_url": "https://www.youtube.com/watch?v=Ip6cw8gfHHI",
+            "embed_url": "https://www.youtube.com/embed/Ip6cw8gfHHI"
+          },
+          {
+            "video_id": "IZbN_nmxAGk",
+            "title": "Brad Paisley - Whiskey Lullaby (Full Version - Official Video) ft. Alison Krauss",
+            "artist": "BRADPAISLEYVEVO",
+            "match_score": 0.3652695702561515,
+            "genre": "Pop",
+            "views": 289581715,
+            "youtube_url": "https://www.youtube.com/watch?v=IZbN_nmxAGk",
+            "embed_url": "https://www.youtube.com/embed/IZbN_nmxAGk"
+          },
+          {
+            "video_id": "O0dajiO1ZIc",
+            "title": "Jazmine Sullivan - Hurt Me So Good (Lyric Video)",
+            "artist": "JazmineSullivanVEVO",
+            "match_score": 0.34804339262629075,
+            "genre": "Pop",
+            "views": 22164939,
+            "youtube_url": "https://www.youtube.com/watch?v=O0dajiO1ZIc",
+            "embed_url": "https://www.youtube.com/embed/O0dajiO1ZIc"
+          },
+          {
+            "video_id": "ksdAs4LBRq8",
+            "title": "Rita Ora - Anywhere [Official Video]",
+            "artist": "Rita Ora",
+            "genre": "Unknown",
+            "views": 380715906,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "N9bKBAA22Go",
+            "title": "Future, Metro Boomin, Kendrick Lamar - Like That (Official Audio)",
+            "artist": "FutureVEVO",
+            "genre": "Pop",
+            "views": 135722875,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": -0.5,
+      "Unknown": 1.0
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "MarkRonsonVEVO": -1.0,
+      "DeclanMcKennaVEVO": 0.75,
+      "Marshmello": 1.5
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-19T11:03:16.518041",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 1,
+      "skip_reason": "Too fast",
+      "listen_duration": 5.954,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular",
+        "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+        "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+      }
+    },
+    {
+      "timestamp": "2025-05-19T11:03:38.632895",
+      "video_id": "aJqW7PUozlU",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 3.441,
+      "video_data": {
+        "video_id": "aJqW7PUozlU",
+        "title": "Declan McKenna - Slipping Through My Fingers (Official Audio)",
+        "artist": "DeclanMcKennaVEVO",
+        "match_score": 0.38646202302322497,
+        "genre": "Pop",
+        "views": 1652373,
+        "youtube_url": "https://www.youtube.com/watch?v=aJqW7PUozlU",
+        "embed_url": "https://www.youtube.com/embed/aJqW7PUozlU"
+      }
+    },
+    {
+      "timestamp": "2025-05-19T11:03:48.147955",
+      "video_id": "m7Bc3pLyij0",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 2.372,
+      "video_data": {
+        "video_id": "m7Bc3pLyij0",
+        "title": "Marshmello ft. Bastille - Happier (Official Music Video)",
+        "artist": "Marshmello",
+        "match_score": 0.43854571832392664,
+        "genre": "Unknown",
+        "views": 1310015713,
+        "youtube_url": "https://www.youtube.com/watch?v=m7Bc3pLyij0",
+        "embed_url": "https://www.youtube.com/embed/m7Bc3pLyij0"
+      }
+    }
+  ]
+}

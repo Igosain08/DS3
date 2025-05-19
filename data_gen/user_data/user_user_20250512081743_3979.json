@@ -1,0 +1,1834 @@
+{
+  "user_id": "user_20250512081743_3979",
+  "user_name": null,
+  "last_updated": "2025-05-14T09:51:27.216453",
+  "history": [
+    {
+      "session_id": "session_20250512091935_4035",
+      "data": {
+        "timestamp": "2025-05-12T09:19:35.438865",
+        "text_input": "I'm feeling energetic and happy.. Also, I enjoy H, i, p music. I like artists such as . I'll be studying. I'm at work. It's morning now.",
+        "additional_context": {
+          "genres": "Hip-Hop",
+          "disliked_genres": "Metal",
+          "artists": [
+            ""
+          ],
+          "activity": "Studying",
+          "environment": "Work",
+          "time_of_day": "Morning",
+          "diversity": 0.6,
+          "playlist_size": 15
+        },
+        "recommendations": [
+          {
+            "video_id": "6uoOoPI7VCA",
+            "title": "Racewall Mosquitoes - Miles Above [Official Music Video]",
+            "artist": "Racewall Mosquitoes",
+            "match_score": 0.5572218435486771,
+            "genre": "Unknown",
+            "views": 98528,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=6uoOoPI7VCA",
+            "embed_url": "https://www.youtube.com/embed/6uoOoPI7VCA"
+          },
+          {
+            "video_id": "f4sdG5frA0Q",
+            "title": "Brooks & Dunn - Neon Moon (iTunes Originals)",
+            "artist": "BrooksandDunnVEVO",
+            "match_score": 0.5055082301967944,
+            "genre": "Pop",
+            "views": 4094682,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=f4sdG5frA0Q",
+            "embed_url": "https://www.youtube.com/embed/f4sdG5frA0Q"
+          },
+          {
+            "video_id": "snH91WGT1UE",
+            "title": "Brent Faiyaz - JACKIE BROWN [Official Audio]",
+            "artist": "Brent Faiyaz",
+            "genre": "Unknown",
+            "views": 22632317,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=snH91WGT1UE",
+            "embed_url": "https://www.youtube.com/embed/snH91WGT1UE"
+          },
+          {
+            "video_id": "IUmnTfsY3hI",
+            "title": "John Denver - Take Me Home, Country Roads (from The Wildlife Concert)",
+            "artist": "JohnDenverVEVO",
+            "genre": "Pop",
+            "views": 81298584,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=IUmnTfsY3hI",
+            "embed_url": "https://www.youtube.com/embed/IUmnTfsY3hI"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4969852780854391,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=aSkFygPCTwE",
+            "embed_url": "https://www.youtube.com/embed/aSkFygPCTwE"
+          },
+          {
+            "video_id": "c4qgqNS_20s",
+            "title": "Dan + Shay - Tequila (Official Music Video)",
+            "artist": "Dan + Shay",
+            "match_score": 0.4838790619439431,
+            "genre": "Unknown",
+            "views": 158004971,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=c4qgqNS_20s",
+            "embed_url": "https://www.youtube.com/embed/c4qgqNS_20s"
+          },
+          {
+            "video_id": "pYdvxBxHX2U",
+            "title": "Uncle Lucius - Keep The Wolves Away",
+            "artist": "UncleLuciusVEVO",
+            "match_score": 0.46120922382512053,
+            "genre": "Pop",
+            "views": 173052525,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=pYdvxBxHX2U",
+            "embed_url": "https://www.youtube.com/embed/pYdvxBxHX2U"
+          },
+          {
+            "video_id": "KHpNj3K2o7E",
+            "title": "Rose Cora Perry & The Truth Untold: The Cure (2024 Music Video)",
+            "artist": "Rose Cora Perry",
+            "match_score": 0.44053895572893104,
+            "genre": "Unknown",
+            "views": 90114,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=KHpNj3K2o7E",
+            "embed_url": "https://www.youtube.com/embed/KHpNj3K2o7E"
+          },
+          {
+            "video_id": "LBr7kECsjcQ",
+            "title": "Fall Out Boy - Centuries (Official Video)",
+            "artist": "FallOutBoyVEVO",
+            "genre": "Pop",
+            "views": 478360372,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "awzNHuGqoMc",
+            "title": "Tim McGraw - Humble And Kind (Official Music Video)",
+            "artist": "TimMcGrawVEVO",
+            "match_score": 0.43668367867509106,
+            "genre": "Pop",
+            "views": 167525600
+          },
+          {
+            "video_id": "a2a9fgPI_PI",
+            "title": "Luke Combs - She Got the Best of Me (Official Video)",
+            "artist": "LukeCombsVEVO",
+            "match_score": 0.40701581868196146,
+            "genre": "Pop",
+            "views": 226818774
+          },
+          {
+            "video_id": "btPJPFnesV4",
+            "title": "Survivor - Eye Of The Tiger (Official HD Video)",
+            "artist": "SurvivorVEVO",
+            "match_score": 0.3669000781284174,
+            "genre": "Pop",
+            "views": 1106219740
+          },
+          {
+            "video_id": "7qzhngp7jh8",
+            "title": "Brad Paisley - Remind Me (Official Video) ft. Carrie Underwood",
+            "artist": "BRADPAISLEYVEVO",
+            "match_score": 0.3637312230747237,
+            "genre": "Pop",
+            "views": 166641518
+          },
+          {
+            "video_id": "Mu5WN3mlhpY",
+            "title": "Ken Pomeroy \"Flannel Cowboy\" (Official Audio)",
+            "artist": "Ken Pomeroy",
+            "genre": "Unknown",
+            "views": 8699,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "HK977Z_K9yI",
+            "title": "Coco Jones - On Sight",
+            "artist": "Coco Jones",
+            "match_score": 0.3882936873855687,
+            "genre": "Unknown",
+            "views": 697841
+          },
+          {
+            "video_id": "LpqXgrqzkRQ",
+            "title": "Ella Henderson x Switch Disco \u2013 Under The Sun (with Alok) [Official Lyric Video]",
+            "artist": "Ella Henderson",
+            "match_score": 0.38070195987730393,
+            "genre": "Unknown",
+            "views": 1869435
+          },
+          {
+            "video_id": "-tJYN-eG1zk",
+            "title": "Queen - We Will Rock You (Official Video)",
+            "artist": "Queen Official",
+            "match_score": 0.38378903400839337,
+            "genre": "Unknown",
+            "views": 638757544
+          },
+          {
+            "video_id": "RB-RcX5DS5A",
+            "title": "Coldplay - The Scientist (Official 4K Video)",
+            "artist": "Coldplay",
+            "match_score": 0.3784455000614301,
+            "genre": "Unknown",
+            "views": 1270432688
+          }
+        ],
+        "feedback": {
+          "6uoOoPI7VCA": {
+            "timestamp": "2025-05-12T09:19:58.905108",
+            "video_id": "6uoOoPI7VCA",
+            "rating": 1,
+            "skip_reason": "Not applicable",
+            "listen_duration": 8.128,
+            "video_data": {
+              "video_id": "6uoOoPI7VCA",
+              "title": "Racewall Mosquitoes - Miles Above [Official Music Video]",
+              "artist": "Racewall Mosquitoes",
+              "match_score": 0.5572218435486771,
+              "genre": "Unknown",
+              "views": 98528,
+              "recommendation_method": "text",
+              "youtube_url": "https://www.youtube.com/watch?v=6uoOoPI7VCA",
+              "embed_url": "https://www.youtube.com/embed/6uoOoPI7VCA"
+            },
+            "session_id": "session_20250512091935_4035"
+          }
+        },
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514083952_4592",
+      "data": {
+        "timestamp": "2025-05-14T08:39:52.135568",
+        "text_input": "I'm feeling energetic and want up-beat happy music for my workout. ",
+        "additional_context": {
+          "genres": "Hip-Hop",
+          "artists": [
+            "Travis Scott",
+            "Drake",
+            "Taylor Swift"
+          ],
+          "activity": "Exercising",
+          "environment": "Gym",
+          "time_of_day": "Evening",
+          "diversity": 0.1,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5469942217737183,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=a_DuSbMvOQs",
+            "embed_url": "https://www.youtube.com/embed/a_DuSbMvOQs"
+          },
+          {
+            "video_id": "fM8V1XOI-14",
+            "title": "Kane Brown - What Ifs ft. Lauren Alaina",
+            "artist": "KaneBrownVEVO",
+            "genre": "Pop",
+            "views": 342098660,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=fM8V1XOI-14",
+            "embed_url": "https://www.youtube.com/embed/fM8V1XOI-14"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.4844107747253754,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=kmpyfDF_pes",
+            "embed_url": "https://www.youtube.com/embed/kmpyfDF_pes"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4672884696657984,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=xnumI3_qt-w",
+            "embed_url": "https://www.youtube.com/embed/xnumI3_qt-w"
+          },
+          {
+            "video_id": "CbxuXq_981s",
+            "title": "Florida Georgia Line - This Is How We Roll ft. Luke Bryan",
+            "artist": "FlaGeorgiaLineVEVO",
+            "match_score": 0.42513787817234183,
+            "genre": "Pop",
+            "views": 271925958,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=CbxuXq_981s",
+            "embed_url": "https://www.youtube.com/embed/CbxuXq_981s"
+          },
+          {
+            "video_id": "Ztwa2xFrWII",
+            "title": "Rob49 - Wassam Baby (with Lil Wayne) [Official Video]",
+            "artist": "ROB49",
+            "genre": "Unknown",
+            "views": 21420855,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=Ztwa2xFrWII",
+            "embed_url": "https://www.youtube.com/embed/Ztwa2xFrWII"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.46163903410553236,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=hLDQ88vAhIs",
+            "embed_url": "https://www.youtube.com/embed/hLDQ88vAhIs"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514084300_2741",
+      "data": {
+        "timestamp": "2025-05-14T08:43:00.800094",
+        "text_input": "I'm feeling sad and lonely. I want sad music that will make me cry.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey"
+          ],
+          "activity": "Relaxing",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.1,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "B4UdAJxAoiw",
+            "title": "d4vd - My House Is Not A Home",
+            "artist": "d4vdVEVO",
+            "genre": "Pop",
+            "views": 9198283,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=B4UdAJxAoiw",
+            "embed_url": "https://www.youtube.com/embed/B4UdAJxAoiw"
+          },
+          {
+            "video_id": "Ahha3Cqe_fk",
+            "title": "Katy Perry - The One That Got Away (Official Music Video)",
+            "artist": "KatyPerryVEVO",
+            "match_score": 0.49220463428842437,
+            "genre": "Pop",
+            "views": 1072610765,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+            "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+          },
+          {
+            "video_id": "ZI-aPHeUDlk",
+            "title": "Chris Stapleton - Fire Away (Official Music Video)",
+            "artist": "ChrisStapletonVEVO",
+            "match_score": 0.47931111382946745,
+            "genre": "Pop",
+            "views": 157354117,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=ZI-aPHeUDlk",
+            "embed_url": "https://www.youtube.com/embed/ZI-aPHeUDlk"
+          },
+          {
+            "video_id": "KNtJGQkC-WI",
+            "title": "Ariana Grande - we can't be friends (wait for your love) (official music video)",
+            "artist": "ArianaGrandeVevo",
+            "match_score": 0.4622917108531861,
+            "genre": "Pop",
+            "views": 270114660,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=KNtJGQkC-WI",
+            "embed_url": "https://www.youtube.com/embed/KNtJGQkC-WI"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "match_score": 0.43442650635413893,
+            "genre": "Pop",
+            "views": 195687371,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "W-TE_Ys4iwM",
+            "title": "One Direction - Story of My Life",
+            "artist": "OneDirectionVEVO",
+            "match_score": 0.4141329353647654,
+            "genre": "Pop",
+            "views": 1045431431,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+            "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM"
+          },
+          {
+            "video_id": "s616v2pSWDU",
+            "title": "Major Lazer - Run Up (feat. PARTYNEXTDOOR & Nicki Minaj) [Official Music Video]",
+            "artist": "Major Lazer Official",
+            "genre": "Unknown",
+            "views": 124090985,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=s616v2pSWDU",
+            "embed_url": "https://www.youtube.com/embed/s616v2pSWDU"
+          },
+          {
+            "video_id": "XfMBdq5iFnw",
+            "title": "Mitski - I Bet on Losing Dogs (Official Audio)",
+            "artist": "Mitski",
+            "match_score": 0.4143824330411358,
+            "genre": "Unknown",
+            "views": 19642729,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=XfMBdq5iFnw",
+            "embed_url": "https://www.youtube.com/embed/XfMBdq5iFnw"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514092806_5415",
+      "data": {
+        "timestamp": "2025-05-14T09:28:06.091959",
+        "text_input": "I am feeling really sad and tired, and I want slow and sad songs to cry to.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Lana Del Rey",
+            "Morgan Wallen"
+          ],
+          "activity": "Relaxing",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.0,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "e0m1VmAVtXQ",
+            "title": "DeathbyRomy - Little Dreamer (Official Music Video)",
+            "artist": "DeathbyRomy",
+            "genre": "Metal",
+            "views": 65670,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "9xF9iQiS2Vs",
+            "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+            "artist": "Rap Samurai",
+            "genre": "Hip-Hop",
+            "views": 63078092,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "ZhIsAZO5gl0",
+            "title": "Kiss - I Was Made For Lovin' You",
+            "artist": "KissVEVO",
+            "genre": "Pop",
+            "views": 860545964,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "aatr_2MstrI",
+            "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 1384724570,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "Ip6cw8gfHHI",
+            "title": "d4vd - Here With Me [Official Music Video]",
+            "artist": "d4vdVEVO",
+            "match_score": 0.43798589841822433,
+            "genre": "Pop",
+            "views": 204762209
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.41826257469049527,
+            "genre": "Pop",
+            "views": 307140195
+          },
+          {
+            "video_id": "GemKqzILV4w",
+            "title": "Snow Patrol - Chasing Cars (Official Video)",
+            "artist": "SnowPatrolVEVO",
+            "match_score": 0.40463417471749613,
+            "genre": "Pop",
+            "views": 392260888
+          },
+          {
+            "video_id": "4D89Qr5vH6U",
+            "title": "Toosii - Favorite Song (Official Video)",
+            "artist": "Toosii2xVEVO",
+            "match_score": 0.40395773454676404,
+            "genre": "Pop",
+            "views": 291449354
+          },
+          {
+            "video_id": "SlPhMPnQ58k",
+            "title": "Maroon 5 - Memories (Official Video)",
+            "artist": "Maroon5VEVO",
+            "match_score": 0.38455072134337875,
+            "genre": "Pop",
+            "views": 1136531104
+          },
+          {
+            "video_id": "VS6ixn2berk",
+            "title": "Chappell Roan - Red Wine Supernova (Magician's Cut)",
+            "artist": "Chappell Roan",
+            "genre": "Unknown",
+            "views": 21021883,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514093022_1320",
+      "data": {
+        "timestamp": "2025-05-14T09:30:22.709270",
+        "text_input": "I'm feeling really tired, sad, and lonely. I want sad music to cry to.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "Shawn Mendes",
+            "The Weeknd"
+          ],
+          "activity": "Relaxing",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.0,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "FlvQrMidE3w",
+            "title": "Drake - No Face",
+            "artist": "Rap Nation",
+            "genre": "Hip-Hop",
+            "views": 1578316,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=FlvQrMidE3w",
+            "embed_url": "https://www.youtube.com/embed/FlvQrMidE3w"
+          },
+          {
+            "video_id": "dRX0wDNK6S4",
+            "title": "Kane Brown - Heaven",
+            "artist": "KaneBrownVEVO",
+            "genre": "Pop",
+            "views": 593882587,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=dRX0wDNK6S4",
+            "embed_url": "https://www.youtube.com/embed/dRX0wDNK6S4"
+          },
+          {
+            "video_id": "CD-E-LDc384",
+            "title": "Metallica: Enter Sandman (Official Music Video)",
+            "artist": "Metallica",
+            "genre": "Metal",
+            "views": 717751309,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=CD-E-LDc384",
+            "embed_url": "https://www.youtube.com/embed/CD-E-LDc384"
+          },
+          {
+            "video_id": "aJqW7PUozlU",
+            "title": "Declan McKenna - Slipping Through My Fingers (Official Audio)",
+            "artist": "DeclanMcKennaVEVO",
+            "match_score": 0.3899889229522716,
+            "genre": "Pop",
+            "views": 1652373,
+            "youtube_url": "https://www.youtube.com/watch?v=aJqW7PUozlU",
+            "embed_url": "https://www.youtube.com/embed/aJqW7PUozlU"
+          },
+          {
+            "video_id": "ldQrapQ4d0Y",
+            "title": "Toby Keith - As Good As I Once Was",
+            "artist": "TobyKeithVEVO",
+            "match_score": 0.375768888012111,
+            "genre": "Pop",
+            "views": 170368308,
+            "youtube_url": "https://www.youtube.com/watch?v=ldQrapQ4d0Y",
+            "embed_url": "https://www.youtube.com/embed/ldQrapQ4d0Y"
+          },
+          {
+            "video_id": "zABLecsR5UE",
+            "title": "Lewis Capaldi - Someone You Loved",
+            "artist": "LewisCapaldiVEVO",
+            "match_score": 0.3697587136809877,
+            "genre": "Pop",
+            "views": 1032084551,
+            "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+            "embed_url": "https://www.youtube.com/embed/zABLecsR5UE"
+          },
+          {
+            "video_id": "48lhqX3jpKY",
+            "title": "Ndotz - Embrace It",
+            "artist": "BROKE",
+            "genre": "Unknown",
+            "views": 20067475,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=48lhqX3jpKY",
+            "embed_url": "https://www.youtube.com/embed/48lhqX3jpKY"
+          }
+        ],
+        "feedback": {
+          "zABLecsR5UE": {
+            "timestamp": "2025-05-14T09:30:32.043175",
+            "video_id": "zABLecsR5UE",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 3.208,
+            "video_data": {
+              "video_id": "zABLecsR5UE",
+              "title": "Lewis Capaldi - Someone You Loved",
+              "artist": "LewisCapaldiVEVO",
+              "match_score": 0.3697587136809877,
+              "genre": "Pop",
+              "views": 1032084551,
+              "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+              "embed_url": "https://www.youtube.com/embed/zABLecsR5UE"
+            },
+            "session_id": "session_20250514093022_1320"
+          }
+        },
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514094645_9213",
+      "data": {
+        "timestamp": "2025-05-14T09:46:45.963232",
+        "text_input": "I'm feeling emotionally drained\u2014tired, sad, and incredibly alone. I want music that understands this kind of ache. Songs that feel like late-night tears, quiet heartbreak, and empty rooms. No upbeat twists, just raw sadness that lets me sit with these feelings and cry without holding back.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "John Legend"
+          ],
+          "activity": "Relaxing",
+          "diversity": 0.7,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "zPG1n1B0Ydw",
+            "title": "Sugarland - Stay (Official Video)",
+            "artist": "SugarlandVEVO",
+            "match_score": 0.501803249542263,
+            "genre": "Pop",
+            "views": 218821929,
+            "youtube_url": "https://www.youtube.com/watch?v=zPG1n1B0Ydw",
+            "embed_url": "https://www.youtube.com/embed/zPG1n1B0Ydw"
+          },
+          {
+            "video_id": "I0fgkcTbBoI",
+            "title": "Future, Metro Boomin, Travis Scott, Playboi Carti - Type Shit (Official Video)",
+            "artist": "FutureVEVO",
+            "genre": "Pop",
+            "views": 111813041,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=I0fgkcTbBoI",
+            "embed_url": "https://www.youtube.com/embed/I0fgkcTbBoI"
+          },
+          {
+            "video_id": "O0dajiO1ZIc",
+            "title": "Jazmine Sullivan - Hurt Me So Good (Lyric Video)",
+            "artist": "JazmineSullivanVEVO",
+            "match_score": 0.4280907393312428,
+            "genre": "Pop",
+            "views": 22164939,
+            "youtube_url": "https://www.youtube.com/watch?v=O0dajiO1ZIc",
+            "embed_url": "https://www.youtube.com/embed/O0dajiO1ZIc"
+          },
+          {
+            "video_id": "YAe3wmYqXUQ",
+            "title": "Khalid - Please Don't Fall In Love With Me (Visualizer)",
+            "artist": "KhalidVEVO",
+            "match_score": 0.407193711869446,
+            "genre": "Pop",
+            "views": 8746693,
+            "youtube_url": "https://www.youtube.com/watch?v=YAe3wmYqXUQ",
+            "embed_url": "https://www.youtube.com/embed/YAe3wmYqXUQ"
+          },
+          {
+            "video_id": "e4ujS1er1r0",
+            "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+            "artist": "Zac Brown Band",
+            "genre": "Rock",
+            "views": 165938502,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=e4ujS1er1r0",
+            "embed_url": "https://www.youtube.com/embed/e4ujS1er1r0"
+          },
+          {
+            "video_id": "o09p-cRcl0Q",
+            "title": "Matt Champion & JENNIE - Slow Motion",
+            "artist": "Matt Champion",
+            "genre": "Unknown",
+            "views": 2517804,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=o09p-cRcl0Q",
+            "embed_url": "https://www.youtube.com/embed/o09p-cRcl0Q"
+          },
+          {
+            "video_id": "0ZNJ5IdW9UY",
+            "title": "Sleepy Hallow - Cupid's Guidance (Official Video)",
+            "artist": "Sleepy Hallow",
+            "match_score": 0.414772400151205,
+            "genre": "Unknown",
+            "views": 4105806,
+            "youtube_url": "https://www.youtube.com/watch?v=0ZNJ5IdW9UY",
+            "embed_url": "https://www.youtube.com/embed/0ZNJ5IdW9UY"
+          }
+        ],
+        "feedback": {
+          "YAe3wmYqXUQ": {
+            "timestamp": "2025-05-14T09:47:02.328138",
+            "video_id": "YAe3wmYqXUQ",
+            "rating": 4,
+            "skip_reason": null,
+            "listen_duration": 3.019,
+            "video_data": {
+              "video_id": "YAe3wmYqXUQ",
+              "title": "Khalid - Please Don't Fall In Love With Me (Visualizer)",
+              "artist": "KhalidVEVO",
+              "match_score": 0.407193711869446,
+              "genre": "Pop",
+              "views": 8746693,
+              "youtube_url": "https://www.youtube.com/watch?v=YAe3wmYqXUQ",
+              "embed_url": "https://www.youtube.com/embed/YAe3wmYqXUQ"
+            },
+            "session_id": "session_20250514094645_9213"
+          }
+        },
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514094943_4435",
+      "data": {
+        "timestamp": "2025-05-14T09:49:43.542218",
+        "text_input": "I want to listen to upbeat, happy, and energetic music that instantly boosts my mood. Give me songs that feel fun, carefree, and make me want to dance around without thinking. Think good vibes, sunshine, and windows-down energy.",
+        "additional_context": {
+          "genres": "Pop",
+          "disliked_genres": "Hip-Hop",
+          "artists": [
+            "Justin Bieber",
+            "Taylor Swift",
+            "Rihanna"
+          ],
+          "activity": "Exercising",
+          "environment": "Outdoors",
+          "time_of_day": "Afternoon",
+          "diversity": 0.3,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "6xMBmvevhj0",
+            "title": "Calvin Harris - Nuh Ready Nuh Ready (Official Video) ft. PARTYNEXTDOOR",
+            "artist": "CalvinHarrisVEVO",
+            "match_score": 0.5026644609991995,
+            "genre": "Pop",
+            "views": 7925188,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=6xMBmvevhj0",
+            "embed_url": "https://www.youtube.com/embed/6xMBmvevhj0"
+          },
+          {
+            "video_id": "1JltlSJH5bY",
+            "title": "Tems - Me & U (Official Video)",
+            "artist": "TemsVEVO",
+            "match_score": 0.4990345362440452,
+            "genre": "Pop",
+            "views": 65289556,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=1JltlSJH5bY",
+            "embed_url": "https://www.youtube.com/embed/1JltlSJH5bY"
+          },
+          {
+            "video_id": "QcIy9NiNbmo",
+            "title": "Taylor Swift - Bad Blood ft. Kendrick Lamar",
+            "artist": "TaylorSwiftVEVO",
+            "genre": "Pop",
+            "views": 1655954204,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=QcIy9NiNbmo",
+            "embed_url": "https://www.youtube.com/embed/QcIy9NiNbmo"
+          },
+          {
+            "video_id": "03mfwKTXycg",
+            "title": "The Blacktones  //  Russian Doll [Official Video]",
+            "artist": "TheBlacktonesBand",
+            "genre": "Rock",
+            "views": 2473,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=03mfwKTXycg",
+            "embed_url": "https://www.youtube.com/embed/03mfwKTXycg"
+          },
+          {
+            "video_id": "ZkXG3ZrXlbc",
+            "title": "DRAKE - FAMILY MATTERS",
+            "artist": "Drake",
+            "genre": "Unknown",
+            "views": 46294571,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=ZkXG3ZrXlbc",
+            "embed_url": "https://www.youtube.com/embed/ZkXG3ZrXlbc"
+          },
+          {
+            "video_id": "qGDsMXdQoyI",
+            "title": "Billy Gillies - DNA (Loving You) [feat. Hannah Boleyn] [Official Audio]",
+            "artist": "Billy Gillies",
+            "match_score": 0.4798487381289668,
+            "genre": "Unknown",
+            "views": 25760755,
+            "youtube_url": "https://www.youtube.com/watch?v=qGDsMXdQoyI",
+            "embed_url": "https://www.youtube.com/embed/qGDsMXdQoyI"
+          },
+          {
+            "video_id": "b8lPeWRBLvE",
+            "title": "The Blessed Madonna & Kylie Minogue - Edge Of Saturday Night (Official Video)",
+            "artist": "Kylie Minogue",
+            "match_score": 0.4770438487577815,
+            "genre": "Unknown",
+            "views": 1674292,
+            "youtube_url": "https://www.youtube.com/watch?v=b8lPeWRBLvE",
+            "embed_url": "https://www.youtube.com/embed/b8lPeWRBLvE"
+          },
+          {
+            "video_id": "FGR3fj5yCcA",
+            "title": "unfazed \u2013 A Gira (Official Music Video)",
+            "artist": "Spinnin' Records",
+            "match_score": 0.46259340507017227,
+            "genre": "Unknown",
+            "views": 2378389,
+            "youtube_url": "https://www.youtube.com/watch?v=FGR3fj5yCcA",
+            "embed_url": "https://www.youtube.com/embed/FGR3fj5yCcA"
+          },
+          {
+            "video_id": "evJ6gX1lp2o",
+            "title": "Artemas - i like the way you kiss me (official music video)",
+            "artist": "Artemas",
+            "match_score": 0.4635584715689498,
+            "genre": "Unknown",
+            "views": 173931717,
+            "youtube_url": "https://www.youtube.com/watch?v=evJ6gX1lp2o",
+            "embed_url": "https://www.youtube.com/embed/evJ6gX1lp2o"
+          },
+          {
+            "video_id": "t7WlAiX_q20",
+            "title": "Grace VanderWaal - Proud (Performance Video)",
+            "artist": "Grace VanderWaal",
+            "match_score": 0.43828762619966266,
+            "genre": "Unknown",
+            "views": 184475,
+            "youtube_url": "https://www.youtube.com/watch?v=t7WlAiX_q20",
+            "embed_url": "https://www.youtube.com/embed/t7WlAiX_q20"
+          }
+        ],
+        "feedback": {
+          "evJ6gX1lp2o": {
+            "timestamp": "2025-05-14T09:49:57.067357",
+            "video_id": "evJ6gX1lp2o",
+            "rating": 4,
+            "skip_reason": null,
+            "listen_duration": 3.558,
+            "video_data": {
+              "video_id": "evJ6gX1lp2o",
+              "title": "Artemas - i like the way you kiss me (official music video)",
+              "artist": "Artemas",
+              "match_score": 0.4635584715689498,
+              "genre": "Unknown",
+              "views": 173931717,
+              "youtube_url": "https://www.youtube.com/watch?v=evJ6gX1lp2o",
+              "embed_url": "https://www.youtube.com/embed/evJ6gX1lp2o"
+            },
+            "session_id": "session_20250514094943_4435"
+          }
+        },
+        "completed": false
+      }
+    },
+    {
+      "session_id": "session_20250514095126_3641",
+      "data": {
+        "timestamp": "2025-05-14T09:51:26.004999",
+        "text_input": "I want to listen to upbeat, happy, and energetic music that instantly boosts my mood. Give me songs that feel fun, carefree, and make me want to dance around without thinking. Think good vibes, sunshine, and windows-down energy.",
+        "additional_context": {
+          "genres": "Hip-Hop",
+          "artists": [
+            "Rihanna",
+            "Drake",
+            "Taylor Swift"
+          ],
+          "activity": "Exercising",
+          "environment": "Gym",
+          "diversity": 0.5,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "tGv7CUutzqU",
+            "title": "The 1975 - About You (Official)",
+            "artist": "The1975VEVO",
+            "genre": "Pop",
+            "views": 72564348,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "09R8_2nJtjg",
+            "title": "Maroon 5 - Sugar (Official Music Video)",
+            "artist": "Maroon5VEVO",
+            "genre": "Pop",
+            "views": 4232192352,
+            "recommendation_method": "genre_mix"
+          },
+          {
+            "video_id": "hT_nvWreIhg",
+            "title": "OneRepublic - Counting Stars",
+            "artist": "OneRepublicVEVO",
+            "genre": "Pop",
+            "views": 4159230049,
+            "recommendation_method": "genre_mix"
+          },
+          {
+            "video_id": "4C9i8E05bgI",
+            "title": "Kings Of Leon - Nowhere to Run (Official Video)",
+            "artist": "kingsofleonVEVO",
+            "match_score": 0.42867718985456893,
+            "genre": "Pop",
+            "views": 1281897
+          },
+          {
+            "video_id": "8BQqX3bUqtY",
+            "title": "Diplo - Get It Right (feat. M\u00d8) (Official Music Video)",
+            "artist": "Diplo",
+            "match_score": 0.5007306493648125,
+            "genre": "Unknown",
+            "views": 43539446
+          },
+          {
+            "video_id": "w0EF3AxJwLU",
+            "title": "Dimitri Vegas & Like Mike vs David Guetta ft. Kiiara - Complicated (Official Music Video)",
+            "artist": "Dimitri Vegas & Like Mike",
+            "genre": "Unknown",
+            "views": 91751279,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Unknown": -0.5,
+      "Pop": 1.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Unknown": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "Racewall Mosquitoes": -1.0,
+      "LewisCapaldiVEVO": 1.5,
+      "KhalidVEVO": 0.75,
+      "Artemas": 0.75
+    },
+    "playlists": [
+      {
+        "playlist_id": "playlist_20250514084013_4155",
+        "data": {
+          "name": "Your Pop & Rock Mix",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T08:40:13.169853",
+          "size": 16,
+          "tracks": [
+            {
+              "video_id": "papuvlVeZg8",
+              "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 3068579604,
+              "youtube_url": "https://www.youtube.com/watch?v=papuvlVeZg8",
+              "embed_url": "https://www.youtube.com/embed/papuvlVeZg8"
+            },
+            {
+              "video_id": "0KSOMA3QBU0",
+              "title": "Katy Perry - Dark Horse ft. Juicy J",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 3974603312,
+              "youtube_url": "https://www.youtube.com/watch?v=0KSOMA3QBU0",
+              "embed_url": "https://www.youtube.com/embed/0KSOMA3QBU0"
+            },
+            {
+              "video_id": "FlvQrMidE3w",
+              "title": "Drake - No Face",
+              "artist": "Rap Nation",
+              "genre": "Hip-Hop",
+              "views": 1578316,
+              "youtube_url": "https://www.youtube.com/watch?v=FlvQrMidE3w",
+              "embed_url": "https://www.youtube.com/embed/FlvQrMidE3w"
+            },
+            {
+              "video_id": "aJOTlE1K90k",
+              "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 3824681398,
+              "youtube_url": "https://www.youtube.com/watch?v=aJOTlE1K90k",
+              "embed_url": "https://www.youtube.com/embed/aJOTlE1K90k"
+            },
+            {
+              "video_id": "hT_nvWreIhg",
+              "title": "OneRepublic - Counting Stars",
+              "artist": "OneRepublicVEVO",
+              "genre": "Pop",
+              "views": 4159230049,
+              "youtube_url": "https://www.youtube.com/watch?v=hT_nvWreIhg",
+              "embed_url": "https://www.youtube.com/embed/hT_nvWreIhg"
+            },
+            {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 4232192352,
+              "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+              "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+            },
+            {
+              "video_id": "e-ORhEE9VVg",
+              "title": "Taylor Swift - Blank Space",
+              "artist": "TaylorSwiftVEVO",
+              "genre": "Pop",
+              "views": 3634500556,
+              "youtube_url": "https://www.youtube.com/watch?v=e-ORhEE9VVg",
+              "embed_url": "https://www.youtube.com/embed/e-ORhEE9VVg"
+            },
+            {
+              "video_id": "CevxZvSJLk8",
+              "title": "Katy Perry - Roar",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 4138780678,
+              "youtube_url": "https://www.youtube.com/watch?v=CevxZvSJLk8",
+              "embed_url": "https://www.youtube.com/embed/CevxZvSJLk8"
+            },
+            {
+              "video_id": "8JnfIa84TnU",
+              "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1057802187,
+              "youtube_url": "https://www.youtube.com/watch?v=8JnfIa84TnU",
+              "embed_url": "https://www.youtube.com/embed/8JnfIa84TnU"
+            },
+            {
+              "video_id": "uZs1AHQBz24",
+              "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 151938945,
+              "youtube_url": "https://www.youtube.com/watch?v=uZs1AHQBz24",
+              "embed_url": "https://www.youtube.com/embed/uZs1AHQBz24"
+            },
+            {
+              "video_id": "fRh_vgS2dFE",
+              "title": "Justin Bieber - Sorry (PURPOSE : The Movement)",
+              "artist": "JustinBieberVEVO",
+              "genre": "Pop",
+              "views": 3960627064,
+              "youtube_url": "https://www.youtube.com/watch?v=fRh_vgS2dFE",
+              "embed_url": "https://www.youtube.com/embed/fRh_vgS2dFE"
+            },
+            {
+              "video_id": "aatr_2MstrI",
+              "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1384724570,
+              "youtube_url": "https://www.youtube.com/watch?v=aatr_2MstrI",
+              "embed_url": "https://www.youtube.com/embed/aatr_2MstrI"
+            },
+            {
+              "video_id": "e4ujS1er1r0",
+              "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+              "artist": "Zac Brown Band",
+              "genre": "Rock",
+              "views": 165938502,
+              "youtube_url": "https://www.youtube.com/watch?v=e4ujS1er1r0",
+              "embed_url": "https://www.youtube.com/embed/e4ujS1er1r0"
+            },
+            {
+              "video_id": "rKFx0MMqb48",
+              "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+              "artist": "Kid Rock",
+              "genre": "Rock",
+              "views": 374271876,
+              "youtube_url": "https://www.youtube.com/watch?v=rKFx0MMqb48",
+              "embed_url": "https://www.youtube.com/embed/rKFx0MMqb48"
+            },
+            {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "genre": "Pop",
+              "views": 5561554065,
+              "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+              "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            {
+              "video_id": "9xF9iQiS2Vs",
+              "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+              "artist": "Rap Samurai",
+              "genre": "Hip-Hop",
+              "views": 63078092,
+              "youtube_url": "https://www.youtube.com/watch?v=9xF9iQiS2Vs",
+              "embed_url": "https://www.youtube.com/embed/9xF9iQiS2Vs"
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 0.4,
+            "Rock": 0.3,
+            "Hip-Hop": 0.3
+          },
+          "direct_picks": 0,
+          "method": "feedback_based"
+        }
+      },
+      {
+        "playlist_id": "playlist_20250514084317_9024",
+        "data": {
+          "name": "Your Pop & Rock Mix",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T08:43:17.594788",
+          "size": 16,
+          "tracks": [
+            {
+              "video_id": "hT_nvWreIhg",
+              "title": "OneRepublic - Counting Stars",
+              "artist": "OneRepublicVEVO",
+              "genre": "Pop",
+              "views": 4159230049,
+              "youtube_url": "https://www.youtube.com/watch?v=hT_nvWreIhg",
+              "embed_url": "https://www.youtube.com/embed/hT_nvWreIhg"
+            },
+            {
+              "video_id": "e-ORhEE9VVg",
+              "title": "Taylor Swift - Blank Space",
+              "artist": "TaylorSwiftVEVO",
+              "genre": "Pop",
+              "views": 3634500556,
+              "youtube_url": "https://www.youtube.com/watch?v=e-ORhEE9VVg",
+              "embed_url": "https://www.youtube.com/embed/e-ORhEE9VVg"
+            },
+            {
+              "video_id": "9xF9iQiS2Vs",
+              "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+              "artist": "Rap Samurai",
+              "genre": "Hip-Hop",
+              "views": 63078092,
+              "youtube_url": "https://www.youtube.com/watch?v=9xF9iQiS2Vs",
+              "embed_url": "https://www.youtube.com/embed/9xF9iQiS2Vs"
+            },
+            {
+              "video_id": "rKFx0MMqb48",
+              "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+              "artist": "Kid Rock",
+              "genre": "Rock",
+              "views": 374271876,
+              "youtube_url": "https://www.youtube.com/watch?v=rKFx0MMqb48",
+              "embed_url": "https://www.youtube.com/embed/rKFx0MMqb48"
+            },
+            {
+              "video_id": "e4ujS1er1r0",
+              "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+              "artist": "Zac Brown Band",
+              "genre": "Rock",
+              "views": 165938502,
+              "youtube_url": "https://www.youtube.com/watch?v=e4ujS1er1r0",
+              "embed_url": "https://www.youtube.com/embed/e4ujS1er1r0"
+            },
+            {
+              "video_id": "papuvlVeZg8",
+              "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 3068579604,
+              "youtube_url": "https://www.youtube.com/watch?v=papuvlVeZg8",
+              "embed_url": "https://www.youtube.com/embed/papuvlVeZg8"
+            },
+            {
+              "video_id": "FlvQrMidE3w",
+              "title": "Drake - No Face",
+              "artist": "Rap Nation",
+              "genre": "Hip-Hop",
+              "views": 1578316,
+              "youtube_url": "https://www.youtube.com/watch?v=FlvQrMidE3w",
+              "embed_url": "https://www.youtube.com/embed/FlvQrMidE3w"
+            },
+            {
+              "video_id": "uZs1AHQBz24",
+              "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 151938945,
+              "youtube_url": "https://www.youtube.com/watch?v=uZs1AHQBz24",
+              "embed_url": "https://www.youtube.com/embed/uZs1AHQBz24"
+            },
+            {
+              "video_id": "aJOTlE1K90k",
+              "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 3824681398,
+              "youtube_url": "https://www.youtube.com/watch?v=aJOTlE1K90k",
+              "embed_url": "https://www.youtube.com/embed/aJOTlE1K90k"
+            },
+            {
+              "video_id": "0KSOMA3QBU0",
+              "title": "Katy Perry - Dark Horse ft. Juicy J",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 3974603312,
+              "youtube_url": "https://www.youtube.com/watch?v=0KSOMA3QBU0",
+              "embed_url": "https://www.youtube.com/embed/0KSOMA3QBU0"
+            },
+            {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "genre": "Pop",
+              "views": 5561554065,
+              "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+              "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 4232192352,
+              "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+              "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+            },
+            {
+              "video_id": "fRh_vgS2dFE",
+              "title": "Justin Bieber - Sorry (PURPOSE : The Movement)",
+              "artist": "JustinBieberVEVO",
+              "genre": "Pop",
+              "views": 3960627064,
+              "youtube_url": "https://www.youtube.com/watch?v=fRh_vgS2dFE",
+              "embed_url": "https://www.youtube.com/embed/fRh_vgS2dFE"
+            },
+            {
+              "video_id": "CevxZvSJLk8",
+              "title": "Katy Perry - Roar",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 4138780678,
+              "youtube_url": "https://www.youtube.com/watch?v=CevxZvSJLk8",
+              "embed_url": "https://www.youtube.com/embed/CevxZvSJLk8"
+            },
+            {
+              "video_id": "8JnfIa84TnU",
+              "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1057802187,
+              "youtube_url": "https://www.youtube.com/watch?v=8JnfIa84TnU",
+              "embed_url": "https://www.youtube.com/embed/8JnfIa84TnU"
+            },
+            {
+              "video_id": "aatr_2MstrI",
+              "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1384724570,
+              "youtube_url": "https://www.youtube.com/watch?v=aatr_2MstrI",
+              "embed_url": "https://www.youtube.com/embed/aatr_2MstrI"
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 0.4,
+            "Rock": 0.3,
+            "Hip-Hop": 0.3
+          },
+          "direct_picks": 0,
+          "method": "feedback_based"
+        }
+      },
+      {
+        "playlist_id": "playlist_20250514084555_1819",
+        "data": {
+          "name": "Your Pop & Rock Mix",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T08:45:55.763043",
+          "size": 16,
+          "tracks": [
+            {
+              "video_id": "hT_nvWreIhg",
+              "title": "OneRepublic - Counting Stars",
+              "artist": "OneRepublicVEVO",
+              "genre": "Pop",
+              "views": 4159230049
+            },
+            {
+              "video_id": "e-ORhEE9VVg",
+              "title": "Taylor Swift - Blank Space",
+              "artist": "TaylorSwiftVEVO",
+              "genre": "Pop",
+              "views": 3634500556
+            },
+            {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "genre": "Pop",
+              "views": 5561554065
+            },
+            {
+              "video_id": "aJOTlE1K90k",
+              "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 3824681398
+            },
+            {
+              "video_id": "FlvQrMidE3w",
+              "title": "Drake - No Face",
+              "artist": "Rap Nation",
+              "genre": "Hip-Hop",
+              "views": 1578316
+            },
+            {
+              "video_id": "e4ujS1er1r0",
+              "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+              "artist": "Zac Brown Band",
+              "genre": "Rock",
+              "views": 165938502
+            },
+            {
+              "video_id": "9xF9iQiS2Vs",
+              "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+              "artist": "Rap Samurai",
+              "genre": "Hip-Hop",
+              "views": 63078092
+            },
+            {
+              "video_id": "uZs1AHQBz24",
+              "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 151938945
+            },
+            {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 4232192352
+            },
+            {
+              "video_id": "8JnfIa84TnU",
+              "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1057802187
+            },
+            {
+              "video_id": "rKFx0MMqb48",
+              "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+              "artist": "Kid Rock",
+              "genre": "Rock",
+              "views": 374271876
+            },
+            {
+              "video_id": "0KSOMA3QBU0",
+              "title": "Katy Perry - Dark Horse ft. Juicy J",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 3974603312
+            },
+            {
+              "video_id": "papuvlVeZg8",
+              "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 3068579604
+            },
+            {
+              "video_id": "aatr_2MstrI",
+              "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1384724570
+            },
+            {
+              "video_id": "CevxZvSJLk8",
+              "title": "Katy Perry - Roar",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 4138780678
+            },
+            {
+              "video_id": "fRh_vgS2dFE",
+              "title": "Justin Bieber - Sorry (PURPOSE : The Movement)",
+              "artist": "JustinBieberVEVO",
+              "genre": "Pop",
+              "views": 3960627064
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 0.4,
+            "Rock": 0.3,
+            "Hip-Hop": 0.3
+          },
+          "direct_picks": 0,
+          "method": "feedback_based"
+        }
+      },
+      {
+        "playlist_id": "playlist_20250514091612_2268",
+        "data": {
+          "name": "Your Pop & Rock Mix",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T09:16:12.226005",
+          "size": 16,
+          "tracks": [
+            {
+              "video_id": "fRh_vgS2dFE",
+              "title": "Justin Bieber - Sorry (PURPOSE : The Movement)",
+              "artist": "JustinBieberVEVO",
+              "genre": "Pop",
+              "views": 3960627064
+            },
+            {
+              "video_id": "uZs1AHQBz24",
+              "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 151938945
+            },
+            {
+              "video_id": "papuvlVeZg8",
+              "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 3068579604
+            },
+            {
+              "video_id": "aJOTlE1K90k",
+              "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 3824681398
+            },
+            {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "genre": "Pop",
+              "views": 5561554065
+            },
+            {
+              "video_id": "8JnfIa84TnU",
+              "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1057802187
+            },
+            {
+              "video_id": "aatr_2MstrI",
+              "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1384724570
+            },
+            {
+              "video_id": "9xF9iQiS2Vs",
+              "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+              "artist": "Rap Samurai",
+              "genre": "Hip-Hop",
+              "views": 63078092
+            },
+            {
+              "video_id": "CevxZvSJLk8",
+              "title": "Katy Perry - Roar",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 4138780678
+            },
+            {
+              "video_id": "FlvQrMidE3w",
+              "title": "Drake - No Face",
+              "artist": "Rap Nation",
+              "genre": "Hip-Hop",
+              "views": 1578316
+            },
+            {
+              "video_id": "e4ujS1er1r0",
+              "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+              "artist": "Zac Brown Band",
+              "genre": "Rock",
+              "views": 165938502
+            },
+            {
+              "video_id": "hT_nvWreIhg",
+              "title": "OneRepublic - Counting Stars",
+              "artist": "OneRepublicVEVO",
+              "genre": "Pop",
+              "views": 4159230049
+            },
+            {
+              "video_id": "rKFx0MMqb48",
+              "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+              "artist": "Kid Rock",
+              "genre": "Rock",
+              "views": 374271876
+            },
+            {
+              "video_id": "e-ORhEE9VVg",
+              "title": "Taylor Swift - Blank Space",
+              "artist": "TaylorSwiftVEVO",
+              "genre": "Pop",
+              "views": 3634500556
+            },
+            {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 4232192352
+            },
+            {
+              "video_id": "0KSOMA3QBU0",
+              "title": "Katy Perry - Dark Horse ft. Juicy J",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 3974603312
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 0.4,
+            "Rock": 0.3,
+            "Hip-Hop": 0.3
+          },
+          "direct_picks": 0,
+          "method": "feedback_based"
+        }
+      },
+      {
+        "playlist_id": "playlist_20250514092919_6887",
+        "data": {
+          "name": "Your Pop & Rock Mix",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T09:29:19.527404",
+          "size": 16,
+          "tracks": [
+            {
+              "video_id": "fRh_vgS2dFE",
+              "title": "Justin Bieber - Sorry (PURPOSE : The Movement)",
+              "artist": "JustinBieberVEVO",
+              "genre": "Pop",
+              "views": 3960627064,
+              "youtube_url": "https://www.youtube.com/watch?v=fRh_vgS2dFE",
+              "embed_url": "https://www.youtube.com/embed/fRh_vgS2dFE"
+            },
+            {
+              "video_id": "rKFx0MMqb48",
+              "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+              "artist": "Kid Rock",
+              "genre": "Rock",
+              "views": 374271876,
+              "youtube_url": "https://www.youtube.com/watch?v=rKFx0MMqb48",
+              "embed_url": "https://www.youtube.com/embed/rKFx0MMqb48"
+            },
+            {
+              "video_id": "FlvQrMidE3w",
+              "title": "Drake - No Face",
+              "artist": "Rap Nation",
+              "genre": "Hip-Hop",
+              "views": 1578316,
+              "youtube_url": "https://www.youtube.com/watch?v=FlvQrMidE3w",
+              "embed_url": "https://www.youtube.com/embed/FlvQrMidE3w"
+            },
+            {
+              "video_id": "papuvlVeZg8",
+              "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 3068579604,
+              "youtube_url": "https://www.youtube.com/watch?v=papuvlVeZg8",
+              "embed_url": "https://www.youtube.com/embed/papuvlVeZg8"
+            },
+            {
+              "video_id": "hT_nvWreIhg",
+              "title": "OneRepublic - Counting Stars",
+              "artist": "OneRepublicVEVO",
+              "genre": "Pop",
+              "views": 4159230049,
+              "youtube_url": "https://www.youtube.com/watch?v=hT_nvWreIhg",
+              "embed_url": "https://www.youtube.com/embed/hT_nvWreIhg"
+            },
+            {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "genre": "Pop",
+              "views": 5561554065,
+              "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+              "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            {
+              "video_id": "aJOTlE1K90k",
+              "title": "Maroon 5 - Girls Like You ft. Cardi B (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 3824681398,
+              "youtube_url": "https://www.youtube.com/watch?v=aJOTlE1K90k",
+              "embed_url": "https://www.youtube.com/embed/aJOTlE1K90k"
+            },
+            {
+              "video_id": "aatr_2MstrI",
+              "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1384724570,
+              "youtube_url": "https://www.youtube.com/watch?v=aatr_2MstrI",
+              "embed_url": "https://www.youtube.com/embed/aatr_2MstrI"
+            },
+            {
+              "video_id": "uZs1AHQBz24",
+              "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 151938945,
+              "youtube_url": "https://www.youtube.com/watch?v=uZs1AHQBz24",
+              "embed_url": "https://www.youtube.com/embed/uZs1AHQBz24"
+            },
+            {
+              "video_id": "9xF9iQiS2Vs",
+              "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+              "artist": "Rap Samurai",
+              "genre": "Hip-Hop",
+              "views": 63078092,
+              "youtube_url": "https://www.youtube.com/watch?v=9xF9iQiS2Vs",
+              "embed_url": "https://www.youtube.com/embed/9xF9iQiS2Vs"
+            },
+            {
+              "video_id": "8JnfIa84TnU",
+              "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1057802187,
+              "youtube_url": "https://www.youtube.com/watch?v=8JnfIa84TnU",
+              "embed_url": "https://www.youtube.com/embed/8JnfIa84TnU"
+            },
+            {
+              "video_id": "CevxZvSJLk8",
+              "title": "Katy Perry - Roar",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 4138780678,
+              "youtube_url": "https://www.youtube.com/watch?v=CevxZvSJLk8",
+              "embed_url": "https://www.youtube.com/embed/CevxZvSJLk8"
+            },
+            {
+              "video_id": "e-ORhEE9VVg",
+              "title": "Taylor Swift - Blank Space",
+              "artist": "TaylorSwiftVEVO",
+              "genre": "Pop",
+              "views": 3634500556,
+              "youtube_url": "https://www.youtube.com/watch?v=e-ORhEE9VVg",
+              "embed_url": "https://www.youtube.com/embed/e-ORhEE9VVg"
+            },
+            {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 4232192352,
+              "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+              "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+            },
+            {
+              "video_id": "e4ujS1er1r0",
+              "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+              "artist": "Zac Brown Band",
+              "genre": "Rock",
+              "views": 165938502,
+              "youtube_url": "https://www.youtube.com/watch?v=e4ujS1er1r0",
+              "embed_url": "https://www.youtube.com/embed/e4ujS1er1r0"
+            },
+            {
+              "video_id": "0KSOMA3QBU0",
+              "title": "Katy Perry - Dark Horse ft. Juicy J",
+              "artist": "KatyPerryVEVO",
+              "genre": "Pop",
+              "views": 3974603312,
+              "youtube_url": "https://www.youtube.com/watch?v=0KSOMA3QBU0",
+              "embed_url": "https://www.youtube.com/embed/0KSOMA3QBU0"
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 0.4,
+            "Rock": 0.3,
+            "Hip-Hop": 0.3
+          },
+          "direct_picks": 0,
+          "method": "feedback_based"
+        }
+      }
+    ]
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-12T09:19:58.905108",
+      "video_id": "6uoOoPI7VCA",
+      "rating": 1,
+      "skip_reason": "Not applicable",
+      "listen_duration": 8.128,
+      "video_data": {
+        "video_id": "6uoOoPI7VCA",
+        "title": "Racewall Mosquitoes - Miles Above [Official Music Video]",
+        "artist": "Racewall Mosquitoes",
+        "match_score": 0.5572218435486771,
+        "genre": "Unknown",
+        "views": 98528,
+        "recommendation_method": "text",
+        "youtube_url": "https://www.youtube.com/watch?v=6uoOoPI7VCA",
+        "embed_url": "https://www.youtube.com/embed/6uoOoPI7VCA"
+      },
+      "session_id": "session_20250512091935_4035"
+    },
+    {
+      "timestamp": "2025-05-14T09:30:32.043175",
+      "video_id": "zABLecsR5UE",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 3.208,
+      "video_data": {
+        "video_id": "zABLecsR5UE",
+        "title": "Lewis Capaldi - Someone You Loved",
+        "artist": "LewisCapaldiVEVO",
+        "match_score": 0.3697587136809877,
+        "genre": "Pop",
+        "views": 1032084551,
+        "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+        "embed_url": "https://www.youtube.com/embed/zABLecsR5UE"
+      },
+      "session_id": "session_20250514093022_1320"
+    },
+    {
+      "timestamp": "2025-05-14T09:47:02.328138",
+      "video_id": "YAe3wmYqXUQ",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 3.019,
+      "video_data": {
+        "video_id": "YAe3wmYqXUQ",
+        "title": "Khalid - Please Don't Fall In Love With Me (Visualizer)",
+        "artist": "KhalidVEVO",
+        "match_score": 0.407193711869446,
+        "genre": "Pop",
+        "views": 8746693,
+        "youtube_url": "https://www.youtube.com/watch?v=YAe3wmYqXUQ",
+        "embed_url": "https://www.youtube.com/embed/YAe3wmYqXUQ"
+      },
+      "session_id": "session_20250514094645_9213"
+    },
+    {
+      "timestamp": "2025-05-14T09:49:57.067357",
+      "video_id": "evJ6gX1lp2o",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 3.558,
+      "video_data": {
+        "video_id": "evJ6gX1lp2o",
+        "title": "Artemas - i like the way you kiss me (official music video)",
+        "artist": "Artemas",
+        "match_score": 0.4635584715689498,
+        "genre": "Unknown",
+        "views": 173931717,
+        "youtube_url": "https://www.youtube.com/watch?v=evJ6gX1lp2o",
+        "embed_url": "https://www.youtube.com/embed/evJ6gX1lp2o"
+      },
+      "session_id": "session_20250514094943_4435"
+    }
+  ]
+}

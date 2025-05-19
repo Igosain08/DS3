@@ -15,7 +15,10 @@ import os
 import random
 from collections import Counter
 from tqdm import tqdm
-
+import time
+import requests
+from datetime import datetime, timedelta
+from typing import Optional
 # Download necessary NLTK data
 nltk.download('vader_lexicon', quiet=True)
 nltk.download('punkt', quiet=True)
@@ -34,8 +37,8 @@ class EnhancedMusicRecommender:
         # Database connection
         self.conn = psycopg2.connect(
             host="localhost",
-            dbname="youtube_data",
-            user="postgres",
+            dbname="youtube_comments",
+            user="preethimanne",
             password="postgres"
         )
         self.cursor = self.conn.cursor()
@@ -301,7 +304,6 @@ class EnhancedMusicRecommender:
         if 'H' in duration_str:
             hours, duration_str = duration_str.split('H')
             seconds += int(hours) * 3600
-            
         # Minutes
         if 'M' in duration_str:
             minutes, duration_str = duration_str.split('M')
@@ -314,6 +316,354 @@ class EnhancedMusicRecommender:
                 seconds += int(s)
                 
         return seconds
+
+   # NEW 
+
+    def _get_spotify_token(self, client_id, client_secret):
+        """Request a new Spotify access token and store it with expiration."""
+        response = requests.post(
+            'https://accounts.spotify.com/api/token',
+            data={'grant_type': 'client_credentials'},
+            auth=(client_id, client_secret)
+        )
+        if response.status_code == 200:
+            data = response.json()
+            self._spotify_token = data.get('access_token')
+            expires_in = data.get('expires_in', 3600)  # usually 3600 seconds
+            self._spotify_token_expiry = datetime.now() + timedelta(seconds=expires_in)
+        else:
+            print("❌ Failed to retrieve Spotify token")
+            self._spotify_token = None
+            self._spotify_token_expiry = datetime.now()
+
+    def _get_genre_from_musicbrainz(self, artist: str, title: str) -> Optional[str]:
+        """Get genre from MusicBrainz API as a fallback."""
+        try:
+            # MusicBrainz requires a user agent
+            headers = {
+                'User-Agent': 'MusicGenreClassifier/1.0 (preethimanne@gmail.com)'
+            }
+            
+            # First search for the artist to get their ID
+            artist_url = f'https://musicbrainz.org/ws/2/artist/?query=artist:{artist}&fmt=json'
+            response = requests.get(artist_url, headers=headers)
+            
+            if response.status_code != 200:
+                print(f"MusicBrainz API error: {response.status_code}")
+                return None
+                
+            artist_data = response.json()
+            if not artist_data.get('artists'):
+                print(f"No artist found in MusicBrainz: {artist}")
+                return None
+                
+            # Get the first matching artist
+            artist_id = artist_data['artists'][0]['id']
+            
+            # Now get the artist's tags (which include genres)
+            tags_url = f'https://musicbrainz.org/ws/2/artist/{artist_id}?inc=tags&fmt=json'
+            response = requests.get(tags_url, headers=headers)
+            
+            if response.status_code != 200:
+                print(f"MusicBrainz API error: {response.status_code}")
+                return None
+                
+            artist_tags = response.json()
+            
+            # Look for genre-like tags
+            genre_tags = []
+            for tag in artist_tags.get('tags', []):
+                tag_name = tag['name'].lower()
+                # Filter out non-genre tags
+                if any(genre_word in tag_name for genre_word in ['pop', 'rock', 'jazz', 'classical', 'hip hop', 'r&b', 'electronic', 'metal', 'folk', 'country', 'blues', 'soul', 'reggae', 'punk', 'indie']):
+                    genre_tags.append(tag['name'])
+            
+            if genre_tags:
+                print(f"Found MusicBrainz genres for {artist}: {genre_tags}")
+                return genre_tags[0]  # Return the first genre tag
+                
+            print(f"No genre tags found in MusicBrainz for {artist}")
+            return None
+                
+        except Exception as e:
+            print(f"Error getting genre from MusicBrainz: {str(e)}")
+            return None
+
+    def _get_genre_from_spotify(self, video_title: str, client_id: str, client_secret: str) -> Optional[str]:
+        """Get genre from Spotify API based on video title."""
+        try:
+            # Parse the title to get artist and song name
+            parts = video_title.split('-')
+            if len(parts) > 1:
+                artist = parts[0].strip()
+                song_part = parts[1].strip()
+            else:
+                artist = ""
+                song_part = video_title.strip()
+            
+            # Split by '(' and take only the part before it
+            if '(' in song_part:
+                song_part = song_part.split('(')[0].strip()
+            
+            print(f"\nProcessing: {video_title}")
+            print(f"Parsed artist: {artist}")
+            print(f"Parsed title: {song_part}")
+            
+            # Get Spotify token with credentials
+            self._get_spotify_token(client_id, client_secret)
+            if not self._spotify_token:
+                print("Failed to get Spotify token")
+                return None
+                
+            # Search for the track
+            headers = {
+                'Authorization': f'Bearer {self._spotify_token}'
+            }
+            
+            # Try different search variations
+            search_variations = []
+            
+            # Basic search with both artist and track
+            if artist:
+                search_variations.append(f"artist:{artist} track:{song_part}")
+            
+            # Search with just the track name
+            search_variations.append(f"track:{song_part}")
+            
+            # Search with artist name and track name as a phrase
+            if artist:
+                search_variations.append(f'"{artist} {song_part}"')
+            
+            # Try each search variation
+            for search_term in search_variations:
+                print(f"\nTrying search: {search_term}")
+                search_url = f'https://api.spotify.com/v1/search?q={search_term}&type=track&limit=5'
+                
+                try:
+                    response = requests.get(search_url, headers=headers)
+                    
+                    # Handle rate limiting
+                    if response.status_code == 429:
+                        retry_after = int(response.headers.get('Retry-After', 1))
+                        print(f"Rate limited. Waiting {retry_after} seconds...")
+                        time.sleep(retry_after)
+                        response = requests.get(search_url, headers=headers)
+                    
+                    if response.status_code != 200:
+                        print(f"Spotify API error: {response.status_code}")
+                        continue
+                        
+                    data = response.json()
+                    if not data['tracks']['items']:
+                        print(f"No tracks found for: {search_term}")
+                        continue
+                    
+                    # Try each track in the results
+                    for track in data['tracks']['items']:
+                        track_name = track['name'].lower()
+                        track_artist = track['artists'][0]['name'].lower()
+                        song_part_lower = song_part.lower()
+                        artist_lower = artist.lower() if artist else ""
+                        
+                        # More lenient matching
+                        name_match = (
+                            track_name in song_part_lower or 
+                            song_part_lower in track_name or
+                            self._similarity_score(track_name, song_part_lower) > 0.7
+                        )
+                        
+                        artist_match = (
+                            not artist or
+                            track_artist in artist_lower or 
+                            artist_lower in track_artist or
+                            self._similarity_score(track_artist, artist_lower) > 0.7
+                        )
+                        
+                        # First try strict matching (both name and artist must match)
+                        if name_match and artist_match:
+                            print(f"Found matching track: {track['name']} by {track['artists'][0]['name']}")
+                            
+                            # Get artist ID to fetch genres
+                            artist_id = track['artists'][0]['id']
+                            artist_url = f'https://api.spotify.com/v1/artists/{artist_id}'
+                            
+                            try:
+                                artist_response = requests.get(artist_url, headers=headers)
+                                
+                                # Handle rate limiting
+                                if artist_response.status_code == 429:
+                                    retry_after = int(artist_response.headers.get('Retry-After', 1))
+                                    print(f"Rate limited. Waiting {retry_after} seconds...")
+                                    time.sleep(retry_after)
+                                    artist_response = requests.get(artist_url, headers=headers)
+                                
+                                if artist_response.status_code != 200:
+                                    print(f"Failed to get artist details: {artist_response.status_code}")
+                                    continue
+                                    
+                                artist_data = artist_response.json()
+                                
+                                if artist_data['genres']:
+                                    print(f"Found genres for {track['name']}: {artist_data['genres']}")
+                                    return artist_data['genres'][0]  # Return the first genre
+                                else:
+                                    print(f"No genres found for {track['name']}")
+                                    # Try MusicBrainz as fallback
+                                    if artist:
+                                        print("Trying MusicBrainz as fallback...")
+                                        return self._get_genre_from_musicbrainz(artist, song_part)
+                                    continue
+                                    
+                            except Exception as e:
+                                print(f"Error getting artist details: {str(e)}")
+                                continue
+                        
+                        # If strict matching failed but we have an artist match, try lenient matching
+                        elif artist_match and artist:
+                            print(f"Found artist match (lenient mode): {track['artists'][0]['name']}")
+                            
+                            # Get artist ID to fetch genres
+                            artist_id = track['artists'][0]['id']
+                            artist_url = f'https://api.spotify.com/v1/artists/{artist_id}'
+                            
+                            try:
+                                artist_response = requests.get(artist_url, headers=headers)
+                                
+                                # Handle rate limiting
+                                if artist_response.status_code == 429:
+                                    retry_after = int(artist_response.headers.get('Retry-After', 1))
+                                    print(f"Rate limited. Waiting {retry_after} seconds...")
+                                    time.sleep(retry_after)
+                                    artist_response = requests.get(artist_url, headers=headers)
+                                
+                                if artist_response.status_code != 200:
+                                    print(f"Failed to get artist details: {artist_response.status_code}")
+                                    continue
+                                    
+                                artist_data = artist_response.json()
+                                
+                                if artist_data['genres']:
+                                    print(f"Found genres for artist {track['artists'][0]['name']}: {artist_data['genres']}")
+                                    return artist_data['genres'][0]  # Return the first genre
+                                else:
+                                    print(f"No genres found for artist {track['artists'][0]['name']}")
+                                    # Try MusicBrainz as fallback
+                                    print("Trying MusicBrainz as fallback...")
+                                    return self._get_genre_from_musicbrainz(artist, song_part)
+                                    
+                            except Exception as e:
+                                print(f"Error getting artist details: {str(e)}")
+                                continue
+                    
+                except Exception as e:
+                    print(f"Error in search attempt: {str(e)}")
+                    continue
+            
+            print(f"❌ No matching tracks found for: {song_part} by {artist}")
+            # Try MusicBrainz as fallback if we have an artist
+            if artist:
+                print("Trying MusicBrainz as fallback...")
+                return self._get_genre_from_musicbrainz(artist, song_part)
+            return None
+                
+        except Exception as e:
+            print(f"Error getting genre from Spotify: {str(e)}")
+            # Try MusicBrainz as fallback if we have an artist
+            if artist:
+                print("Trying MusicBrainz as fallback...")
+                return self._get_genre_from_musicbrainz(artist, song_part)
+            return None
+
+    def _similarity_score(self, s1: str, s2: str) -> float:
+        """Calculate similarity score between two strings."""
+        from difflib import SequenceMatcher
+        return SequenceMatcher(None, s1, s2).ratio()
+
+    def _ensure_token_valid(self, client_id, client_secret):
+        """Refresh token if expired or missing."""
+        if not hasattr(self, '_spotify_token') or datetime.now() >= self._spotify_token_expiry:
+            self._get_spotify_token(client_id, client_secret)
+
+    def update_genres_from_spotify(self, client_id: str, client_secret: str, limit: int = 10):
+        """Update genres for videos using Spotify API."""
+        try:
+            # Get videos without genres
+            query = """
+                SELECT video_id, title, genre 
+                FROM videos 
+                WHERE genre IS NULL 
+                LIMIT %s
+            """
+            self.cursor.execute(query, (limit,))
+            videos = self.cursor.fetchall()
+            
+            print(f"\nFound {len(videos)} videos without genres")
+            
+            # Get current genre distribution
+            self.cursor.execute("""
+                SELECT COUNT(*) as total_videos, 
+                       COUNT(genre) as videos_with_genre, 
+                       COUNT(*) - COUNT(genre) as videos_without_genre 
+                FROM videos
+            """)
+            current_stats = self.cursor.fetchone()
+            print(f"\nCurrent database state:")
+            print(f"Total videos: {current_stats[0]}")
+            print(f"Videos with genre: {current_stats[1]}")
+            print(f"Videos without genre: {current_stats[2]}")
+            
+            updated_count = 0
+            for video_id, title, current_genre in videos:
+                print(f"\n{'='*50}")
+                print(f"Processing video {updated_count + 1}/{len(videos)}")
+                print(f"Video ID: {video_id}")
+                print(f"Title: {title}")
+                print(f"Current genre in DB: {current_genre}")
+                
+                # Get genre from Spotify
+                genre = self._get_genre_from_spotify(title, client_id, client_secret)
+                
+                if genre:
+                    print(f"Found genre: {genre}")
+                    # Update the genre in the database
+                    update_query = """
+                        UPDATE videos 
+                        SET genre = %s 
+                        WHERE video_id = %s
+                    """
+                    self.cursor.execute(update_query, (genre, video_id))
+                    self.conn.commit()
+                    
+                    # Verify the update
+                    self.cursor.execute("SELECT genre FROM videos WHERE video_id = %s", (video_id,))
+                    new_genre = self.cursor.fetchone()[0]
+                    print(f"Updated genre in DB: {new_genre}")
+                    
+                    if new_genre == genre:
+                        print("✅ Successfully updated genre in database")
+                        updated_count += 1
+                    else:
+                        print("❌ Failed to update genre in database")
+                else:
+                    print("❌ No genre found")
+            
+            # Get final genre distribution
+            self.cursor.execute("""
+                SELECT COUNT(*) as total_videos, 
+                       COUNT(genre) as videos_with_genre, 
+                       COUNT(*) - COUNT(genre) as videos_without_genre 
+                FROM videos
+            """)
+            final_stats = self.cursor.fetchone()
+            print(f"\nFinal database state:")
+            print(f"Total videos: {final_stats[0]}")
+            print(f"Videos with genre: {final_stats[1]}")
+            print(f"Videos without genre: {final_stats[2]}")
+            print(f"\nUpdated {updated_count} videos with genres")
+            
+        except Exception as e:
+            print(f"Error updating genres: {str(e)}")
+            self.conn.rollback()
 
     def preprocess_comments(self):
         """Clean and preprocess comments with enhanced techniques"""
@@ -693,19 +1043,20 @@ class EnhancedMusicRecommender:
         seed_genre = seed_video['genre']
         seed_playlist = seed_video['playlist_id']
         
-        # Apply diversity penalty
+        # Apply genre similarity boost
+        for i, genre in enumerate(self.video_features['genre']):
+            if genre == seed_genre:
+                # Boost similarity for same genre
+                similarities[i] += 0.2  # 20% boost for same genre
+        
+        # Apply diversity penalties
         if diversity_weight > 0 and 'cluster' in self.video_features:
-            # Penalize videos from the same cluster
+            # Penalize videos from the same cluster (to avoid too similar content)
             for i, cluster in enumerate(self.video_features['cluster']):
                 if cluster == seed_cluster:
                     similarities[i] -= diversity_weight * 0.2
             
-            # Penalize videos from the same genre
-            for i, genre in enumerate(self.video_features['genre']):
-                if genre == seed_genre:
-                    similarities[i] -= diversity_weight * 0.1
-            
-            # Penalize videos from the same playlist
+            # Penalize videos from the same playlist (to avoid too similar content)
             for i, playlist in enumerate(self.video_features['playlist_id']):
                 if playlist == seed_playlist:
                     similarities[i] -= diversity_weight * 0.15
@@ -1712,7 +2063,7 @@ if __name__ == "__main__":
     recommender.preprocess_comments()
     recommender.create_embeddings()
     recommender.cluster_videos(n_clusters=15)
-    
+    recommender.update_genres_from_spotify(client_id='971bff9d28754d198843377b037c36d8', client_secret='15790cb2b01d406c96599768f501b977', limit=100)
     # Example 1: Generate a playlist based on user text
     user_text = """
     I'm feeling really energetic today and want to go for a run in the park.

@@ -1,0 +1,412 @@
+{
+  "user_id": "user_20250514095146_8245",
+  "user_name": null,
+  "last_updated": "2025-05-14T09:53:05.715988",
+  "history": [
+    {
+      "session_id": "session_20250514095223_3175",
+      "data": {
+        "timestamp": "2025-05-14T09:52:23.790033",
+        "text_input": "I want to listen to upbeat, happy, and energetic music that instantly boosts my mood. Give me songs that feel fun, carefree, and make me want to dance around without thinking. Think good vibes, sunshine, and windows-down energy.",
+        "additional_context": {
+          "genres": "Pop",
+          "artists": [
+            "Drake",
+            "Taylor Swift",
+            "Rihanna"
+          ],
+          "activity": "Exercising",
+          "diversity": 0.5,
+          "playlist_size": 10
+        },
+        "recommendations": [
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.5230519493744198,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=xnumI3_qt-w",
+            "embed_url": "https://www.youtube.com/embed/xnumI3_qt-w"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.5179148017177732,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=kmpyfDF_pes",
+            "embed_url": "https://www.youtube.com/embed/kmpyfDF_pes"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.5130583653630053,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=aSkFygPCTwE",
+            "embed_url": "https://www.youtube.com/embed/aSkFygPCTwE"
+          },
+          {
+            "video_id": "03mfwKTXycg",
+            "title": "The Blacktones  //  Russian Doll [Official Video]",
+            "artist": "TheBlacktonesBand",
+            "genre": "Rock",
+            "views": 2473,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=03mfwKTXycg",
+            "embed_url": "https://www.youtube.com/embed/03mfwKTXycg"
+          },
+          {
+            "video_id": "6xMBmvevhj0",
+            "title": "Calvin Harris - Nuh Ready Nuh Ready (Official Video) ft. PARTYNEXTDOOR",
+            "artist": "CalvinHarrisVEVO",
+            "match_score": 0.5026644609991995,
+            "genre": "Pop",
+            "views": 7925188,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=6xMBmvevhj0",
+            "embed_url": "https://www.youtube.com/embed/6xMBmvevhj0"
+          },
+          {
+            "video_id": "1F76N2R3P9E",
+            "title": "Halle - Angel (Official Video)",
+            "artist": "HalleVEVO",
+            "genre": "Pop",
+            "views": 25859281,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=1F76N2R3P9E",
+            "embed_url": "https://www.youtube.com/embed/1F76N2R3P9E"
+          },
+          {
+            "video_id": "6dW4d0IcQ3k",
+            "title": "Rod Wave - Fight The Feeling (Official Video)",
+            "artist": "RodWave",
+            "genre": "Unknown",
+            "views": 76070977,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=6dW4d0IcQ3k",
+            "embed_url": "https://www.youtube.com/embed/6dW4d0IcQ3k"
+          },
+          {
+            "video_id": "1JltlSJH5bY",
+            "title": "Tems - Me & U (Official Video)",
+            "artist": "TemsVEVO",
+            "match_score": 0.4990345362440452,
+            "genre": "Pop",
+            "views": 65289556,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=1JltlSJH5bY",
+            "embed_url": "https://www.youtube.com/embed/1JltlSJH5bY"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "G_zuB-ogIBw",
+            "title": "Walker Hayes - Fancy Like",
+            "artist": "WalkerHayesVEVO",
+            "genre": "Pop",
+            "views": 161464378,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=G_zuB-ogIBw",
+            "embed_url": "https://www.youtube.com/embed/G_zuB-ogIBw"
+          },
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.4876173315811768,
+            "genre": "Pop",
+            "views": 7212253,
+            "youtube_url": "https://www.youtube.com/watch?v=a_DuSbMvOQs",
+            "embed_url": "https://www.youtube.com/embed/a_DuSbMvOQs"
+          },
+          {
+            "video_id": "4C9i8E05bgI",
+            "title": "Kings Of Leon - Nowhere to Run (Official Video)",
+            "artist": "kingsofleonVEVO",
+            "match_score": 0.42867718985456893,
+            "genre": "Pop",
+            "views": 1281897,
+            "youtube_url": "https://www.youtube.com/watch?v=4C9i8E05bgI",
+            "embed_url": "https://www.youtube.com/embed/4C9i8E05bgI"
+          },
+          {
+            "video_id": "ewKgYRIbohg",
+            "title": "Luvstruck - What's A Girl To Do (Official Audio)",
+            "artist": "Spinnin' Records",
+            "genre": "Unknown",
+            "views": 290355,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=ewKgYRIbohg",
+            "embed_url": "https://www.youtube.com/embed/ewKgYRIbohg"
+          },
+          {
+            "video_id": "8JnfIa84TnU",
+            "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 1057802187,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=8JnfIa84TnU",
+            "embed_url": "https://www.youtube.com/embed/8JnfIa84TnU"
+          },
+          {
+            "video_id": "qGDsMXdQoyI",
+            "title": "Billy Gillies - DNA (Loving You) [feat. Hannah Boleyn] [Official Audio]",
+            "artist": "Billy Gillies",
+            "match_score": 0.4798487381289668,
+            "genre": "Unknown",
+            "views": 25760755,
+            "youtube_url": "https://www.youtube.com/watch?v=qGDsMXdQoyI",
+            "embed_url": "https://www.youtube.com/embed/qGDsMXdQoyI"
+          },
+          {
+            "video_id": "b8lPeWRBLvE",
+            "title": "The Blessed Madonna & Kylie Minogue - Edge Of Saturday Night (Official Video)",
+            "artist": "Kylie Minogue",
+            "match_score": 0.4770438487577815,
+            "genre": "Unknown",
+            "views": 1674292,
+            "youtube_url": "https://www.youtube.com/watch?v=b8lPeWRBLvE",
+            "embed_url": "https://www.youtube.com/embed/b8lPeWRBLvE"
+          },
+          {
+            "video_id": "FGR3fj5yCcA",
+            "title": "unfazed \u2013 A Gira (Official Music Video)",
+            "artist": "Spinnin' Records",
+            "match_score": 0.46259340507017227,
+            "genre": "Unknown",
+            "views": 2378389,
+            "youtube_url": "https://www.youtube.com/watch?v=FGR3fj5yCcA",
+            "embed_url": "https://www.youtube.com/embed/FGR3fj5yCcA"
+          },
+          {
+            "video_id": "evJ6gX1lp2o",
+            "title": "Artemas - i like the way you kiss me (official music video)",
+            "artist": "Artemas",
+            "match_score": 0.4635584715689498,
+            "genre": "Unknown",
+            "views": 173931717,
+            "youtube_url": "https://www.youtube.com/watch?v=evJ6gX1lp2o",
+            "embed_url": "https://www.youtube.com/embed/evJ6gX1lp2o"
+          },
+          {
+            "video_id": "t7WlAiX_q20",
+            "title": "Grace VanderWaal - Proud (Performance Video)",
+            "artist": "Grace VanderWaal",
+            "match_score": 0.43828762619966266,
+            "genre": "Unknown",
+            "views": 184475,
+            "youtube_url": "https://www.youtube.com/watch?v=t7WlAiX_q20",
+            "embed_url": "https://www.youtube.com/embed/t7WlAiX_q20"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "genre": "Pop",
+            "views": 195687371,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "4SvZIsYffNk",
+            "title": "Ciara, Lil Baby - Forever",
+            "artist": "CiaraVEVO",
+            "match_score": 0.48226613131836704,
+            "genre": "Pop",
+            "views": 8604956,
+            "youtube_url": "https://www.youtube.com/watch?v=4SvZIsYffNk",
+            "embed_url": "https://www.youtube.com/embed/4SvZIsYffNk"
+          },
+          {
+            "video_id": "8BQqX3bUqtY",
+            "title": "Diplo - Get It Right (feat. M\u00d8) (Official Music Video)",
+            "artist": "Diplo",
+            "match_score": 0.5007306493648125,
+            "genre": "Unknown",
+            "views": 43539446,
+            "youtube_url": "https://www.youtube.com/watch?v=8BQqX3bUqtY",
+            "embed_url": "https://www.youtube.com/embed/8BQqX3bUqtY"
+          },
+          {
+            "video_id": "pZ1NdE69VTs",
+            "title": "ROSE\u0301 - number one girl (official music video)",
+            "artist": "ROS\u00c9",
+            "genre": "Unknown",
+            "views": 98529483,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=pZ1NdE69VTs",
+            "embed_url": "https://www.youtube.com/embed/pZ1NdE69VTs"
+          },
+          {
+            "video_id": "aatr_2MstrI",
+            "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 1384724570,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=aatr_2MstrI",
+            "embed_url": "https://www.youtube.com/embed/aatr_2MstrI"
+          }
+        ],
+        "feedback": {
+          "OPf0YbXqDm0": {
+            "timestamp": "2025-05-14T09:52:34.801859",
+            "video_id": "OPf0YbXqDm0",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 3.0,
+            "video_data": {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "views": 5561554065,
+              "genre": "Pop",
+              "recommendation_method": "popular",
+              "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+              "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+            },
+            "session_id": "session_20250514095223_3175"
+          },
+          "a_DuSbMvOQs": {
+            "timestamp": "2025-05-14T09:52:49.199553",
+            "video_id": "a_DuSbMvOQs",
+            "rating": 4,
+            "skip_reason": null,
+            "listen_duration": 3.915,
+            "video_data": {
+              "video_id": "a_DuSbMvOQs",
+              "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+              "artist": "VictoriaMon\u00e9tVEVO",
+              "match_score": 0.4876173315811768,
+              "genre": "Pop",
+              "views": 7212253,
+              "youtube_url": "https://www.youtube.com/watch?v=a_DuSbMvOQs",
+              "embed_url": "https://www.youtube.com/embed/a_DuSbMvOQs"
+            },
+            "session_id": "session_20250514095223_3175"
+          },
+          "aatr_2MstrI": {
+            "timestamp": "2025-05-14T09:53:05.715871",
+            "video_id": "aatr_2MstrI",
+            "rating": 2,
+            "skip_reason": "Not applicable",
+            "listen_duration": 3.243,
+            "video_data": {
+              "video_id": "aatr_2MstrI",
+              "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+              "artist": "Clean Bandit",
+              "genre": "Rock",
+              "views": 1384724570,
+              "recommendation_method": "random",
+              "youtube_url": "https://www.youtube.com/watch?v=aatr_2MstrI",
+              "embed_url": "https://www.youtube.com/embed/aatr_2MstrI"
+            },
+            "session_id": "session_20250514095223_3175"
+          }
+        },
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 1.5,
+      "Rock": -0.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Rock": 0.5
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "MarkRonsonVEVO": 1.5,
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "Clean Bandit": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-14T09:52:34.801859",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 3.0,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular",
+        "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+        "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+      },
+      "session_id": "session_20250514095223_3175"
+    },
+    {
+      "timestamp": "2025-05-14T09:52:49.199553",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 3.915,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.4876173315811768,
+        "genre": "Pop",
+        "views": 7212253,
+        "youtube_url": "https://www.youtube.com/watch?v=a_DuSbMvOQs",
+        "embed_url": "https://www.youtube.com/embed/a_DuSbMvOQs"
+      },
+      "session_id": "session_20250514095223_3175"
+    },
+    {
+      "timestamp": "2025-05-14T09:53:05.715871",
+      "video_id": "aatr_2MstrI",
+      "rating": 2,
+      "skip_reason": "Not applicable",
+      "listen_duration": 3.243,
+      "video_data": {
+        "video_id": "aatr_2MstrI",
+        "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+        "artist": "Clean Bandit",
+        "genre": "Rock",
+        "views": 1384724570,
+        "recommendation_method": "random",
+        "youtube_url": "https://www.youtube.com/watch?v=aatr_2MstrI",
+        "embed_url": "https://www.youtube.com/embed/aatr_2MstrI"
+      },
+      "session_id": "session_20250514095223_3175"
+    }
+  ]
+}

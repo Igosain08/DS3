@@ -1,0 +1,630 @@
+{
+  "user_id": "user_20250514093125_5778",
+  "user_name": null,
+  "last_updated": "2025-05-14T09:32:54.011928",
+  "history": [
+    {
+      "session_id": "session_20250514093209_2360",
+      "data": {
+        "timestamp": "2025-05-14T09:32:09.859796",
+        "text_input": "I'm feeling really tired, sad, and lonely. I want sad music to cry to.",
+        "additional_context": {
+          "genres": "Pop",
+          "disliked_genres": "Folk",
+          "artists": [
+            "Taylor Swift",
+            "Adele",
+            "Lana Del Rey",
+            "Luke Combs"
+          ],
+          "activity": "Relaxing",
+          "environment": "Home",
+          "time_of_day": "Late night",
+          "diversity": 0.0,
+          "playlist_size": 5
+        },
+        "recommendations": [
+          {
+            "video_id": "03mfwKTXycg",
+            "title": "The Blacktones  //  Russian Doll [Official Video]",
+            "artist": "TheBlacktonesBand",
+            "genre": "Rock",
+            "views": 2473,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=03mfwKTXycg",
+            "embed_url": "https://www.youtube.com/embed/03mfwKTXycg"
+          },
+          {
+            "video_id": "-SSgaCAsU6M",
+            "title": "Rod Wave - 25 (Official Video)",
+            "artist": "RodWave",
+            "genre": "Unknown",
+            "views": 31646615,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=-SSgaCAsU6M",
+            "embed_url": "https://www.youtube.com/embed/-SSgaCAsU6M"
+          },
+          {
+            "video_id": "fM8V1XOI-14",
+            "title": "Kane Brown - What Ifs ft. Lauren Alaina",
+            "artist": "KaneBrownVEVO",
+            "genre": "Pop",
+            "views": 342098660,
+            "recommendation_method": "random",
+            "youtube_url": "https://www.youtube.com/watch?v=fM8V1XOI-14",
+            "embed_url": "https://www.youtube.com/embed/fM8V1XOI-14"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=JGwWNGJdvx8",
+            "embed_url": "https://www.youtube.com/embed/JGwWNGJdvx8"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "youtube_url": "https://www.youtube.com/watch?v=OPf0YbXqDm0",
+            "embed_url": "https://www.youtube.com/embed/OPf0YbXqDm0"
+          },
+          {
+            "video_id": "Ahha3Cqe_fk",
+            "title": "Katy Perry - The One That Got Away (Official Music Video)",
+            "artist": "KatyPerryVEVO",
+            "match_score": 0.48016178753244293,
+            "genre": "Pop",
+            "views": 1072610765,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=Ahha3Cqe_fk",
+            "embed_url": "https://www.youtube.com/embed/Ahha3Cqe_fk"
+          },
+          {
+            "video_id": "ZI-aPHeUDlk",
+            "title": "Chris Stapleton - Fire Away (Official Music Video)",
+            "artist": "ChrisStapletonVEVO",
+            "match_score": 0.4776354698322751,
+            "genre": "Pop",
+            "views": 157354117,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=ZI-aPHeUDlk",
+            "embed_url": "https://www.youtube.com/embed/ZI-aPHeUDlk"
+          },
+          {
+            "video_id": "KNtJGQkC-WI",
+            "title": "Ariana Grande - we can't be friends (wait for your love) (official music video)",
+            "artist": "ArianaGrandeVevo",
+            "match_score": 0.46244808713873903,
+            "genre": "Pop",
+            "views": 270114660,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=KNtJGQkC-WI",
+            "embed_url": "https://www.youtube.com/embed/KNtJGQkC-WI"
+          },
+          {
+            "video_id": "XfMBdq5iFnw",
+            "title": "Mitski - I Bet on Losing Dogs (Official Audio)",
+            "artist": "Mitski",
+            "match_score": 0.4219801750455303,
+            "genre": "Unknown",
+            "views": 19642729,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=XfMBdq5iFnw",
+            "embed_url": "https://www.youtube.com/embed/XfMBdq5iFnw"
+          },
+          {
+            "video_id": "W-TE_Ys4iwM",
+            "title": "One Direction - Story of My Life",
+            "artist": "OneDirectionVEVO",
+            "match_score": 0.4186047713785594,
+            "genre": "Pop",
+            "views": 1045431431,
+            "recommendation_method": "text",
+            "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+            "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM",
+            "user_rating": 5
+          },
+          {
+            "video_id": "hT_nvWreIhg",
+            "title": "OneRepublic - Counting Stars",
+            "artist": "OneRepublicVEVO",
+            "genre": "Pop",
+            "views": 4159230049,
+            "recommendation_method": "genre_mix",
+            "youtube_url": "https://www.youtube.com/watch?v=hT_nvWreIhg",
+            "embed_url": "https://www.youtube.com/embed/hT_nvWreIhg"
+          },
+          {
+            "video_id": "09R8_2nJtjg",
+            "title": "Maroon 5 - Sugar (Official Music Video)",
+            "artist": "Maroon5VEVO",
+            "genre": "Pop",
+            "views": 4232192352,
+            "recommendation_method": "genre_mix",
+            "youtube_url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+            "embed_url": "https://www.youtube.com/embed/09R8_2nJtjg"
+          },
+          {
+            "video_id": "7qH4qyi1-Ys",
+            "title": "Rascal Flatts - What Hurts The Most",
+            "artist": "RascalFlattsVEVO",
+            "match_score": 0.43842560600929037,
+            "genre": "Pop",
+            "views": 195687371,
+            "youtube_url": "https://www.youtube.com/watch?v=7qH4qyi1-Ys",
+            "embed_url": "https://www.youtube.com/embed/7qH4qyi1-Ys"
+          },
+          {
+            "video_id": "TTA2buWlNyM",
+            "title": "Alan Jackson - Remember When (Official HD Video)",
+            "artist": "alanjacksonVEVO",
+            "match_score": 0.42971881111017296,
+            "genre": "Pop",
+            "views": 307140195,
+            "youtube_url": "https://www.youtube.com/watch?v=TTA2buWlNyM",
+            "embed_url": "https://www.youtube.com/embed/TTA2buWlNyM"
+          },
+          {
+            "video_id": "SlPhMPnQ58k",
+            "title": "Maroon 5 - Memories (Official Video)",
+            "artist": "Maroon5VEVO",
+            "match_score": 0.39834905075393173,
+            "genre": "Pop",
+            "views": 1136531104,
+            "youtube_url": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+            "embed_url": "https://www.youtube.com/embed/SlPhMPnQ58k",
+            "user_rating": 4
+          },
+          {
+            "video_id": "aJqW7PUozlU",
+            "title": "Declan McKenna - Slipping Through My Fingers (Official Audio)",
+            "artist": "DeclanMcKennaVEVO",
+            "match_score": 0.3899889229522716,
+            "genre": "Pop",
+            "views": 1652373,
+            "youtube_url": "https://www.youtube.com/watch?v=aJqW7PUozlU",
+            "embed_url": "https://www.youtube.com/embed/aJqW7PUozlU"
+          },
+          {
+            "video_id": "ldQrapQ4d0Y",
+            "title": "Toby Keith - As Good As I Once Was",
+            "artist": "TobyKeithVEVO",
+            "match_score": 0.375768888012111,
+            "genre": "Pop",
+            "views": 170368308,
+            "youtube_url": "https://www.youtube.com/watch?v=ldQrapQ4d0Y",
+            "embed_url": "https://www.youtube.com/embed/ldQrapQ4d0Y"
+          },
+          {
+            "video_id": "zABLecsR5UE",
+            "title": "Lewis Capaldi - Someone You Loved",
+            "artist": "LewisCapaldiVEVO",
+            "match_score": 0.3697587136809877,
+            "genre": "Pop",
+            "views": 1032084551,
+            "youtube_url": "https://www.youtube.com/watch?v=zABLecsR5UE",
+            "embed_url": "https://www.youtube.com/embed/zABLecsR5UE"
+          },
+          {
+            "video_id": "pB-5XG-DbAA",
+            "title": "Sam Smith - Stay With Me (Official Music Video)",
+            "artist": "SamSmithVEVO",
+            "match_score": 0.34943472067777387,
+            "genre": "Pop",
+            "views": 1237103546,
+            "youtube_url": "https://www.youtube.com/watch?v=pB-5XG-DbAA",
+            "embed_url": "https://www.youtube.com/embed/pB-5XG-DbAA"
+          },
+          {
+            "video_id": "O0dajiO1ZIc",
+            "title": "Jazmine Sullivan - Hurt Me So Good (Lyric Video)",
+            "artist": "JazmineSullivanVEVO",
+            "match_score": 0.3447233579983763,
+            "genre": "Pop",
+            "views": 22164939,
+            "youtube_url": "https://www.youtube.com/watch?v=O0dajiO1ZIc",
+            "embed_url": "https://www.youtube.com/embed/O0dajiO1ZIc"
+          },
+          {
+            "video_id": "Ip6cw8gfHHI",
+            "title": "d4vd - Here With Me [Official Music Video]",
+            "artist": "d4vdVEVO",
+            "match_score": 0.4471553191945915,
+            "genre": "Pop",
+            "views": 204762209,
+            "youtube_url": "https://www.youtube.com/watch?v=Ip6cw8gfHHI",
+            "embed_url": "https://www.youtube.com/embed/Ip6cw8gfHHI"
+          },
+          {
+            "video_id": "GemKqzILV4w",
+            "title": "Snow Patrol - Chasing Cars (Official Video)",
+            "artist": "SnowPatrolVEVO",
+            "match_score": 0.41730002779824565,
+            "genre": "Pop",
+            "views": 392260888,
+            "youtube_url": "https://www.youtube.com/watch?v=GemKqzILV4w",
+            "embed_url": "https://www.youtube.com/embed/GemKqzILV4w"
+          },
+          {
+            "video_id": "4D89Qr5vH6U",
+            "title": "Toosii - Favorite Song (Official Video)",
+            "artist": "Toosii2xVEVO",
+            "match_score": 0.4122708988381459,
+            "genre": "Pop",
+            "views": 291449354,
+            "youtube_url": "https://www.youtube.com/watch?v=4D89Qr5vH6U",
+            "embed_url": "https://www.youtube.com/embed/4D89Qr5vH6U"
+          },
+          {
+            "video_id": "1lrFsXkT_rM",
+            "title": "Gigi Perez - Sailor Song (Official Music Video)",
+            "artist": "geeguscrustVEVO",
+            "match_score": 0.34428388130820825,
+            "genre": "Pop",
+            "views": 32041136,
+            "youtube_url": "https://www.youtube.com/watch?v=1lrFsXkT_rM",
+            "embed_url": "https://www.youtube.com/embed/1lrFsXkT_rM",
+            "user_rating": 5
+          },
+          {
+            "video_id": "7TF91Zk8L5w",
+            "title": "AURORA - The Conflict Of The Mind",
+            "artist": "iamAURORAVEVO",
+            "match_score": 0.33928040194103143,
+            "genre": "Pop",
+            "views": 4086961,
+            "youtube_url": "https://www.youtube.com/watch?v=7TF91Zk8L5w",
+            "embed_url": "https://www.youtube.com/embed/7TF91Zk8L5w"
+          },
+          {
+            "video_id": "hHUbLv4ThOo",
+            "title": "Pitbull, Ke$ha - Timber (featuring Ke$ha - Official Video)",
+            "artist": "PitbullVEVO",
+            "match_score": 0.335624141765033,
+            "genre": "Pop",
+            "views": 1544740690,
+            "youtube_url": "https://www.youtube.com/watch?v=hHUbLv4ThOo",
+            "embed_url": "https://www.youtube.com/embed/hHUbLv4ThOo"
+          },
+          {
+            "video_id": "m7Bc3pLyij0",
+            "title": "Marshmello ft. Bastille - Happier (Official Music Video)",
+            "artist": "Marshmello",
+            "match_score": 0.43715262437556235,
+            "genre": "Unknown",
+            "views": 1310015713,
+            "youtube_url": "https://www.youtube.com/watch?v=m7Bc3pLyij0",
+            "embed_url": "https://www.youtube.com/embed/m7Bc3pLyij0"
+          }
+        ],
+        "feedback": {
+          "W-TE_Ys4iwM": {
+            "timestamp": "2025-05-14T09:32:23.543117",
+            "video_id": "W-TE_Ys4iwM",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 2.608,
+            "video_data": {
+              "video_id": "W-TE_Ys4iwM",
+              "title": "One Direction - Story of My Life",
+              "artist": "OneDirectionVEVO",
+              "match_score": 0.4186047713785594,
+              "genre": "Pop",
+              "views": 1045431431,
+              "recommendation_method": "text",
+              "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+              "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM",
+              "user_rating": 5
+            },
+            "session_id": "session_20250514093209_2360"
+          },
+          "SlPhMPnQ58k": {
+            "timestamp": "2025-05-14T09:32:38.705432",
+            "video_id": "SlPhMPnQ58k",
+            "rating": 4,
+            "skip_reason": null,
+            "listen_duration": 2.791,
+            "video_data": {
+              "video_id": "SlPhMPnQ58k",
+              "title": "Maroon 5 - Memories (Official Video)",
+              "artist": "Maroon5VEVO",
+              "match_score": 0.39834905075393173,
+              "genre": "Pop",
+              "views": 1136531104,
+              "youtube_url": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+              "embed_url": "https://www.youtube.com/embed/SlPhMPnQ58k",
+              "user_rating": 4
+            },
+            "session_id": "session_20250514093209_2360"
+          },
+          "1lrFsXkT_rM": {
+            "timestamp": "2025-05-14T09:32:48.428884",
+            "video_id": "1lrFsXkT_rM",
+            "rating": 5,
+            "skip_reason": null,
+            "listen_duration": 2.652,
+            "video_data": {
+              "video_id": "1lrFsXkT_rM",
+              "title": "Gigi Perez - Sailor Song (Official Music Video)",
+              "artist": "geeguscrustVEVO",
+              "match_score": 0.34428388130820825,
+              "genre": "Pop",
+              "views": 32041136,
+              "youtube_url": "https://www.youtube.com/watch?v=1lrFsXkT_rM",
+              "embed_url": "https://www.youtube.com/embed/1lrFsXkT_rM",
+              "user_rating": 5
+            },
+            "session_id": "session_20250514093209_2360"
+          }
+        },
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 2.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {},
+    "preferred_eras": {},
+    "favorite_artists": {
+      "OneDirectionVEVO": 1.5,
+      "Maroon5VEVO": 0.75,
+      "geeguscrustVEVO": 1.5
+    },
+    "playlists": [
+      {
+        "playlist_id": "playlist_20250514093254_4038",
+        "data": {
+          "name": "Your Pop Favorites",
+          "description": "A personalized playlist based on your listening history and preferences.",
+          "created_at": "2025-05-14T09:32:54.011871",
+          "size": 20,
+          "tracks": [
+            {
+              "video_id": "09R8_2nJtjg",
+              "title": "Maroon 5 - Sugar (Official Music Video)",
+              "artist": "Maroon5VEVO",
+              "genre": "Pop",
+              "views": 4232192352
+            },
+            {
+              "video_id": "ghSQz2BcDQU",
+              "title": "Sigala, Paloma Faith - Lullaby",
+              "artist": "SigalaVEVO",
+              "similarity": 0.8044496178627014,
+              "genre": "Pop",
+              "views": 74093102
+            },
+            {
+              "video_id": "Jwgf3wmiA04",
+              "title": "One Direction - Drag Me Down (Official Video)",
+              "artist": "OneDirectionVEVO",
+              "similarity": 0.7785488963127136,
+              "genre": "Pop",
+              "views": 1104069030
+            },
+            {
+              "video_id": "hPC2Fp7IT7o",
+              "title": "Seether - Broken ft. Amy Lee",
+              "artist": "SeetherVEVO",
+              "similarity": 0.7687804698944092,
+              "genre": "Pop",
+              "views": 400423621
+            },
+            {
+              "video_id": "Uq9gPaIzbe8",
+              "title": "Sam Smith, Kim Petras - Unholy (Official Music Video)",
+              "artist": "SamSmithVEVO",
+              "similarity": 0.9074155688285828,
+              "genre": "Pop",
+              "views": 282290609
+            },
+            {
+              "video_id": "Ip6cw8gfHHI",
+              "title": "d4vd - Here With Me [Official Music Video]",
+              "artist": "d4vdVEVO",
+              "similarity": 0.8314816355705261,
+              "genre": "Pop",
+              "views": 204762209
+            },
+            {
+              "video_id": "nCkpzqqog4k",
+              "title": "Sam Smith - I'm Not The Only One (Official Music Video)",
+              "artist": "SamSmithVEVO",
+              "similarity": 0.8933250308036804,
+              "genre": "Pop",
+              "views": 1757663364
+            },
+            {
+              "video_id": "zPG1n1B0Ydw",
+              "title": "Sugarland - Stay (Official Video)",
+              "artist": "SugarlandVEVO",
+              "similarity": 0.7957084774971008,
+              "genre": "Pop",
+              "views": 218821929
+            },
+            {
+              "video_id": "W-TE_Ys4iwM",
+              "title": "One Direction - Story of My Life",
+              "artist": "OneDirectionVEVO",
+              "match_score": 0.4186047713785594,
+              "genre": "Pop",
+              "views": 1045431431,
+              "recommendation_method": "text",
+              "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+              "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM",
+              "user_rating": 5
+            },
+            {
+              "video_id": "NG2zyeVRcbs",
+              "title": "Miley Cyrus - The Climb",
+              "artist": "HollywoodRecordsVEVO",
+              "similarity": 0.7942184805870056,
+              "genre": "Pop",
+              "views": 516215671
+            },
+            {
+              "video_id": "ghb6eDopW8I",
+              "title": "Of Monsters and Men - Little Talks",
+              "artist": "OfMonstersAndMenVEVO",
+              "similarity": 0.8157907128334045,
+              "genre": "Pop",
+              "views": 388987161
+            },
+            {
+              "video_id": "6Ejga4kJUts",
+              "title": "The Cranberries - Zombie (Official Music Video)",
+              "artist": "TheCranberriesVEVO",
+              "similarity": 0.7720937728881836,
+              "genre": "Pop",
+              "views": 1686802383
+            },
+            {
+              "video_id": "1lrFsXkT_rM",
+              "title": "Gigi Perez - Sailor Song (Official Music Video)",
+              "artist": "geeguscrustVEVO",
+              "match_score": 0.34428388130820825,
+              "genre": "Pop",
+              "views": 32041136,
+              "youtube_url": "https://www.youtube.com/watch?v=1lrFsXkT_rM",
+              "embed_url": "https://www.youtube.com/embed/1lrFsXkT_rM",
+              "user_rating": 5
+            },
+            {
+              "video_id": "SoIKv3xxuMA",
+              "title": "Keith Urban - Blue Ain't Your Color (Official Music Video)",
+              "artist": "KeithUrbanVEVO",
+              "similarity": 0.7912784218788147,
+              "genre": "Pop",
+              "views": 430968676
+            },
+            {
+              "video_id": "J_ub7Etch2U",
+              "title": "Sam Smith - Too Good At Goodbyes",
+              "artist": "SamSmithVEVO",
+              "similarity": 0.8314405083656311,
+              "genre": "Pop",
+              "views": 1539344955
+            },
+            {
+              "video_id": "hTWKbfoikeg",
+              "title": "Nirvana - Smells Like Teen Spirit (Official Music Video)",
+              "artist": "NirvanaVEVO",
+              "similarity": 0.768003523349762,
+              "genre": "Pop",
+              "views": 1991271365
+            },
+            {
+              "video_id": "SlPhMPnQ58k",
+              "title": "Maroon 5 - Memories (Official Video)",
+              "artist": "Maroon5VEVO",
+              "match_score": 0.39834905075393173,
+              "genre": "Pop",
+              "views": 1136531104,
+              "youtube_url": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+              "embed_url": "https://www.youtube.com/embed/SlPhMPnQ58k",
+              "user_rating": 4
+            },
+            {
+              "video_id": "oh64haEP9g8",
+              "title": "SZA - Good Days (Audio)",
+              "artist": "SZAVEVO",
+              "similarity": 0.7896820902824402,
+              "genre": "Pop",
+              "views": 120507104
+            },
+            {
+              "video_id": "OPf0YbXqDm0",
+              "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+              "artist": "MarkRonsonVEVO",
+              "genre": "Pop",
+              "views": 5561554065
+            },
+            {
+              "video_id": "7NJqUN9TClM",
+              "title": "The Band Perry - If I Die Young (Official Music Video)",
+              "artist": "TheBandPerryVEVO",
+              "similarity": 0.8027040362358093,
+              "genre": "Pop",
+              "views": 259680297
+            }
+          ],
+          "genre_distribution": {
+            "Pop": 1.0
+          },
+          "direct_picks": 3,
+          "method": "feedback_based"
+        }
+      }
+    ]
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-14T09:32:23.543117",
+      "video_id": "W-TE_Ys4iwM",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 2.608,
+      "video_data": {
+        "video_id": "W-TE_Ys4iwM",
+        "title": "One Direction - Story of My Life",
+        "artist": "OneDirectionVEVO",
+        "match_score": 0.4186047713785594,
+        "genre": "Pop",
+        "views": 1045431431,
+        "recommendation_method": "text",
+        "youtube_url": "https://www.youtube.com/watch?v=W-TE_Ys4iwM",
+        "embed_url": "https://www.youtube.com/embed/W-TE_Ys4iwM",
+        "user_rating": 5
+      },
+      "session_id": "session_20250514093209_2360"
+    },
+    {
+      "timestamp": "2025-05-14T09:32:38.705432",
+      "video_id": "SlPhMPnQ58k",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 2.791,
+      "video_data": {
+        "video_id": "SlPhMPnQ58k",
+        "title": "Maroon 5 - Memories (Official Video)",
+        "artist": "Maroon5VEVO",
+        "match_score": 0.39834905075393173,
+        "genre": "Pop",
+        "views": 1136531104,
+        "youtube_url": "https://www.youtube.com/watch?v=SlPhMPnQ58k",
+        "embed_url": "https://www.youtube.com/embed/SlPhMPnQ58k",
+        "user_rating": 4
+      },
+      "session_id": "session_20250514093209_2360"
+    },
+    {
+      "timestamp": "2025-05-14T09:32:48.428884",
+      "video_id": "1lrFsXkT_rM",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 2.652,
+      "video_data": {
+        "video_id": "1lrFsXkT_rM",
+        "title": "Gigi Perez - Sailor Song (Official Music Video)",
+        "artist": "geeguscrustVEVO",
+        "match_score": 0.34428388130820825,
+        "genre": "Pop",
+        "views": 32041136,
+        "youtube_url": "https://www.youtube.com/watch?v=1lrFsXkT_rM",
+        "embed_url": "https://www.youtube.com/embed/1lrFsXkT_rM",
+        "user_rating": 5
+      },
+      "session_id": "session_20250514093209_2360"
+    }
+  ]
+}
