@@ -1,0 +1,517 @@
+{
+  "user_id": "user_20250520154549_2923",
+  "user_name": null,
+  "last_updated": "2025-05-20T15:47:56.553530",
+  "history": [
+    {
+      "session_id": "session_20250520154549_6067",
+      "data": {
+        "timestamp": "2025-05-20T15:45:49.329077",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "0M89dktckCo",
+            "title": "Non-Divine - Visions (Official Music Video)",
+            "artist": "Non-Divine",
+            "genre": "Unknown",
+            "views": 29446,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "e0m1VmAVtXQ",
+            "title": "DeathbyRomy - Little Dreamer (Official Music Video)",
+            "artist": "DeathbyRomy",
+            "genre": "Metal",
+            "views": 65670,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "FJM9DUzCKwE",
+            "title": "Yung Bleu, Nicki Minaj - Love In The Way (Official Video)",
+            "artist": "YungBleuVEVO",
+            "genre": "Pop",
+            "views": 10049661,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "EoVQ_TQFJy0",
+            "title": "Djo - End of Beginning (Official Lyric Video)",
+            "artist": "Djo Music",
+            "genre": "Electronic",
+            "views": 38643208,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "9xF9iQiS2Vs",
+            "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+            "artist": "Rap Samurai",
+            "genre": "Hip-Hop",
+            "views": 63078092,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "uXyxFMbqKYA",
+            "title": "Luke Combs - When It Rains It Pours (Official Video)",
+            "artist": "LukeCombsVEVO",
+            "genre": "Pop",
+            "views": 477904054,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "09R8_2nJtjg",
+            "title": "Maroon 5 - Sugar (Official Music Video)",
+            "artist": "Maroon5VEVO",
+            "views": 4232192352,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "hT_nvWreIhg",
+            "title": "OneRepublic - Counting Stars",
+            "artist": "OneRepublicVEVO",
+            "views": 4159230049,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "CevxZvSJLk8",
+            "title": "Katy Perry - Roar",
+            "artist": "KatyPerryVEVO",
+            "views": 4138780678,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "CSvFpBOe8eY",
+            "title": "System Of A Down - Chop Suey! (Official HD Video)",
+            "artist": "systemofadownVEVO",
+            "genre": "Pop",
+            "views": 1470279161,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "aatr_2MstrI",
+            "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 1384724570,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "gUn6i9bfdRA",
+            "title": "Jorja Smith - Try Me",
+            "artist": "JorjaSmithVEVO",
+            "match_score": 0.4596064682765848,
+            "genre": "Pop",
+            "views": 5413085,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "4SvZIsYffNk",
+            "title": "Ciara, Lil Baby - Forever",
+            "artist": "CiaraVEVO",
+            "match_score": 0.45909339150839873,
+            "genre": "Pop",
+            "views": 8604956,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "6xMBmvevhj0",
+            "title": "Calvin Harris - Nuh Ready Nuh Ready (Official Video) ft. PARTYNEXTDOOR",
+            "artist": "CalvinHarrisVEVO",
+            "match_score": 0.4585482523196551,
+            "genre": "Pop",
+            "views": 7925188,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "CbxuXq_981s",
+            "title": "Florida Georgia Line - This Is How We Roll ft. Luke Bryan",
+            "artist": "FlaGeorgiaLineVEVO",
+            "match_score": 0.44576174638981003,
+            "genre": "Pop",
+            "views": 271925958,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "e4ujS1er1r0",
+            "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+            "artist": "Zac Brown Band",
+            "match_score": 0.42009780245119904,
+            "genre": "Rock",
+            "views": 165938502,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "ZwoDYJWWXW0",
+            "title": "Alan Walker, Keala Settle & The Greatest Showman Ensemble - This Is Me (Alan Walker Relift)",
+            "artist": "Alan Walker",
+            "match_score": 0.4123335341743207,
+            "genre": "Unknown",
+            "views": 18484004,
+            "recommendation_method": "text"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 5.0,
+      "Unknown": 1.0,
+      "Metal": -0.5,
+      "Electronic": 1.0,
+      "Hip-Hop": 1.0,
+      "Rock": 0.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Metal": 0.5
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 1.5,
+      "Non-Divine": 0.75,
+      "DeathbyRomy": -0.75,
+      "YungBleuVEVO": 1.5,
+      "Djo Music": 1.5,
+      "Rap Samurai": 1.5,
+      "LukeCombsVEVO": 0.75,
+      "Ed Sheeran": 0.75,
+      "MarkRonsonVEVO": 0.75,
+      "Maroon5VEVO": 0.75,
+      "OneRepublicVEVO": 0.75,
+      "KatyPerryVEVO": 0.75,
+      "systemofadownVEVO": 0.75,
+      "Clean Bandit": 0.75,
+      "BleachersVEVO": 1.5,
+      "CiaraVEVO": 0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T15:45:50.037257",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 201.53325641410916,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:50.037877",
+      "video_id": "0M89dktckCo",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 281.66078160122845,
+      "video_data": {
+        "video_id": "0M89dktckCo",
+        "title": "Non-Divine - Visions (Official Music Video)",
+        "artist": "Non-Divine",
+        "genre": "Unknown",
+        "views": 29446,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:50.038533",
+      "video_id": "e0m1VmAVtXQ",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 36.72826917648571,
+      "video_data": {
+        "video_id": "e0m1VmAVtXQ",
+        "title": "DeathbyRomy - Little Dreamer (Official Music Video)",
+        "artist": "DeathbyRomy",
+        "genre": "Metal",
+        "views": 65670,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:53.888940",
+      "video_id": "FJM9DUzCKwE",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 232.60085627953384,
+      "video_data": {
+        "video_id": "FJM9DUzCKwE",
+        "title": "Yung Bleu, Nicki Minaj - Love In The Way (Official Video)",
+        "artist": "YungBleuVEVO",
+        "genre": "Pop",
+        "views": 10049661,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:54.708718",
+      "video_id": "EoVQ_TQFJy0",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 298.14770041267417,
+      "video_data": {
+        "video_id": "EoVQ_TQFJy0",
+        "title": "Djo - End of Beginning (Official Lyric Video)",
+        "artist": "Djo Music",
+        "genre": "Electronic",
+        "views": 38643208,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:55.293858",
+      "video_id": "9xF9iQiS2Vs",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 246.5371669892896,
+      "video_data": {
+        "video_id": "9xF9iQiS2Vs",
+        "title": "Doechii - What It Is (Solo Version) (Lyrics)",
+        "artist": "Rap Samurai",
+        "genre": "Hip-Hop",
+        "views": 63078092,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:55.910029",
+      "video_id": "uXyxFMbqKYA",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 270.17227489913887,
+      "video_data": {
+        "video_id": "uXyxFMbqKYA",
+        "title": "Luke Combs - When It Rains It Pours (Official Video)",
+        "artist": "LukeCombsVEVO",
+        "genre": "Pop",
+        "views": 477904054,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:56.469023",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 206.98966510547143,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:57.340380",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 274.69657202666986,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:58.015012",
+      "video_id": "09R8_2nJtjg",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 271.96809237384014,
+      "video_data": {
+        "video_id": "09R8_2nJtjg",
+        "title": "Maroon 5 - Sugar (Official Music Video)",
+        "artist": "Maroon5VEVO",
+        "views": 4232192352,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:58.682186",
+      "video_id": "hT_nvWreIhg",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 187.71079377118966,
+      "video_data": {
+        "video_id": "hT_nvWreIhg",
+        "title": "OneRepublic - Counting Stars",
+        "artist": "OneRepublicVEVO",
+        "views": 4159230049,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:45:59.451591",
+      "video_id": "CevxZvSJLk8",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 184.75723942171433,
+      "video_data": {
+        "video_id": "CevxZvSJLk8",
+        "title": "Katy Perry - Roar",
+        "artist": "KatyPerryVEVO",
+        "views": 4138780678,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:46:00.326867",
+      "video_id": "CSvFpBOe8eY",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 218.40707906084089,
+      "video_data": {
+        "video_id": "CSvFpBOe8eY",
+        "title": "System Of A Down - Chop Suey! (Official HD Video)",
+        "artist": "systemofadownVEVO",
+        "genre": "Pop",
+        "views": 1470279161,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:46:36.031721",
+      "video_id": "aatr_2MstrI",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 225.01101161133494,
+      "video_data": {
+        "video_id": "aatr_2MstrI",
+        "title": "Clean Bandit - Symphony (feat. Zara Larsson) [Official Video]",
+        "artist": "Clean Bandit",
+        "genre": "Rock",
+        "views": 1384724570,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:47:13.792914",
+      "video_id": "kmpyfDF_pes",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 195.69796668314885,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:47:56.553260",
+      "video_id": "xnumI3_qt-w",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 193.4827296439928,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "user_id": "user_20250520155611_1595",
+  "user_name": null,
+  "last_updated": "2025-05-20T15:56:17.273107",
+  "history": [
+    {
+      "session_id": "session_20250520155611_1888",
+      "data": {
+        "timestamp": "2025-05-20T15:56:11.423147",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "iOVywBvN-xM",
+            "title": "Don Louis - She Ain't Crazy Yet (Official Visualizer)",
+            "artist": "DonLouisVEVO",
+            "genre": "Pop",
+            "views": 42679,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "kC8YEw9h2-Q",
+            "title": "Rod Wave - Call Your Friends (Official Video)",
+            "artist": "RodWave",
+            "genre": "Unknown",
+            "views": 43201926,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "uZs1AHQBz24",
+            "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 151938945,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 0.20000000000000018,
+      "Unknown": -0.4,
+      "Rock": -1.0
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.0,
+      "Unknown": 1.0,
+      "Rock": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "DonLouisVEVO": 0.75,
+      "RodWave": 0.75,
+      "Clean Bandit": 0.15000000000000002,
+      "Ed Sheeran": 0.15000000000000002,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.15000000000000002,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -1.0,
+      "Kid Rock": -1.0
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T15:56:11.841441",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 208.14717290280635,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:11.842757",
+      "video_id": "iOVywBvN-xM",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 124.50193594008005,
+      "video_data": {
+        "video_id": "iOVywBvN-xM",
+        "title": "Don Louis - She Ain't Crazy Yet (Official Visualizer)",
+        "artist": "DonLouisVEVO",
+        "genre": "Pop",
+        "views": 42679,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:11.843845",
+      "video_id": "kC8YEw9h2-Q",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 124.50193594008005,
+      "video_data": {
+        "video_id": "kC8YEw9h2-Q",
+        "title": "Rod Wave - Call Your Friends (Official Video)",
+        "artist": "RodWave",
+        "genre": "Unknown",
+        "views": 43201926,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:15.364523",
+      "video_id": "uZs1AHQBz24",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "uZs1AHQBz24",
+        "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+        "artist": "Clean Bandit",
+        "genre": "Rock",
+        "views": 151938945,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:15.683263",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:16.018262",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:16.341458",
+      "video_id": "kmpyfDF_pes",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:16.661901",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 11.250537761133346,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:16.976546",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 11.250537761133346,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:56:17.273063",
+      "video_id": "aSkFygPCTwE",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 11.250537761133346,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}

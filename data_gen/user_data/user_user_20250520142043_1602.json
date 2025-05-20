@@ -1,0 +1,326 @@
+{
+  "user_id": "user_20250520142043_1602",
+  "user_name": null,
+  "last_updated": "2025-05-20T14:20:51.589741",
+  "history": [
+    {
+      "session_id": "session_20250520142043_8484",
+      "data": {
+        "timestamp": "2025-05-20T14:20:43.503604",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "phUzGwCR77w",
+            "title": "Quinn XCII - Olive Tree",
+            "artist": "QuinnXCIIVEVO",
+            "genre": "Pop",
+            "views": 56798,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "HK977Z_K9yI",
+            "title": "Coco Jones - On Sight",
+            "artist": "Coco Jones",
+            "genre": "Unknown",
+            "views": 697841,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "uZs1AHQBz24",
+            "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 151938945,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "gUn6i9bfdRA",
+            "title": "Jorja Smith - Try Me",
+            "artist": "JorjaSmithVEVO",
+            "match_score": 0.4596064682765848,
+            "genre": "Pop",
+            "views": 5413085
+          },
+          {
+            "video_id": "6xMBmvevhj0",
+            "title": "Calvin Harris - Nuh Ready Nuh Ready (Official Video) ft. PARTYNEXTDOOR",
+            "artist": "CalvinHarrisVEVO",
+            "match_score": 0.4585482523196551,
+            "genre": "Pop",
+            "views": 7925188
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          },
+          {
+            "video_id": "BixwVsiDdZM",
+            "title": "Luke Combs - Hurricane (Official Video)",
+            "artist": "LukeCombsVEVO",
+            "genre": "Pop",
+            "views": 378392175,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 1.6,
+      "Unknown": 1.0
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 0.5,
+      "Unknown": 0.5,
+      "Rock": 0.5
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "QuinnXCIIVEVO": 1.5,
+      "Coco Jones": 1.5,
+      "Clean Bandit": 0.75,
+      "Ed Sheeran": 0.75,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.75,
+      "CiaraVEVO": -0.75,
+      "Burna Boy": -0.75,
+      "Kid Rock": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T14:20:45.320465",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 233.67047624467793,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:45.321703",
+      "video_id": "phUzGwCR77w",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 244.63738063743753,
+      "video_data": {
+        "video_id": "phUzGwCR77w",
+        "title": "Quinn XCII - Olive Tree",
+        "artist": "QuinnXCIIVEVO",
+        "genre": "Pop",
+        "views": 56798,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:45.331630",
+      "video_id": "HK977Z_K9yI",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 235.37499516544074,
+      "video_data": {
+        "video_id": "HK977Z_K9yI",
+        "title": "Coco Jones - On Sight",
+        "artist": "Coco Jones",
+        "genre": "Unknown",
+        "views": 697841,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:48.929830",
+      "video_id": "uZs1AHQBz24",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 142.4573309119885,
+      "video_data": {
+        "video_id": "uZs1AHQBz24",
+        "title": "Clean Bandit - I Miss You (feat. Julia Michaels) [Official Video]",
+        "artist": "Clean Bandit",
+        "genre": "Rock",
+        "views": 151938945,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:49.212353",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 85.55724394020933,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:49.514517",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 161.30588380201573,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:49.801130",
+      "video_id": "kmpyfDF_pes",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 62.74724531524978,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:50.060724",
+      "video_id": "xnumI3_qt-w",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 45.18423315263488,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:50.468825",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 28.404465035383545,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:20:50.765275",
+      "video_id": "aSkFygPCTwE",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 38.796453577556576,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "user_id": "user_20250520152830_4707",
+  "user_name": null,
+  "last_updated": "2025-05-20T15:28:37.834078",
+  "history": [
+    {
+      "session_id": "session_20250520152830_3316",
+      "data": {
+        "timestamp": "2025-05-20T15:28:30.471536",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "LVEwL-sZzmM",
+            "title": "Lost Frequencies & Zonderling - Crazy (Official Music Video)",
+            "artist": "Lost Frequencies",
+            "genre": "Unknown",
+            "views": 119894478,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "e4ujS1er1r0",
+            "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+            "artist": "Zac Brown Band",
+            "genre": "Rock",
+            "views": 165938502,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "JkK8g6FMEXE",
+            "title": "Aerosmith - I Don't Want to Miss a Thing (Official HD Video)",
+            "artist": "AerosmithVEVO",
+            "genre": "Pop",
+            "views": 690227087,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          },
+          {
+            "video_id": "1lyu1KKwC74",
+            "title": "The Verve - Bitter Sweet Symphony",
+            "artist": "TheVerveVEVO",
+            "genre": "Pop",
+            "views": 1167178072,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "IpFX2vq8HKw",
+            "title": "yung kai - blue (official music video)",
+            "artist": "yung kai",
+            "genre": "Unknown",
+            "views": 119388716,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 0.20000000000000018,
+      "Unknown": 0.10000000000000009
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.0,
+      "Unknown": 1.0,
+      "Rock": 0.5
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "Lost Frequencies": 1.5,
+      "Zac Brown Band": 0.75,
+      "Ed Sheeran": 0.15000000000000002,
+      "MarkRonsonVEVO": 0.75,
+      "AerosmithVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.15000000000000002,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -1.0,
+      "Kid Rock": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T15:28:30.875997",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 121.94813921733675,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:30.877207",
+      "video_id": "LVEwL-sZzmM",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 169.67175163407194,
+      "video_data": {
+        "video_id": "LVEwL-sZzmM",
+        "title": "Lost Frequencies & Zonderling - Crazy (Official Music Video)",
+        "artist": "Lost Frequencies",
+        "genre": "Unknown",
+        "views": 119894478,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:30.877991",
+      "video_id": "e4ujS1er1r0",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 281.4067978817765,
+      "video_data": {
+        "video_id": "e4ujS1er1r0",
+        "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+        "artist": "Zac Brown Band",
+        "genre": "Rock",
+        "views": 165938502,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:34.282453",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 148.8048818959769,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:34.739029",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 138.76608965807307,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:35.206316",
+      "video_id": "JkK8g6FMEXE",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 119.48371538397215,
+      "video_data": {
+        "video_id": "JkK8g6FMEXE",
+        "title": "Aerosmith - I Don't Want to Miss a Thing (Official HD Video)",
+        "artist": "AerosmithVEVO",
+        "genre": "Pop",
+        "views": 690227087,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:35.758230",
+      "video_id": "kmpyfDF_pes",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 119.3240409822343,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:36.208741",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 25.312527316816833,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:36.536304",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 50.812242234725716,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:28:36.877746",
+      "video_id": "aSkFygPCTwE",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 53.260364811836055,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "user_id": "user_20250520161420_3111",
+  "user_name": null,
+  "last_updated": "2025-05-20T16:14:31.984529",
+  "history": [
+    {
+      "session_id": "session_20250520161420_6864",
+      "data": {
+        "timestamp": "2025-05-20T16:14:20.569765",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Rock",
+            "views": 7212253,
+            "recommendation_method": "text",
+            "mood": "energetic"
+          },
+          {
+            "video_id": "03mfwKTXycg",
+            "title": "The Blacktones  //  Russian Doll [Official Video]",
+            "artist": "TheBlacktonesBand",
+            "genre": "Pop",
+            "views": 2473,
+            "recommendation_method": "random",
+            "mood": "happy"
+          },
+          {
+            "video_id": "Jqhos69iHg8",
+            "title": "Chubby Checker - The Twist (Animated Music Video)",
+            "artist": "ChubbyCheckerVEVO",
+            "genre": "Rock",
+            "views": 586947,
+            "recommendation_method": "random",
+            "mood": "happy"
+          },
+          {
+            "video_id": "boMN64FciiQ",
+            "title": "NLE Choppa - Gang Baby (Official Music Video)",
+            "artist": "NLE CHOPPA",
+            "genre": "Electronic",
+            "views": 9660168,
+            "recommendation_method": "random",
+            "mood": "happy"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Rock",
+            "recommendation_method": "popular",
+            "mood": "sad"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular",
+            "mood": "energetic"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Hip-Hop",
+            "views": 3510268,
+            "recommendation_method": "text",
+            "mood": "energetic"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "R&B",
+            "views": 71127769,
+            "recommendation_method": "text",
+            "mood": "angry"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "R&B",
+            "views": 93173437,
+            "recommendation_method": "text",
+            "mood": "sad"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Hip-Hop",
+            "views": 148917037,
+            "recommendation_method": "text",
+            "mood": "angry"
+          },
+          {
+            "video_id": "papuvlVeZg8",
+            "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 3068579604,
+            "recommendation_method": "genre_mix"
+          },
+          {
+            "video_id": "G_zuB-ogIBw",
+            "title": "Walker Hayes - Fancy Like",
+            "artist": "WalkerHayesVEVO",
+            "genre": "Pop",
+            "views": 161464378,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Rock": 2.5,
+      "Pop": 1.1,
+      "R&B": -1.0,
+      "Hip-Hop": -1.0
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "R&B": 1.5,
+      "Hip-Hop": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 1.5,
+      "TheBlacktonesBand": 1.5,
+      "ChubbyCheckerVEVO": 1.5,
+      "NLE CHOPPA": 0.15000000000000002,
+      "Ed Sheeran": 0.75,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.15000000000000002,
+      "CiaraVEVO": -0.75,
+      "Burna Boy": -1.0,
+      "Kid Rock": -1.0
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T16:14:21.134869",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 263.7525758738075,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Rock",
+        "views": 7212253,
+        "recommendation_method": "text",
+        "mood": "energetic"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:21.138529",
+      "video_id": "03mfwKTXycg",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 146.93399822473458,
+      "video_data": {
+        "video_id": "03mfwKTXycg",
+        "title": "The Blacktones  //  Russian Doll [Official Video]",
+        "artist": "TheBlacktonesBand",
+        "genre": "Pop",
+        "views": 2473,
+        "recommendation_method": "random",
+        "mood": "happy"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:21.151021",
+      "video_id": "Jqhos69iHg8",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 240.7255042247771,
+      "video_data": {
+        "video_id": "Jqhos69iHg8",
+        "title": "Chubby Checker - The Twist (Animated Music Video)",
+        "artist": "ChubbyCheckerVEVO",
+        "genre": "Rock",
+        "views": 586947,
+        "recommendation_method": "random",
+        "mood": "happy"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:24.974948",
+      "video_id": "boMN64FciiQ",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 155.09917598353908,
+      "video_data": {
+        "video_id": "boMN64FciiQ",
+        "title": "NLE Choppa - Gang Baby (Official Music Video)",
+        "artist": "NLE CHOPPA",
+        "genre": "Electronic",
+        "views": 9660168,
+        "recommendation_method": "random",
+        "mood": "happy"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:25.540854",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 84.3418597889731,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Rock",
+        "recommendation_method": "popular",
+        "mood": "sad"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:26.227877",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 78.6708970855745,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular",
+        "mood": "energetic"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:26.979661",
+      "video_id": "kmpyfDF_pes",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 90.57907575563348,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Hip-Hop",
+        "views": 3510268,
+        "recommendation_method": "text",
+        "mood": "energetic"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:27.796369",
+      "video_id": "xnumI3_qt-w",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 37.59908809525167,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "R&B",
+        "views": 71127769,
+        "recommendation_method": "text",
+        "mood": "angry"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:28.472447",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 30.131173232700515,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "R&B",
+        "views": 93173437,
+        "recommendation_method": "text",
+        "mood": "sad"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:14:29.357639",
+      "video_id": "aSkFygPCTwE",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 13.295014501921706,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Hip-Hop",
+        "views": 148917037,
+        "recommendation_method": "text",
+        "mood": "angry"
+      }
+    }
+  ]
+}

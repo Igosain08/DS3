@@ -1,0 +1,335 @@
+{
+  "user_id": "user_20250520161321_2145",
+  "user_name": null,
+  "last_updated": "2025-05-20T16:13:33.220305",
+  "history": [
+    {
+      "session_id": "session_20250520161321_5614",
+      "data": {
+        "timestamp": "2025-05-20T16:13:21.674555",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Rock",
+            "views": 7212253,
+            "recommendation_method": "text",
+            "mood": "happy"
+          },
+          {
+            "video_id": "ahE3XAEgHP0",
+            "title": "Khalid - Ground (Visualizer)",
+            "artist": "KhalidVEVO",
+            "genre": "Rock",
+            "views": 1190364,
+            "recommendation_method": "random",
+            "mood": "happy"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "genre": "Pop",
+            "views": 148917037,
+            "recommendation_method": "random",
+            "mood": "happy"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "R&B",
+            "recommendation_method": "popular",
+            "mood": "relaxed"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "R&B",
+            "recommendation_method": "popular",
+            "mood": "sad"
+          },
+          {
+            "video_id": "2Vv-BfVoq4g",
+            "title": "Ed Sheeran - Perfect (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "genre": "Rock",
+            "views": 3934221872,
+            "recommendation_method": "random",
+            "mood": "relaxed"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "R&B",
+            "views": 3510268,
+            "recommendation_method": "text",
+            "mood": "angry"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Hip-Hop",
+            "views": 71127769,
+            "recommendation_method": "text",
+            "mood": "angry"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "R&B",
+            "views": 93173437,
+            "recommendation_method": "text",
+            "mood": "angry"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "R&B",
+            "views": 148917037,
+            "recommendation_method": "text",
+            "mood": "angry"
+          },
+          {
+            "video_id": "papuvlVeZg8",
+            "title": "Clean Bandit - Rockabye (feat. Sean Paul & Anne-Marie) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 3068579604,
+            "recommendation_method": "genre_mix"
+          },
+          {
+            "video_id": "CfihYWRWRTQ",
+            "title": "John Newman - Love Me Again",
+            "artist": "JohnNewmanVEVO",
+            "genre": "Pop",
+            "views": 1099550798,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Rock": 2.0,
+      "Hip-Hop": -1.0,
+      "R&B": -0.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Hip-Hop": 1.0,
+      "R&B": 0.5,
+      "Pop": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "KhalidVEVO": 1.5,
+      "Ed Sheeran": 0.9,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.15000000000000002,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T16:13:22.184345",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 123.9354223675459,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Rock",
+        "views": 7212253,
+        "recommendation_method": "text",
+        "mood": "happy"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:22.187145",
+      "video_id": "ahE3XAEgHP0",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 298.0775380791895,
+      "video_data": {
+        "video_id": "ahE3XAEgHP0",
+        "title": "Khalid - Ground (Visualizer)",
+        "artist": "KhalidVEVO",
+        "genre": "Rock",
+        "views": 1190364,
+        "recommendation_method": "random",
+        "mood": "happy"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:22.187939",
+      "video_id": "aSkFygPCTwE",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 233.1842001672366,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "genre": "Pop",
+        "views": 148917037,
+        "recommendation_method": "random",
+        "mood": "happy"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:26.192809",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 111.46786479712583,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "R&B",
+        "recommendation_method": "popular",
+        "mood": "relaxed"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:26.876680",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 80.34300773119344,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "R&B",
+        "recommendation_method": "popular",
+        "mood": "sad"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:27.526253",
+      "video_id": "2Vv-BfVoq4g",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 84.76756984380334,
+      "video_data": {
+        "video_id": "2Vv-BfVoq4g",
+        "title": "Ed Sheeran - Perfect (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "genre": "Rock",
+        "views": 3934221872,
+        "recommendation_method": "random",
+        "mood": "relaxed"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:28.151181",
+      "video_id": "kmpyfDF_pes",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 167.9149194294249,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "R&B",
+        "views": 3510268,
+        "recommendation_method": "text",
+        "mood": "angry"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:28.895860",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 59.505029826481135,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Hip-Hop",
+        "views": 71127769,
+        "recommendation_method": "text",
+        "mood": "angry"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:29.764031",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 42.50187477816313,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "R&B",
+        "views": 93173437,
+        "recommendation_method": "text",
+        "mood": "angry"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:13:30.637615",
+      "video_id": "aSkFygPCTwE",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 29.221244442574324,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "genre": "Pop",
+        "views": 148917037,
+        "recommendation_method": "random",
+        "mood": "happy"
+      }
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "user_id": "user_20250520161932_5588",
+  "user_name": null,
+  "last_updated": "2025-05-20T16:19:44.138951",
+  "history": [
+    {
+      "session_id": "session_20250520161932_3750",
+      "data": {
+        "timestamp": "2025-05-20T16:19:32.608183",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "FjFPy3N2tV4",
+            "title": "Lil Yachty & Ian - Hate Me (Official Music Video)",
+            "artist": "Lyrical Lemonade",
+            "genre": "Unknown",
+            "views": 15041395,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "e4ujS1er1r0",
+            "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+            "artist": "Zac Brown Band",
+            "genre": "Rock",
+            "views": 165938502,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "SmM0653YvXU",
+            "title": "Pitbull - Rain Over Me ft. Marc Anthony",
+            "artist": "PitbullVEVO",
+            "genre": "Pop",
+            "views": 1390489468,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          },
+          {
+            "video_id": "GHEx6uCO80w",
+            "title": "Future - PLUTOSKI (Official Audio)",
+            "artist": "FutureVEVO",
+            "genre": "Pop",
+            "views": 9642906,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "gUn6i9bfdRA",
+            "title": "Jorja Smith - Try Me",
+            "artist": "JorjaSmithVEVO",
+            "match_score": 0.4596064682765848,
+            "genre": "Pop",
+            "views": 5413085
+          },
+          {
+            "video_id": "6xMBmvevhj0",
+            "title": "Calvin Harris - Nuh Ready Nuh Ready (Official Video) ft. PARTYNEXTDOOR",
+            "artist": "CalvinHarrisVEVO",
+            "match_score": 0.4585482523196551,
+            "genre": "Pop",
+            "views": 7925188
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Rock": -0.11998480641630072
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 0.909570487516602,
+      "Unknown": 0.7241041686840164,
+      "Rock": 0.7530050001858528
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.8859932098765368,
+      "Lyrical Lemonade": 1.0358030199992991,
+      "Zac Brown Band": 0.9495302906543281,
+      "Ed Sheeran": 0.15000000000000002,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "PitbullVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.15000000000000002,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -1.0,
+      "Kid Rock": -1.0
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T16:19:33.052380",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4.1813242798353825,
+      "skip_reason": null,
+      "listen_duration": 266.3461780773363,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:33.054769",
+      "video_id": "FjFPy3N2tV4",
+      "rating": 4.381070693332399,
+      "skip_reason": null,
+      "listen_duration": 203.36837589191634,
+      "video_data": {
+        "video_id": "FjFPy3N2tV4",
+        "title": "Lil Yachty & Ian - Hate Me (Official Music Video)",
+        "artist": "Lyrical Lemonade",
+        "genre": "Unknown",
+        "views": 15041395,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:33.056129",
+      "video_id": "e4ujS1er1r0",
+      "rating": 4.266040387539104,
+      "skip_reason": null,
+      "listen_duration": 116.74900142313231,
+      "video_data": {
+        "video_id": "e4ujS1er1r0",
+        "title": "Zac Brown Band - Chicken Fried (Official Music Video) | The Foundation",
+        "artist": "Zac Brown Band",
+        "genre": "Rock",
+        "views": 165938502,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:36.956597",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 3.9023347054840913,
+      "skip_reason": null,
+      "listen_duration": 236.79395222812286,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:37.582131",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3.4659113086647313,
+      "skip_reason": null,
+      "listen_duration": 167.21410327691657,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:38.329844",
+      "video_id": "SmM0653YvXU",
+      "rating": 3.2493230797956696,
+      "skip_reason": null,
+      "listen_duration": 53.467107566773095,
+      "video_data": {
+        "video_id": "SmM0653YvXU",
+        "title": "Pitbull - Rain Over Me ft. Marc Anthony",
+        "artist": "PitbullVEVO",
+        "genre": "Pop",
+        "views": 1390489468,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:39.007158",
+      "video_id": "kmpyfDF_pes",
+      "rating": 3.755685091670133,
+      "skip_reason": null,
+      "listen_duration": 130.2801878501521,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:39.870547",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1.180859024966796,
+      "skip_reason": null,
+      "listen_duration": 37.85369057600727,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:40.732153",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 1.5517916626319672,
+      "skip_reason": null,
+      "listen_duration": 289.9968116167013,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T16:19:41.478368",
+      "video_id": "aSkFygPCTwE",
+      "rating": 1.4939899996282944,
+      "skip_reason": null,
+      "listen_duration": 64.24251538898822,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}

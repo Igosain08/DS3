@@ -7,8 +7,10 @@ from datetime import datetime
 from collections import Counter
 from tqdm import tqdm
 import xgboost as xgb
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import LabelEncoder, StandardScaler
 from sklearn.model_selection import train_test_split
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 class FeedbackEnhancedRecommender:
     """
@@ -503,8 +505,25 @@ class FeedbackEnhancedRecommender:
             if self.xgboost_recommender.train_model(self.current_user_id):
                 self.use_xgboost = True
                 print("XGBoost model trained successfully!")
+                
+                # Print current feedback count and distribution
+                feedback_count = len(self.feedback_history[self.current_user_id])
+                print(f"\nCurrent feedback count: {feedback_count}")
+                
+                # Calculate rating distribution
+                ratings = [f.get('rating', 0) for f in self.feedback_history[self.current_user_id]]
+                rating_dist = {}
+                for r in ratings:
+                    rating_dist[r] = rating_dist.get(r, 0) + 1
+                
+                print("\nRating Distribution:")
+                for rating in sorted(rating_dist.keys()):
+                    print(f"{rating} stars: {rating_dist[rating]} songs")
+                
             else:
                 print("XGBoost model training failed - not enough feedback")
+                print(f"Current feedback count: {len(self.feedback_history[self.current_user_id])}")
+                print(f"Need {self.xgboost_recommender.min_feedback_threshold} feedback points to enable XGBoost")
         except Exception as e:
             print(f"Error training XGBoost model: {str(e)}")
             self.use_xgboost = False
@@ -1491,96 +1510,228 @@ class XGBoostRecommender:
                 X, y, test_size=0.2, random_state=42
             )
         
-        # Adjust parameters based on dataset size
-        n_samples = len(X_train)
-        
-        # Base parameters for small datasets
-        params = {
-            'objective': 'reg:squarederror',
-            'learning_rate': 0.05,  # Reduced from 0.1 to prevent overfitting
-            'max_depth': 3,  # Reduced from 6 to prevent overfitting
-            'min_child_weight': 2,  # Increased from 1 to prevent overfitting
-            'subsample': 0.8,
-            'colsample_bytree': 0.8,
-            'random_state': 42
+        # Define parameter grid for GridSearchCV
+        param_grid = {
+            'learning_rate': [0.01, 0.05, 0.1],
+            'max_depth': [2, 4, 5],
+            'min_child_weight': [1, 3, 5],
+            'subsample': [0.8, 0.9, 1.0],
+            'colsample_bytree': [0.8, 0.9, 1.0],
+            'n_estimators': [100, 200],
+            'gamma': [0, 0.1, 0.2],
+            'reg_alpha': [0, 0.1, 0.5],
+            'reg_lambda': [0.1, 1.0, 5.0]
         }
         
-        # Adjust n_estimators based on dataset size
-        if n_samples == 1:
-            params['n_estimators'] = 10  # Very few trees for single sample
-            params['learning_rate'] = 0.01  # Very small learning rate
-            params['max_depth'] = 1  # Single level tree
-        elif n_samples < 5:
-            params['n_estimators'] = 50  # Fewer trees for very small datasets
-            params['learning_rate'] = 0.03  # Even smaller learning rate
-            params['max_depth'] = 2  # Very shallow trees
-        elif n_samples < 10:
-            params['n_estimators'] = 75  # Moderate number of trees
-            params['learning_rate'] = 0.04
-            params['max_depth'] = 3
-        else:
-            params['n_estimators'] = 100  # Full number of trees
-            params['learning_rate'] = 0.05
-            params['max_depth'] = 4
+        # Adjust grid size based on dataset size
+        n_samples = len(X_train)
+        if n_samples < 10:
+            # Use smaller grid for small datasets
+            param_grid = {
+                'learning_rate': [0.01, 0.05],
+                'max_depth': [3, 4],
+                'min_child_weight': [1, 3],
+                'subsample': [0.8, 1.0],
+                'colsample_bytree': [0.8, 1.0],
+                'n_estimators': [100],
+                'gamma': [0, 0.1],
+                'reg_alpha': [0, 0.1],
+                'reg_lambda': [0.1, 1.0]
+            }
         
-        print(f"Using XGBoost parameters for {n_samples} samples:")
-        print(f"- n_estimators: {params['n_estimators']}")
-        print(f"- learning_rate: {params['learning_rate']}")
-        print(f"- max_depth: {params['max_depth']}")
+        print("Performing GridSearchCV with parameters:")
+        print(param_grid)
         
-        # Train model with adjusted parameters
-        self.model = xgb.XGBRegressor(**params)
+        # Initialize base model with early stopping
+        base_model = xgb.XGBRegressor(
+            objective='reg:squarederror',
+            random_state=42,
+            early_stopping_rounds=10
+        )
         
-        # Train the model without early stopping
+        # Initialize GridSearchCV
+        grid_search = GridSearchCV(
+            estimator=base_model,
+            param_grid=param_grid,
+            cv=min(3, n_samples),  # Use 3-fold CV or less if not enough samples
+            scoring='neg_mean_squared_error',
+            n_jobs=-1,  # Use all available cores
+            verbose=1
+        )
+        
+        # Fit GridSearchCV
+        print("Starting GridSearchCV...")
+        grid_search.fit(
+            X_train, y_train,
+            eval_set=[(X_test, y_test)],
+            verbose=False
+        )
+        
+        # Get best parameters
+        best_params = grid_search.best_params_
+        print("Best parameters found:", best_params)
+        print("Best cross-validation score:", -grid_search.best_score_)  # Convert back to positive MSE
+        
+        # Train final model with best parameters
+        self.model = xgb.XGBRegressor(
+            **best_params,
+            objective='reg:squarederror',
+            random_state=42,
+            early_stopping_rounds=10
+        )
+        
+        # Train the model with early stopping
         self.model.fit(
             X_train, y_train,
             eval_set=[(X_test, y_test)],
             verbose=False
         )
         
-        print("XGBoost model trained successfully!")
+        # Calculate and print performance metrics
+        y_train_pred = self.model.predict(X_train)
+        train_mse = mean_squared_error(y_train, y_train_pred)
+        train_rmse = np.sqrt(train_mse)
+        train_mae = mean_absolute_error(y_train, y_train_pred)
+        train_r2 = r2_score(y_train, y_train_pred)
+        
+        # Test set predictions and metrics
+        y_test_pred = self.model.predict(X_test)
+        test_mse = mean_squared_error(y_test, y_test_pred)
+        test_rmse = np.sqrt(test_mse)
+        test_mae = mean_absolute_error(y_test, y_test_pred)
+        test_r2 = r2_score(y_test, y_test_pred)
+        
+        print("\n=== Model Performance Metrics ===")
+        print("\nTraining Set Performance:")
+        print(f"Mean Squared Error (MSE): {train_mse:.4f}")
+        print(f"Root Mean Squared Error (RMSE): {train_rmse:.4f}")
+        print(f"Mean Absolute Error (MAE): {train_mae:.4f}")
+        print(f"R-squared (R²): {train_r2:.4f}")
+        
+        print("\nTest Set Performance:")
+        print(f"Mean Squared Error (MSE): {test_mse:.4f}")
+        print(f"Root Mean Squared Error (RMSE): {test_rmse:.4f}")
+        print(f"Mean Absolute Error (MAE): {test_mae:.4f}")
+        print(f"R-squared (R²): {test_r2:.4f}")
+        
+        # Print sample of actual vs predicted values
+        print("\n=== Sample of Actual vs Predicted Ratings ===")
+        print("\nTraining Set (first 5 samples):")
+        print("Actual Rating | Predicted Rating | Difference")
+        print("-" * 45)
+        for actual, pred in zip(y_train[:5], y_train_pred[:5]):
+            print(f"{actual:12.1f} | {pred:14.2f} | {abs(actual - pred):10.2f}")
+            
+        print("\nTest Set (first 5 samples):")
+        print("Actual Rating | Predicted Rating | Difference")
+        print("-" * 45)
+        for actual, pred in zip(y_test[:5], y_test_pred[:5]):
+            print(f"{actual:12.1f} | {pred:14.2f} | {abs(actual - pred):10.2f}")
+        
+        # Calculate feature importance
+        feature_importance = self.model.feature_importances_
+        feature_names = self.feature_columns
+        
+        # Create feature importance dictionary
+        importance_dict = dict(zip(feature_names, feature_importance))
+        sorted_importance = dict(sorted(importance_dict.items(), key=lambda x: x[1], reverse=True))
+        
+        print("\nFeature Importance:")
+        for feature, importance in sorted_importance.items():
+            print(f"{feature}: {importance:.4f}")
+        
+        print("\nXGBoost model trained successfully!")
         return True
         
     def _prepare_training_data(self, feedback):
         """
-        Prepare training data from feedback history
+        Prepare training data from feedback history with proper feature encoding and scaling
         """
+        print("\n=== Preparing Training Data ===")
         X = []
         y = []
+        feature_data = {col: [] for col in self.feature_columns}
         
+        # First pass: collect all data for proper encoding
         for item in feedback:
             video_data = item.get('video_data', {})
             if not video_data:
                 continue
                 
-            # Extract features
-            features = []
+            # Collect features
             for col in self.feature_columns:
                 value = video_data.get(col)
-                
-                # Handle categorical features
-                if col in ['genre', 'mood', 'activity']:
-                    if col not in self.label_encoders:
-                        self.label_encoders[col] = LabelEncoder()
-                    if value:
-                        value = self.label_encoders[col].fit_transform([value])[0]
-                    else:
-                        value = -1
-                
-                # Handle numerical features
-                elif col in ['views', 'likes', 'comment_count', 'duration']:
-                    value = float(value) if value else 0
-                    
-                # Handle sentiment
-                elif col == 'sentiment':
-                    value = float(value) if value else 0
-                    
-                features.append(value)
+                feature_data[col].append(value)
             
-            X.append(features)
             y.append(item.get('rating', 0))
+        
+        # Initialize encoders and scalers
+        self.label_encoders = {}
+        self.scalers = {}
+        
+        # Process each feature
+        processed_features = []
+        for col in self.feature_columns:
+            values = feature_data[col]
             
-        return np.array(X), np.array(y)
+            # Handle categorical features
+            if col in ['genre', 'mood', 'activity']:
+                if col not in self.label_encoders:
+                    self.label_encoders[col] = LabelEncoder()
+                # Fit and transform categorical data
+                encoded_values = self.label_encoders[col].fit_transform([v for v in values if v is not None])
+                # Handle None values by using -1
+                processed_values = []
+                for i, v in enumerate(values):
+                    if v is None:
+                        processed_values.append(-1)
+                    else:
+                        processed_values.append(encoded_values[i])
+                processed_features.append(processed_values)
+                
+            # Handle numerical features
+            elif col in ['views', 'likes', 'comment_count', 'duration']:
+                if col not in self.scalers:
+                    self.scalers[col] = StandardScaler()
+                # Convert to float and handle None values
+                numeric_values = [float(v) if v is not None else 0.0 for v in values]
+                # Scale numerical data
+                scaled_values = self.scalers[col].fit_transform(np.array(numeric_values).reshape(-1, 1)).flatten()
+                processed_features.append(scaled_values)
+                
+            # Handle sentiment
+            elif col == 'sentiment':
+                if col not in self.scalers:
+                    self.scalers[col] = StandardScaler()
+                # Convert to float and handle None values
+                sentiment_values = [float(v) if v is not None else 0.0 for v in values]
+                # Scale sentiment data
+                scaled_values = self.scalers[col].fit_transform(np.array(sentiment_values).reshape(-1, 1)).flatten()
+                processed_features.append(scaled_values)
+        
+        # Transpose the processed features to get samples
+        X = np.array(processed_features).T
+        
+        # Print feature statistics
+        print("\nFeature Statistics:")
+        for i, col in enumerate(self.feature_columns):
+            print(f"\n{col}:")
+            print(f"  Mean: {np.mean(X[:, i]):.4f}")
+            print(f"  Std: {np.std(X[:, i]):.4f}")
+            print(f"  Min: {np.min(X[:, i]):.4f}")
+            print(f"  Max: {np.max(X[:, i]):.4f}")
+            print(f"  Unique values: {len(np.unique(X[:, i]))}")
+        
+        # Print target statistics
+        y = np.array(y)
+        print("\nTarget (Rating) Statistics:")
+        print(f"  Mean: {np.mean(y):.4f}")
+        print(f"  Std: {np.std(y):.4f}")
+        print(f"  Min: {np.min(y):.4f}")
+        print(f"  Max: {np.max(y):.4f}")
+        print(f"  Unique values: {len(np.unique(y))}")
+        
+        return X, y
         
     def predict_ratings(self, videos):
         """

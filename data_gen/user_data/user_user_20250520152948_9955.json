@@ -1,0 +1,314 @@
+{
+  "user_id": "user_20250520152948_9955",
+  "user_name": null,
+  "last_updated": "2025-05-20T15:29:54.301876",
+  "history": [
+    {
+      "session_id": "session_20250520152948_1768",
+      "data": {
+        "timestamp": "2025-05-20T15:29:48.075395",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "pZ1NdE69VTs",
+            "title": "ROSE\u0301 - number one girl (official music video)",
+            "artist": "ROS\u00c9",
+            "genre": "Unknown",
+            "views": 98529483,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "Bg59q4puhmg",
+            "title": "Avril Lavigne - Girlfriend (Official Video)",
+            "artist": "AvrilLavigneVEVO",
+            "genre": "Pop",
+            "views": 687584164,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          },
+          {
+            "video_id": "uuZE_IRwLNI",
+            "title": "Justin Timberlake - Mirrors (Official Video)",
+            "artist": "justintimberlakeVEVO",
+            "genre": "Pop",
+            "views": 1339130420,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "tvmUrOSahsc",
+            "title": "That Mexican OT - Johnny Dang (feat. Paul Wall & Drodi) (Official Music Video)",
+            "artist": "That Mexican OT",
+            "genre": "Unknown",
+            "views": 94458502,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 0.6000000000000001
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.0,
+      "Unknown": 0.5,
+      "Rock": 0.5
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "ROS\u00c9": 0.75,
+      "Ed Sheeran": 0.15000000000000002,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "AvrilLavigneVEVO": 0.75,
+      "BleachersVEVO": 0.75,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T15:29:48.700854",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 296.9923484331522,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:48.701483",
+      "video_id": "pZ1NdE69VTs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 125.35387908596557,
+      "video_data": {
+        "video_id": "pZ1NdE69VTs",
+        "title": "ROSE\u0301 - number one girl (official music video)",
+        "artist": "ROS\u00c9",
+        "genre": "Unknown",
+        "views": 98529483,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:48.701954",
+      "video_id": "aSkFygPCTwE",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 284.3428705294631,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:51.779660",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 161.48050603048557,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:52.298795",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 60.26750746310698,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:53.038883",
+      "video_id": "Bg59q4puhmg",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 135.246507878037,
+      "video_data": {
+        "video_id": "Bg59q4puhmg",
+        "title": "Avril Lavigne - Girlfriend (Official Video)",
+        "artist": "AvrilLavigneVEVO",
+        "genre": "Pop",
+        "views": 687584164,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:53.621582",
+      "video_id": "kmpyfDF_pes",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 137.86450493046107,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:53.680348",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 46.3097666335956,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:53.708890",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 20.123757108806696,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:29:53.737697",
+      "video_id": "aSkFygPCTwE",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 21.41122108872583,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "random"
+      }
+    }
+  ]
+}

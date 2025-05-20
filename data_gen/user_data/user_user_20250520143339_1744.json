@@ -1,0 +1,327 @@
+{
+  "user_id": "user_20250520143339_1744",
+  "user_name": null,
+  "last_updated": "2025-05-20T14:33:50.847852",
+  "history": [
+    {
+      "session_id": "session_20250520143339_5657",
+      "data": {
+        "timestamp": "2025-05-20T14:33:39.588567",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "TQDZ3aBWY1w",
+            "title": "Babette & Mark Beling - Crying in the rain",
+            "artist": "Babette Labuschagne",
+            "genre": "Unknown",
+            "views": 20099,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "Bm8rz-llMhE",
+            "title": "Calvin Harris, Dua Lipa - One Kiss (Lyric Video)",
+            "artist": "CalvinHarrisVEVO",
+            "genre": "Pop",
+            "views": 104249536,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "8JnfIa84TnU",
+            "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+            "artist": "Clean Bandit",
+            "genre": "Rock",
+            "views": 1057802187,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "6xMBmvevhj0",
+            "title": "Calvin Harris - Nuh Ready Nuh Ready (Official Video) ft. PARTYNEXTDOOR",
+            "artist": "CalvinHarrisVEVO",
+            "match_score": 0.4585482523196551,
+            "genre": "Pop",
+            "views": 7925188
+          },
+          {
+            "video_id": "gUn6i9bfdRA",
+            "title": "Jorja Smith - Try Me",
+            "artist": "JorjaSmithVEVO",
+            "match_score": 0.4596064682765848,
+            "genre": "Pop",
+            "views": 5413085
+          },
+          {
+            "video_id": "dX8orLrVwtY",
+            "title": "Sonny Fodera, Jazzy, D.O.D - Somedays [Official Music Video]",
+            "artist": "Sonny Fodera",
+            "match_score": 0.44821788363813975,
+            "genre": "Unknown",
+            "views": 21378489
+          },
+          {
+            "video_id": "My2FRPA3Gf8",
+            "title": "Miley Cyrus - Wrecking Ball (Official Video)",
+            "artist": "MileyCyrusVEVO",
+            "genre": "Pop",
+            "views": 1220032980,
+            "recommendation_method": "random"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": 1.0,
+      "Unknown": 1.0,
+      "Rock": -0.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.0,
+      "Unknown": 0.5,
+      "Rock": 0.5
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "Babette Labuschagne": 1.5,
+      "CalvinHarrisVEVO": 0.75,
+      "Ed Sheeran": 0.75,
+      "MarkRonsonVEVO": 0.75,
+      "Clean Bandit": 0.15000000000000002,
+      "BleachersVEVO": 0.75,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -0.75,
+      "Kid Rock": -0.75
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T14:33:40.024211",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 171.93806086699053,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:40.034263",
+      "video_id": "TQDZ3aBWY1w",
+      "rating": 5,
+      "skip_reason": null,
+      "listen_duration": 188.5443687338314,
+      "video_data": {
+        "video_id": "TQDZ3aBWY1w",
+        "title": "Babette & Mark Beling - Crying in the rain",
+        "artist": "Babette Labuschagne",
+        "genre": "Unknown",
+        "views": 20099,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:40.040906",
+      "video_id": "Bm8rz-llMhE",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 132.84966577060538,
+      "video_data": {
+        "video_id": "Bm8rz-llMhE",
+        "title": "Calvin Harris, Dua Lipa - One Kiss (Lyric Video)",
+        "artist": "CalvinHarrisVEVO",
+        "genre": "Pop",
+        "views": 104249536,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:44.043935",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 110.6478370447124,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:44.640852",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 145.4655439199659,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:45.336675",
+      "video_id": "8JnfIa84TnU",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 135.63270362765266,
+      "video_data": {
+        "video_id": "8JnfIa84TnU",
+        "title": "Clean Bandit - Solo (feat. Demi Lovato) [Official Video]",
+        "artist": "Clean Bandit",
+        "genre": "Rock",
+        "views": 1057802187,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:46.139796",
+      "video_id": "kmpyfDF_pes",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 143.64249225912624,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:46.940395",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 35.520328364998576,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:47.754653",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 59.833568610281525,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T14:33:48.321349",
+      "video_id": "aSkFygPCTwE",
+      "rating": 2,
+      "skip_reason": null,
+      "listen_duration": 45.751400855168555,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}

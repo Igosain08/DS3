@@ -1,0 +1,294 @@
+{
+  "user_id": "user_20250520155322_7985",
+  "user_name": null,
+  "last_updated": "2025-05-20T15:53:28.785619",
+  "history": [
+    {
+      "session_id": "session_20250520155322_8403",
+      "data": {
+        "timestamp": "2025-05-20T15:53:22.821924",
+        "text_input": "I'm feeling energetic and want some upbeat music for my workout",
+        "additional_context": {
+          "activity": "Exercising",
+          "genres": [
+            "Pop",
+            "Rock",
+            "Electronic"
+          ]
+        },
+        "recommendations": [
+          {
+            "video_id": "a_DuSbMvOQs",
+            "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+            "artist": "VictoriaMon\u00e9tVEVO",
+            "match_score": 0.5382770479987502,
+            "genre": "Pop",
+            "views": 7212253,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "CanCZktm0TQ",
+            "title": "Eminem - Tobey feat. Big Sean & BabyTron (Official Music Video)",
+            "artist": "Lyrical Lemonade",
+            "genre": "Unknown",
+            "views": 48127680,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "rKFx0MMqb48",
+            "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+            "artist": "Kid Rock",
+            "genre": "Rock",
+            "views": 374271876,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "zXDAYlhdkyg",
+            "title": "Florida Georgia Line - H.O.L.Y.",
+            "artist": "FlaGeorgiaLineVEVO",
+            "genre": "Pop",
+            "views": 401642076,
+            "recommendation_method": "random"
+          },
+          {
+            "video_id": "JGwWNGJdvx8",
+            "title": "Ed Sheeran - Shape of You (Official Music Video)",
+            "artist": "Ed Sheeran",
+            "views": 6462683203,
+            "genre": "Unknown",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "OPf0YbXqDm0",
+            "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+            "artist": "MarkRonsonVEVO",
+            "views": 5561554065,
+            "genre": "Pop",
+            "recommendation_method": "popular"
+          },
+          {
+            "video_id": "kmpyfDF_pes",
+            "title": "Bleachers - Tiny Moves (Official)",
+            "artist": "BleachersVEVO",
+            "match_score": 0.48271454525798346,
+            "genre": "Pop",
+            "views": 3510268,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "xnumI3_qt-w",
+            "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+            "artist": "CiaraVEVO",
+            "match_score": 0.4840133477290003,
+            "genre": "Pop",
+            "views": 71127769,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "hLDQ88vAhIs",
+            "title": "Burna Boy - City Boys [Official Music Video]",
+            "artist": "Burna Boy",
+            "match_score": 0.47509630209564474,
+            "genre": "Unknown",
+            "views": 93173437,
+            "recommendation_method": "text"
+          },
+          {
+            "video_id": "aSkFygPCTwE",
+            "title": "Kid Rock - All Summer Long [Official Music Video]",
+            "artist": "Kid Rock",
+            "match_score": 0.4726543157012788,
+            "genre": "Rock",
+            "views": 148917037,
+            "recommendation_method": "text"
+          }
+        ],
+        "feedback": {},
+        "completed": false
+      }
+    }
+  ],
+  "preferences": {
+    "favorite_genres": {
+      "Pop": -0.20000000000000007,
+      "Unknown": -0.4,
+      "Rock": -0.5
+    },
+    "favorite_moods": {},
+    "favorite_activities": {},
+    "disliked_genres": {
+      "Pop": 1.0,
+      "Unknown": 1.0,
+      "Rock": 1.0
+    },
+    "preferred_eras": {},
+    "favorite_artists": {
+      "VictoriaMon\u00e9tVEVO": 0.75,
+      "Lyrical Lemonade": 0.75,
+      "Kid Rock": -0.75,
+      "FlaGeorgiaLineVEVO": 0.15000000000000002,
+      "Ed Sheeran": 0.15000000000000002,
+      "MarkRonsonVEVO": 0.15000000000000002,
+      "BleachersVEVO": 0.15000000000000002,
+      "CiaraVEVO": -1.0,
+      "Burna Boy": -1.0
+    }
+  },
+  "feedback": [
+    {
+      "timestamp": "2025-05-20T15:53:23.256783",
+      "video_id": "a_DuSbMvOQs",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 199.976118984167,
+      "video_data": {
+        "video_id": "a_DuSbMvOQs",
+        "title": "Victoria Mon\u00e9t - Party Girls (Official Video) ft. Buju Banton",
+        "artist": "VictoriaMon\u00e9tVEVO",
+        "match_score": 0.5382770479987502,
+        "genre": "Pop",
+        "views": 7212253,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:23.258126",
+      "video_id": "CanCZktm0TQ",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 124.50193594008005,
+      "video_data": {
+        "video_id": "CanCZktm0TQ",
+        "title": "Eminem - Tobey feat. Big Sean & BabyTron (Official Music Video)",
+        "artist": "Lyrical Lemonade",
+        "genre": "Unknown",
+        "views": 48127680,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:23.262579",
+      "video_id": "rKFx0MMqb48",
+      "rating": 4,
+      "skip_reason": null,
+      "listen_duration": 124.50193594008005,
+      "video_data": {
+        "video_id": "rKFx0MMqb48",
+        "title": "Kid Rock - Picture feat. Sheryl Crow [Official Music Video]",
+        "artist": "Kid Rock",
+        "genre": "Rock",
+        "views": 374271876,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:26.739030",
+      "video_id": "zXDAYlhdkyg",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "zXDAYlhdkyg",
+        "title": "Florida Georgia Line - H.O.L.Y.",
+        "artist": "FlaGeorgiaLineVEVO",
+        "genre": "Pop",
+        "views": 401642076,
+        "recommendation_method": "random"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:27.076660",
+      "video_id": "JGwWNGJdvx8",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "JGwWNGJdvx8",
+        "title": "Ed Sheeran - Shape of You (Official Music Video)",
+        "artist": "Ed Sheeran",
+        "views": 6462683203,
+        "genre": "Unknown",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:27.417480",
+      "video_id": "OPf0YbXqDm0",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "OPf0YbXqDm0",
+        "title": "Mark Ronson - Uptown Funk (Official Video) ft. Bruno Mars",
+        "artist": "MarkRonsonVEVO",
+        "views": 5561554065,
+        "genre": "Pop",
+        "recommendation_method": "popular"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:27.745341",
+      "video_id": "kmpyfDF_pes",
+      "rating": 3,
+      "skip_reason": null,
+      "listen_duration": 63.001290626720035,
+      "video_data": {
+        "video_id": "kmpyfDF_pes",
+        "title": "Bleachers - Tiny Moves (Official)",
+        "artist": "BleachersVEVO",
+        "match_score": 0.48271454525798346,
+        "genre": "Pop",
+        "views": 3510268,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:28.084134",
+      "video_id": "xnumI3_qt-w",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 11.250537761133346,
+      "video_data": {
+        "video_id": "xnumI3_qt-w",
+        "title": "Ciara, Chris Brown - How We Roll (Official Music Video)",
+        "artist": "CiaraVEVO",
+        "match_score": 0.4840133477290003,
+        "genre": "Pop",
+        "views": 71127769,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:28.432348",
+      "video_id": "hLDQ88vAhIs",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 11.250537761133346,
+      "video_data": {
+        "video_id": "hLDQ88vAhIs",
+        "title": "Burna Boy - City Boys [Official Music Video]",
+        "artist": "Burna Boy",
+        "match_score": 0.47509630209564474,
+        "genre": "Unknown",
+        "views": 93173437,
+        "recommendation_method": "text"
+      }
+    },
+    {
+      "timestamp": "2025-05-20T15:53:28.785576",
+      "video_id": "aSkFygPCTwE",
+      "rating": 1,
+      "skip_reason": null,
+      "listen_duration": 11.250537761133346,
+      "video_data": {
+        "video_id": "aSkFygPCTwE",
+        "title": "Kid Rock - All Summer Long [Official Music Video]",
+        "artist": "Kid Rock",
+        "match_score": 0.4726543157012788,
+        "genre": "Rock",
+        "views": 148917037,
+        "recommendation_method": "text"
+      }
+    }
+  ]
+}
