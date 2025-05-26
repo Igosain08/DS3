@@ -1,0 +1,284 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Complexity vs Error</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Model Complexity vs Error</h1>
+        <div id="complexity-curve"></div>
+    </div>
+    <script>
+        // Simulate model complexity from 0 (simple) to 1 (complex)
+        const n = 20;
+        const x = Array.from({length: n}, (_, i) => i / (n - 1));
+        // Training error: monotonically decreasing
+        const train_start = 0.5948;
+        const train_end = 0.6540;
+        const train_mse = x.map(val => train_start - 0.2 * val + 0.3 * val * val); // Decreases, then flattens
+        train_mse[n-1] = 0.6540; // After regularization
+        train_mse[0] = 0.5948;   // Before regularization
+        // Validation error: U-shaped
+        const val_start = 1.2210;
+        const val_opt = 0.9397;
+        const min_idx = Math.floor(n * 0.6);
+        const val_mse = x.map((val, i) => {
+            if (i < min_idx) {
+                // Decrease
+                return val_start - (val_start - val_opt) * (i / min_idx);
+            } else {
+                // Increase (overfitting)
+                return val_opt + 0.5 * ((i - min_idx) / (n - min_idx));
+            }
+        });
+        val_mse[0] = 1.2210; // Before regularization
+        val_mse[min_idx] = 0.9397; // After regularization (optimal)
+
+        const trace_train = {
+            x: x,
+            y: train_mse,
+            mode: 'lines',
+            name: 'Training',
+            line: {color: '#1f77b4', width: 4}
+        };
+        const trace_test = {
+            x: x,
+            y: val_mse,
+            mode: 'lines',
+            name: 'Validation',
+            line: {color: '#ff7f0e', width: 4}
+        };
+
+        const layout = {
+            title: 'Effect of Model Complexity and Regularization',
+            xaxis: {
+                title: 'Model Complexity',
+                tickvals: [0, min_idx/(n-1), 1],
+                ticktext: ['Before Regularization', 'After Regularization', 'High Complexity'],
+                showgrid: false
+            },
+            yaxis: {
+                title: 'Error (MSE)',
+                rangemode: 'tozero',
+                showgrid: true
+            },
+            legend: {
+                x: 0.8,
+                y: 1.1,
+                orientation: 'h'
+            },
+            shapes: [
+                // Dashed line at optimal complexity
+                {
+                    type: 'line',
+                    x0: min_idx/(n-1), x1: min_idx/(n-1),
+                    y0: Math.min(...train_mse, ...val_mse) - 0.1,
+                    y1: Math.max(...train_mse, ...val_mse) + 0.1,
+                    line: {
+                        color: 'gray',
+                        width: 2,
+                        dash: 'dashdot'
+                    }
+                }
+            ],
+            annotations: [
+                {
+                    x: min_idx/(n-1),
+                    y: val_mse[min_idx],
+                    xref: 'x',
+                    yref: 'y',
+                    text: 'Optimal<br>Regularization',
+                    showarrow: true,
+                    arrowhead: 2,
+                    ax: 40,
+                    ay: -40,
+                    font: {color: '#ff7f0e', size: 14},
+                    bgcolor: 'white',
+                    bordercolor: '#ff7f0e',
+                    borderwidth: 2
+                }
+            ]
+        };
+
+        Plotly.newPlot('complexity-curve', [trace_train, trace_test], layout);
+    </script>
+</body>
+</html>  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Model Complexity vs Error</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Model Complexity vs Error</h1>
+    <div id="complexity-curve"></div>
+  </div>
+  <script>
+    const n = 100;
+    const x = Array.from({ length: n }, (_, i) => i / (n - 1));
+    const min_idx = Math.floor(n * 0.6);
+
+    // Training error values
+    const train_start = 0.42;
+    const train_opt = 0.654;
+    const train_end = 0.78;
+    const train_mse = x.map((val, i) => {
+      if (i <= min_idx) {
+        const t = i / min_idx;
+        return train_start + (train_opt - train_start) * Math.pow(t, 1.5);
+      } else {
+        const t = (i - min_idx) / (n - min_idx);
+        return train_opt + (train_end - train_opt) * Math.pow(t, 2.5);
+      }
+    });
+
+    const val_start = 1.2210;
+    const val_opt = 0.9397;
+    const val_end = 1.5;
+    const val_mse = x.map((val, i) => {
+      if (i <= min_idx) {
+        const t = i / min_idx;
+        return val_start - (val_start - val_opt) * Math.pow(t, 1.5);
+      } else {
+        const t = (i - min_idx) / (n - min_idx);
+        return val_opt + (val_end - val_opt) * Math.pow(t, 2);
+      }
+    });
+
+    const trace_train = {
+      x: x,
+      y: train_mse,
+      mode: 'lines',
+      name: 'Training',
+      line: { color: '#1f77b4', width: 4 }
+    };
+
+    const trace_val = {
+      x: x,
+      y: val_mse,
+      mode: 'lines',
+      name: 'Validation',
+      line: { color: '#ff7f0e', width: 4 }
+    };
+
+    const layout = {
+      title: 'Effect of Model Complexity and Regularization',
+      xaxis: {
+        title: 'Model Complexity',
+        tickvals: [0, min_idx / (n - 1), 1],
+        ticktext: ['Before Regularization', 'After Regularization', 'High Complexity'],
+        showgrid: false
+      },
+      yaxis: {
+        title: 'Error (MSE)',
+        rangemode: 'tozero',
+        showgrid: true
+      },
+      legend: {
+        x: 0.75,
+        y: 1.1,
+        orientation: 'h'
+      },
+      shapes: [{
+        type: 'line',
+        x0: min_idx / (n - 1),
+        x1: min_idx / (n - 1),
+        y0: Math.min(...train_mse, ...val_mse) - 0.1,
+        y1: Math.max(...train_mse, ...val_mse) + 0.1,
+        line: {
+          color: 'gray',
+          width: 2,
+          dash: 'dashdot'
+        }
+      }],
+      annotations: [
+      {
+        x: min_idx / (n - 1),
+        y: val_mse[min_idx],
+        xref: 'x',
+        yref: 'y',
+        text: 'Optimal<br>Regularization',
+        showarrow: true,
+        arrowhead: 2,
+        ax: 40,
+        ay: -40,
+        font: { color: '#ff7f0e', size: 14, family: 'Arial', weight: 'bold' },
+        bgcolor: 'white',
+        bordercolor: '#ff7f0e',
+        borderwidth: 2
+      },
+      {
+        x: 0.2,
+        y: 1.43,
+        xref: 'x',
+        yref: 'y',
+        text: '<b>Overfitting Region</b>',
+        showarrow: false,
+        font: { color: '#d62728', size: 16, family: 'Arial' }
+      },
+      {
+        x: 0.85,
+        y: 1.43,
+        xref: 'x',
+        yref: 'y',
+        text: '<b>Underfitting Region</b>',
+        showarrow: false,
+        font: { color: '#9467bd', size: 16, family: 'Arial' }
+      }
+    ]
+    
+    };
+
+    Plotly.newPlot('complexity-curve', [trace_train, trace_val], layout);
+  </script>
+</body>
+</html>
