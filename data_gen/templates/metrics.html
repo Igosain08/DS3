@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Performance Metrics</h1>
+    
+    <!-- Model Performance Comparison -->
+    <div class="row mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <h3 class="card-title mb-4">Model Performance Comparison</h3>
+                    <div id="performance-comparison"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <!-- Rating Distribution -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div id="rating-dist"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ratings Over Time -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div id="time-series"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Genre Distribution -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div id="genre-dist"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Listen Duration vs Rating -->
+        <div class="col-md-6 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div id="duration-rating"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Feature Importance -->
+        {% if graphs.feature_importance %}
+        <div class="col-12 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <div id="feature-importance"></div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Plotly.js -->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script>
+    // Parse the JSON data
+    const graphs = {{ graphs|tojson|safe }};
+    
+    // Create the plots
+    Plotly.newPlot('performance-comparison', JSON.parse(graphs.performance_comparison));
+    Plotly.newPlot('rating-dist', JSON.parse(graphs.rating_dist));
+    Plotly.newPlot('time-series', JSON.parse(graphs.time_series));
+    Plotly.newPlot('genre-dist', JSON.parse(graphs.genre_dist));
+    Plotly.newPlot('duration-rating', JSON.parse(graphs.duration_rating));
+    {% if graphs.feature_importance %}
+    Plotly.newPlot('feature-importance', JSON.parse(graphs.feature_importance));
+    {% endif %}
+</script>
+{% endblock %} 

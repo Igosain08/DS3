@@ -1,0 +1,312 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XGBoost Error Comparison</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    .chart-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    canvas {
+      max-width: 400px;
+      max-height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Test Set Error Comparison (Before vs After Regularization)</h2>
+  <div class="chart-container">
+    <div>
+      <h4 style="text-align:center;">Before Regularization (Test)</h4>
+      <canvas id="beforeTestChart"></canvas>
+    </div>
+    <div>
+      <h4 style="text-align:center;">After Regularization (Test)</h4>
+      <canvas id="afterTestChart"></canvas>
+    </div>
+  </div>
+
+  <h2 style="text-align:center; margin-top:50px;">Train Set Error Comparison (Before vs After Regularization)</h2>
+  <div class="chart-container">
+    <div>
+      <h4 style="text-align:center;">Before Regularization (Train)</h4>
+      <canvas id="beforeTrainChart"></canvas>
+    </div>
+    <div>
+      <h4 style="text-align:center;">After Regularization (Train)</h4>
+      <canvas id="afterTrainChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    const errorLabels = ["MSE", "RMSE", "MAE"];
+
+    const beforeTestData = [1.6210, 1.273, 1.015];
+    const afterTestData = [0.9397, 0.969, 0.773];
+    const beforeTrainData = [0.3948, 0.628, 0.501];
+    const afterTrainData = [0.654, 0.808, 0.645];
+
+    function createChart(canvasId, data, title) {
+      new Chart(document.getElementById(canvasId), {
+        type: 'bar',
+        data: {
+          labels: errorLabels,
+          datasets: [{
+            label: 'Error Value',
+            data: data,
+            backgroundColor: ['#f87171', '#fbbf24', '#34d399']
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true
+            }
+          },
+          plugins: {
+            legend: {
+              display: false
+            },
+            title: {
+              display: true,
+              text: title
+            }
+          }
+        }
+      });
+    }
+
+    createChart("beforeTestChart", beforeTestData, "Before Regularization (Test)");
+    createChart("afterTestChart", afterTestData, "After Regularization (Test)");
+    createChart("beforeTrainChart", beforeTrainData, "Before Regularization (Train)");
+    createChart("afterTrainChart", afterTrainData, "After Regularization (Train)");
+  </script>
+</body>
+</html> -->
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XGBoost Error Comparison</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+  <style>
+    .chart-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    canvas {
+      max-width: 800px;
+      max-height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Test Set Error Comparison (Before vs After Regularization)</h2>
+  <div class="chart-container">
+    <div>
+      <h4 style="text-align:center;">Before Regularization (Test)</h4>
+      <canvas id="beforeTestChart"></canvas>
+    </div>
+    <div>
+      <h4 style="text-align:center;">After Regularization (Test)</h4>
+      <canvas id="afterTestChart"></canvas>
+    </div>
+  </div>
+
+  <h2 style="text-align:center; margin-top:50px;">Train Set Error Comparison (Before vs After Regularization)</h2>
+  <div class="chart-container">
+    <div>
+      <h4 style="text-align:center;">Before Regularization (Train)</h4>
+      <canvas id="beforeTrainChart"></canvas>
+    </div>
+    <div>
+      <h4 style="text-align:center;">After Regularization (Train)</h4>
+      <canvas id="afterTrainChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    const errorLabels = ["MSE", "RMSE", "MAE"];
+
+    const beforeTestData = [1.6210, 1.273, 1.015];
+    const afterTestData = [0.9397, 0.969, 0.773];
+    const beforeTrainData = [0.3948, 0.628, 0.501];
+    const afterTrainData = [0.654, 0.808, 0.645];
+
+    function createChart(canvasId, data, title) {
+      new Chart(document.getElementById(canvasId), {
+        type: 'bar',
+        data: {
+          labels: errorLabels,
+          datasets: [{
+            label: 'Error Value',
+            data: data,
+            backgroundColor: ['#f87171', '#fbbf24', '#34d399']
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 2.5,
+              title: {
+                display: true,
+                text: 'Error Value'
+              }
+            }
+          },
+          plugins: {
+            legend: {
+              display: false
+            },
+            title: {
+              display: true,
+              text: title
+            },
+            datalabels: {
+              anchor: 'end',
+              align: 'end',
+              offset: -10,
+              formatter: function(value) {
+                return value.toFixed(3);
+              },
+              font: {
+                weight: 'bold',
+                size: 14
+              },
+              color: '#000'
+            }
+          }
+        },
+        plugins: [ChartDataLabels]
+      });
+    }
+
+    createChart("beforeTestChart", beforeTestData, "Before Regularization (Test)");
+    createChart("afterTestChart", afterTestData, "After Regularization (Test)");
+    createChart("beforeTrainChart", beforeTrainData, "Before Regularization (Train)");
+    createChart("afterTrainChart", afterTrainData, "After Regularization (Train)");
+  </script>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>XGBoost Error Comparison</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+  <style>
+    .chart-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    canvas {
+        width: 700px;
+        height: 500px;
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Test Set Error Comparison (Before vs After Regularization)</h2>
+  <div class="chart-container">
+    <div>
+      <h4 style="text-align:center;">Before Regularization (Test)</h4>
+      <canvas id="beforeTestChart"></canvas>
+    </div>
+    <div>
+      <h4 style="text-align:center;">After Regularization (Test)</h4>
+      <canvas id="afterTestChart"></canvas>
+    </div>
+  </div>
+
+  <h2 style="text-align:center; margin-top:50px;">Train Set Error Comparison (Before vs After Regularization)</h2>
+  <div class="chart-container">
+    <div>
+      <h4 style="text-align:center;">Before Regularization (Train)</h4>
+      <canvas id="beforeTrainChart"></canvas>
+    </div>
+    <div>
+      <h4 style="text-align:center;">After Regularization (Train)</h4>
+      <canvas id="afterTrainChart"></canvas>
+    </div>
+  </div>
+
+  <script>
+    const errorLabels = ["MSE", "RMSE", "MAE"];
+
+    const beforeTestData = [1.6210, 1.273, 1.015];
+    const afterTestData = [0.9397, 0.969, 0.773];
+    const beforeTrainData = [0.3948, 0.628, 0.501];
+    const afterTrainData = [0.654, 0.808, 0.645];
+
+    function createChart(canvasId, data, title) {
+      new Chart(document.getElementById(canvasId), {
+        type: 'bar',
+        data: {
+          labels: errorLabels,
+          datasets: [{
+            label: 'Error Value',
+            data: data,
+            backgroundColor: ['#f87171', '#fbbf24', '#34d399']
+          }]
+        },
+        options: {
+          scales: {
+            y: {
+              beginAtZero: true,
+              max: 2.5,
+              title: {
+                display: true,
+                text: 'Error Value'
+              }
+            }
+          },
+          plugins: {
+            legend: {
+              display: false
+            },
+            title: {
+              display: true,
+              text: title
+            },
+            datalabels: {
+              anchor: 'end',
+              align: 'end',
+              offset: -10,
+              formatter: function(value) {
+                return value.toFixed(3);
+              },
+              font: {
+                weight: 'bold',
+                size: 14
+              },
+              color: '#000'
+            }
+          }
+        },
+        plugins: [ChartDataLabels]
+      });
+    }
+
+    createChart("beforeTestChart", beforeTestData, "Before Regularization (Test)");
+    createChart("afterTestChart", afterTestData, "After Regularization (Test)");
+    createChart("beforeTrainChart", beforeTrainData, "Before Regularization (Train)");
+    createChart("afterTrainChart", afterTrainData, "After Regularization (Train)");
+  </script>
+</body>
+</html>
